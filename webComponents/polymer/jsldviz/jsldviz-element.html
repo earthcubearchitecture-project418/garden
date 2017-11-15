@@ -1,0 +1,42 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+
+<dom-module id="jsldviz-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello There [[prop1]]!</h2>
+    <div class="container">
+      <div id="graph"></div>
+    </div>
+  </template>
+
+  <script src="./bundle.js"></script>
+  
+  <script>
+    /**
+     * `jsldviz-element`
+     * Display a JSON-LD documenting using the json-ld viz library
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class JsldvizElement extends Polymer.Element {
+      static get is() { return 'jsldviz-element'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'jsldviz-element'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(JsldvizElement.is, JsldvizElement);
+  </script>
+</dom-module>

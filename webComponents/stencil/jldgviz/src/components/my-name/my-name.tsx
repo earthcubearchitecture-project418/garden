@@ -1,7 +1,7 @@
 import { Component, Prop } from '@stencil/core';
-import d3 from 'd3';
-import jsonldVis from 'jsonld-vis';
-jsonldVis(d3);
+// import d3 from 'd3';
+// import jsonldVis from 'jsonld-vis';
+// jsonldVis(d3);
 
 // Notes:
 // Look at:
@@ -24,28 +24,29 @@ export class MyName {
 
   render() {
 
-  var e = document.getElementById('test');
-  var jsonld = e.textContent;
-  // need to take JSONLD and try and parse it
+    var e = document.getElementById('test');
+    var jsonld = e.textContent;
+    // need to take JSONLD and try and parse it
 
-  interface MyObj {
-    id: string
-    type: string
-  }
+    interface MyObj {
+      id: string
+      type: string
+    }
 
-  let obj: { string: MyObj[] } = JSON.parse(jsonld.toString());
+    let obj: { string: MyObj[] } = JSON.parse(jsonld.toString());
 
-
-  var element = obj["@graph"]
-  console.log(element[0]["schema:contentUrl"])
-  var url = element[0]["schema:contentUrl"]
-
+    var element = obj["@graph"]
+    console.log(element[0]["schema:contentUrl"])
+    var url = element[0]["schema:contentUrl"]
 
     return (
       <div class="earthcube-provinfo">
         Viz test: {this.first} {this.last}
         <div>
-        <a href={url} target="_blank">{url}</a>
+          <a href={url} target="_blank">{url}</a>
+        </div>
+        <div class="container">
+          <div id="graph"></div>
         </div>
       </div>
     );

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>jsldviz-element demo</title>
+
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+
+    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
+    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
+    <link rel="import" href="../jsldviz-element.html">
+
+    <custom-style>
+      <style is="custom-style" include="demo-pages-shared-styles">
+      </style>
+    </custom-style>
+
+    <script id="test" type="application/ld+json">
+      {
+          "@context": "http://schema.org/",
+          "@graph": [
+            {
+              "id": "_:b0",
+              "type": "DataDownload",
+              "schema:contentUrl": "http://opencoredata.org/id/dataset/bcd15975-680c-47db-a062-ac0bb6e66816"
+            },
+            {
+              "id": "_:b1",
+              "type": "Organization",
+              "description": "NSF funded International Ocean Discovery Program operated by JRSO",
+              "name": "International Ocean Discovery Program",
+              "schema:url": "http://iodp.org"
+            },
+            {
+              "id": "_:b2",
+              "type": "Place",
+              "geo": {
+                "id": "_:b3"
+              }
+            },
+            {
+              "id": "_:b3",
+              "type": "GeoCoordinates",
+              "latitude": "-27.19",
+              "longitude": "1.58"
+            },
+            {
+              "id": "http://opencoredata.org/id/dataset/bcd15975-680c-47db-a062-ac0bb6e66816",
+              "type": "Dataset",
+              "description": "Data set description",
+              "distribution": {
+                "id": "_:b0"
+              },
+              "keywords": "DSDP, OPD, IODP, JanusThermalConductivity",
+              "name": "208_1262A_JanusThermalConductivity_VyaMsepM.csv",
+              "publisher": {
+                "id": "_:b1"
+              },
+              "spatial": {
+                "id": "_:b2"
+              },
+              "schema:url": "http://opencoredata.org/id/dataset/bcd15975-680c-47db-a062-ac0bb6e66816",
+              "variableMeasured": "JanusThermalConductivity"
+            }
+          ]
+        }
+  </script>
+  </head>
+  <body>
+    <div class="vertical-section-container centered">
+      <h3>Basic jsldviz-element demo</h3>
+      <demo-snippet>
+        <template>
+          <jsldviz-element></jsldviz-element>
+        </template>
+      </demo-snippet>
+    </div>
+  </body>
+</html>
