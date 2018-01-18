@@ -1,0 +1,19 @@
+[
+    {
+    "type": "facility",
+    "city": "Amsterdam"
+    },
+    {
+    "type": "dataset",
+    "city": "Brussel"
+    },
+    {
+    "type": "service",
+    "city": "Berlin"
+    },
+    {
+    "type": "instrument",
+    "city": "Paris"
+    }
+
+]
