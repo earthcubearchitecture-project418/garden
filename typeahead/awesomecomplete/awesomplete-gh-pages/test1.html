@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Awesomplete: Ultra lightweight, highly customizable, simple autocomplete, by Lea Verou</title>
+    <link rel="stylesheet" href="prism/prism.css" />
+    <link rel="stylesheet" href="awesomplete.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="awesomplete.js"></script>
+</head>
+
+<body class="language-markup">
+    <section id="ajax-example">
+        <h2>Ajax example
+            <small>(P418 api)</small>
+        </h2>
+        <label class="">Select French speaking country
+            <input type="text">
+        </label>
+        <pre class="language-javascript"><code><script>var ajax = new XMLHttpRequest();
+            ajax.open("GET", "http://localhost:6789/api/v1/typeahead/providers", true);
+            ajax.onload = function () {
+                var list = JSON.parse(ajax.responseText).map(function (i) { return i.name; });
+                new Awesomplete(document.querySelector("#ajax-example input"), { list: list });
+            };
+            ajax.send();</script></code></pre>
+    </section>
+</body>
+
+</html>
