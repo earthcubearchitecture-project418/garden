@@ -1,15 +1,16 @@
 package main
 
+// This code needs docker image knqz/chrome-headless which you can get with
+//  docker pull knqz/chrome-headless
+// run with
+//  docker run -d -p 9222:9222 --rm --name chrome-headless knqz/chrome-headless
+
 import (
 	"context"
-	"fmt"
-	"io/ioutil"
 	"log"
-	"time"
 
-	cdp "github.com/knq/chromedp"
-	cdptypes "github.com/knq/chromedp/cdp"
-	"github.com/knq/chromedp/client"
+	"github.com/chromedp/chromedp"
+	"github.com/chromedp/chromedp/client"
 )
 
 func main() {
@@ -20,39 +21,25 @@ func main() {
 	defer cancel()
 
 	// create chrome
-	c, err := cdp.New(ctxt, cdp.WithTargets(client.New().WatchPageTargets(ctxt)), cdp.WithLog(log.Printf))
+	c, err := chromedp.New(ctxt, chromedp.WithTargets(client.New().WatchPageTargets(ctxt)), chromedp.WithLog(log.Printf))
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	// run task list
 	var site, res string
-	err = c.Run(ctxt, googleSearch("site:brank.as", "Easy Money Management", &site, &res))
+	err = c.Run(ctxt, text(&res))
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	log.Printf("saved screenshot of #testimonials from search result listing `%s` (%s)", res, site)
+	log.Printf("Text %s --> %s", site, res)
 }
 
-func googleSearch(q, text string, site, res *string) cdp.Tasks {
-	var buf []byte
-	sel := fmt.Sprintf(`//a[text()[contains(., '%s')]]`, text)
-	return cdp.Tasks{
-		cdp.Navigate(`https://www.google.com`),
-		cdp.Sleep(2 * time.Second),
-		cdp.WaitVisible(`#hplogo`, cdp.ByID),
-		cdp.SendKeys(`#lst-ib`, q+"\n", cdp.ByID),
-		cdp.WaitVisible(`#res`, cdp.ByID),
-		cdp.Text(sel, res),
-		cdp.Click(sel),
-		cdp.Sleep(2 * time.Second),
-		cdp.WaitVisible(`#footer`, cdp.ByQuery),
-		cdp.WaitNotVisible(`div.v-middle > div.la-ball-clip-rotate`, cdp.ByQuery),
-		// cdp.Location(site),
-		cdp.Screenshot(`#testimonials`, &buf, cdp.ByID),
-		cdp.ActionFunc(func(context.Context, cdptypes.Handler) error {
-			return ioutil.WriteFile("testimonials.png", buf, 0644)
-		}),
+func text(res *string) chromedp.Tasks {
+	return chromedp.Tasks{
+		chromedp.Navigate(`https://www2.earthref.org/MagIC/16403`),
+		// chromedp.Text(`#react-root`, res, chromedp.NodeVisible, chromedp.ByID),
+		chromedp.Text(`#react-root`, res, chromedp.NodeVisible, chromedp.ByID),
 	}
 }
