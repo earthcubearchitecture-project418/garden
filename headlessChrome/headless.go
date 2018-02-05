@@ -28,7 +28,7 @@ func main() {
 
 	// run task list
 	var site, res string
-	err = c.Run(ctxt, text(&res))
+	err = c.Run(ctxt, text("https://www2.earthref.org/MagIC/16403", &res))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -36,10 +36,10 @@ func main() {
 	log.Printf("Text %s --> %s", site, res)
 }
 
-func text(res *string) chromedp.Tasks {
+func text(targeturl string, res *string) chromedp.Tasks {
 	return chromedp.Tasks{
-		chromedp.Navigate(`https://www2.earthref.org/MagIC/16403`),
+		chromedp.Navigate(targeturl),
 		// chromedp.Text(`#react-root`, res, chromedp.NodeVisible, chromedp.ByID),
-		chromedp.Text(`#react-root`, res, chromedp.NodeVisible, chromedp.ByID),
+		chromedp.Text(`tagByTypeApplicationLDJSON`, res, chromedp.NodeVisible, chromedp.ByID),
 	}
 }
