@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix eos: <http://esipfed.org/prov/eos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://provisium.io#> .
+
+<http://geodex.org/id/prov/UUID>
+    a prov:Bundle, prov:Entity ;
+    rdfs:label "A collection of provenance"^^xsd:string ;
+    prov:generatedAtTime "2011-07-16T02:52:02Z"^^xsd:dateTime ;
+    prov:wasAttributedTo :provAQ .
+
+:usgs
+    a prov:Agent, prov:Organization ;
+    rdfs:label "United States Geological Survey"^^xsd:string ;
+    foaf:givenName "USGS" ;
+    foaf:mbox <mailto:usgs@example.org> .
+
+:dataset
+    a eos:product, prov:Entity ;
+    rdfs:label "Some dataset from USGS"^^xsd:string ;
+    prov:wasAttributedTo :usgs ;
+    prov:wasDerivedFrom :somewhatProcessedData ;
+    prov:wasGeneratedBy :processingActivity2 .
+
+:processingActivity1
+    a eos:processStep, prov:Activity ;
+    rdfs:label "First processing activity"^^xsd:string ;
+    prov:endedAtTime "2011-07-14T02:02:02Z"^^xsd:dateTime ;
+    prov:startedAtTime "2011-07-14T01:01:01Z"^^xsd:dateTime ;
+    prov:used :processingCode, :rawSensorMeasurements ;
+    prov:wasAssociatedWith :usgs .
+
+:processingActivity2
+    a eos:processStep, prov:Activity ;
+    rdfs:label "A processing activity"^^xsd:string ;
+    prov:used :somewhatProcessedData ;
+    prov:wasAssociatedWith :usgs .
+
+:processingCode
+    a eos:software, prov:Entity ;
+    rdfs:label "Some processing code"^^xsd:string ;
+    prov:wasAttributedTo :usgs .
+
+:rawSensorMeasurements
+    a eos:product, prov:Entity ;
+    rdfs:label "The raw data that came off the sensors"^^xsd:string ;
+    prov:wasAttributedTo :usgs .
+
+:somewhatProcessedData
+    a eos:product, prov:Entity ;
+    rdfs:label "An intermediate dataset"^^xsd:string ;
+    prov:wasAttributedTo :usgs ;
+    prov:wasDerivedFrom :rawSensorMeasurements ;
+    prov:wasGeneratedBy :processingActivity1 .
+

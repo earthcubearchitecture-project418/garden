@@ -1,0 +1,5 @@
+http://opencoredata.org/sitemap.xml
+http://get.iedadata.org/doi/xml-sitemap.php
+http://www.bco-dmo.org/sitemap.xml?page=1
+http://www.bco-dmo.org/sitemap.xml?page=2
+http://data.neotomadb.org/sitemap.xml
