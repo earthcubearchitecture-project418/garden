@@ -1,0 +1,52 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix freq:  <http://purl.org/cld/freq/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix dctypes: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <#> .
+
+# use empty prefix to avoid LOD burden on these nodes?  Is there a need for LOD with them?
+:OCDSitemap     a     void:DatasetDescription ;
+        dcterms:description  "A sitemap generated to expose resources with schema.org markup at opencoredata.org"@en ;
+        dcterms:issued       "2018-02-15T00:00:00.00Z"^^xsd:dateTime ;
+        dcterms:title        "VoID Description"@en ;
+        pav:createdBy        <http://orcid.org/0000-0002-2257-9127> ;
+        pav:createdOn         "2018-02-15T00:00:00.00Z"^^xsd:dateTime ;
+        foaf:primaryTopic   :Sitemap   .
+
+<http://orcid.org/0000-0002-2257-9127>
+        a                 foaf:Person ;
+        foaf:family_name  "Fils" ;
+        foaf:givenname    "Douglas" ;
+        foaf:mbox         <mailto:dfils@oceanleadership.org> .
+
+# link to org publishing the data?   what would a node for an org like OCD or BCO-DMO look like?
+
+:Sitemap
+        a                           void:Dataset , dctypes:Dataset ;
+        dcterms:accrualPeriodicity  "Irregular" ;
+        dcterms:description         "Sitemap file in XML format"@en ;
+        dcterms:issued              "2018-02-15T00:00:00.00Z"^^xsd:dateTime ;
+        dcterms:license             <http://creativecommons.org/licenses/by-sa/3.0/> ;
+        dcterms:publisher           <http://opencordata.org> ;
+        dcterms:title               "Open Core Data Resource Sitemap"@en ;
+        pav:authoredBy              <http://orcid.org/0000-0002-2257-9127> ;
+        pav:curatedBy               <http://orcid.org/0000-0002-2257-9127> ;
+        void:vocabulary             <http://purl.org/dc/terms/> ;
+        void:vocabulary             <http://schema.geolink.org/voc/> ;
+        void:vocabulary             <http://opencoredata.org/voc/1/> ;
+        void:vocabulary             <http://opencoredata.org/voc/janus/1/> ;
+        void:dataDump               <http://opencoredata.org/sitemap.xml> ;
+        dcterms:source              <http://opencordata.org> ;
+        pav:derivedFrom             <http://opencordata.org> ;
+        pav:version                 "0.1" ;
+        dcat:landingPage            <http://opencoredata.org> ;
+        dcat:downloadURL            <http://opencoredata.org/sitemap.xml> ;
+        dcat:mediaType              "xml" .
