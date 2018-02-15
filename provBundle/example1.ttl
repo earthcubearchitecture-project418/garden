@@ -6,53 +6,66 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix : <http://provisium.io#> .
 
+
+# Will need to honor and deference this URI to a landing page for this prov data
 <http://geodex.org/id/prov/UUID>
     a prov:Bundle, prov:Entity ;
-    rdfs:label "A collection of provenance"^^xsd:string ;
-    prov:generatedAtTime "2011-07-16T02:52:02Z"^^xsd:dateTime ;
-    prov:wasAttributedTo :provAQ .
+    rdfs:label "A collection of provenance related to the creation of a P418 index"^^xsd:string ;
+    prov:generatedAtTime "2018-02-14T00:00:00Z"^^xsd:dateTime ;
+    prov:wasAttributedTo :processingActivity1 .
 
-:usgs
+:esso
     a prov:Agent, prov:Organization ;
-    rdfs:label "United States Geological Survey"^^xsd:string ;
+    rdfs:label "EarthCube Science Support Office"^^xsd:string ;
     foaf:givenName "USGS" ;
-    foaf:mbox <mailto:usgs@example.org> .
+    foaf:mbox <mailto:info@earthcube.org> .
 
-:dataset
-    a eos:product, prov:Entity ;
-    rdfs:label "Some dataset from USGS"^^xsd:string ;
-    prov:wasAttributedTo :usgs ;
-    prov:wasDerivedFrom :somewhatProcessedData ;
-    prov:wasGeneratedBy :processingActivity2 .
+:ocd
+    a prov:Agent, prov:Organization ;
+    rdfs:label "Open Core Data"^^xsd:string ;
+    foaf:givenName "OCD" ;
+    foaf:mbox <mailto:info@opencoredata.org> .
 
 :processingActivity1
     a eos:processStep, prov:Activity ;
-    rdfs:label "First processing activity"^^xsd:string ;
+    rdfs:label "Generation of indexes (spatial, text, graph) from the processed pages"^^xsd:string ;
     prov:endedAtTime "2011-07-14T02:02:02Z"^^xsd:dateTime ;
     prov:startedAtTime "2011-07-14T01:01:01Z"^^xsd:dateTime ;
-    prov:used :processingCode, :rawSensorMeasurements ;
-    prov:wasAssociatedWith :usgs .
-
-:processingActivity2
-    a eos:processStep, prov:Activity ;
-    rdfs:label "A processing activity"^^xsd:string ;
-    prov:used :somewhatProcessedData ;
-    prov:wasAssociatedWith :usgs .
+    prov:used :processingCode, :page1 ;  # not needed if use collection
+    prov:used :processingCode, :page2 ;  # not needed if use collection
+    prov:used :processingCode, :pagecollection ;
+    prov:wasAssociatedWith :esso .
 
 :processingCode
     a eos:software, prov:Entity ;
-    rdfs:label "Some processing code"^^xsd:string ;
-    prov:wasAttributedTo :usgs .
+    rdfs:label "EarthCube Project 418 Indexer"^^xsd:string ;
+    # what voc to use to link to software repo?  (other ID?)
+    prov:wasAttributedTo :esso .
 
-:rawSensorMeasurements
+:dataset
     a eos:product, prov:Entity ;
-    rdfs:label "The raw data that came off the sensors"^^xsd:string ;
-    prov:wasAttributedTo :usgs .
-
-:somewhatProcessedData
-    a eos:product, prov:Entity ;
-    rdfs:label "An intermediate dataset"^^xsd:string ;
-    prov:wasAttributedTo :usgs ;
-    prov:wasDerivedFrom :rawSensorMeasurements ;
+    rdfs:label "Dataset included spatial, text and graph results from the activity"^^xsd:string ;
+    prov:wasAttributedTo :esso ;
+    prov:wasDerivedFrom :pagecollection ;  # what goes here?  the collection?
     prov:wasGeneratedBy :processingActivity1 .
 
+# one of my landing page with schem.aorg
+:page1
+    a eos:product, prov:Entity ;
+    # dcat:url  "<http://sdsdsdsdsd>"
+    rdfs:label "JSON-LD from some input landing page"^^xsd:string ;
+    prov:wasAttributedTo :esso .
+
+:page2
+    a eos:product, prov:Entity ;
+    rdfs:label "JSON-LD from some input landing page"^^xsd:string ;
+    prov:wasAttributedTo :esso .
+
+
+:pagecollection 
+rdfs:label "URIs submitted to the pingback service"^^xsd:string; 
+prov:wasAttributedTo :ocd ;
+a prov:Collection;   # I removed , eos:PingBackCollection   (corect to do so?)
+prov:hadMember <http://provisium.io#Dataset001>, <http://provisium.io#Dataset002>, 
+<http://provisium.io#Dataset003>, <http://provisium.io#Dataset004>, <http://provisium.io#Dataset005>, <http://provisium.io#Dataset006>,
+ <http://provisium.io#Dataset007>, <http://provisium.io#Dataset008>, <http://provisium.io#Dataset009> .
