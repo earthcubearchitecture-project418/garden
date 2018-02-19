@@ -6,6 +6,16 @@ import (
 	"strings"
 )
 
+// Config struct
+type Config struct {
+	Minio struct {
+		Endpoint        string `json:"endpoint"`
+		AccessKeyID     string `json:"accessKeyID"`
+		SecretAccessKey string `json:"secretAccessKey"`
+	} `json:"minio"`
+	Source string `json:"source"`
+}
+
 // DomainNameShort takes a URL, pulls them domain and removes the dots
 func DomainNameShort(dn string) (string, string, error) {
 	u, err := url.Parse(dn)
