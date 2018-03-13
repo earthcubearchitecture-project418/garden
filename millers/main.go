@@ -2,27 +2,54 @@ package main
 
 import (
 	"fmt"
-	"io"
 	"log"
-	"os"
+	"time"
+
+	"earthcube.org/Project418/garden/millers/millerspatial"
 
 	"github.com/minio/minio-go"
 )
 
 func main() {
 	fmt.Println("The miller....")
+	st := time.Now()
+	log.Printf("Start time: %s \n", st) // Log the time at start for the record
 
-	// TODO
-	// read the entries of a bucket..  ListObjectsv2
-	// for each item in object list  GetObject  (use for StatOnject?)
-	// Send the results (copy of results) to each of the active mills  Start with spatial
+	mc := miniConnection() // minio connection
 
-	getBucketList()
+	buckets, err := listBuckets(mc)
+	if err != nil {
+		log.Println(err)
+	}
+
+	fmt.Println("Bucket list...")
+	for _, bucket := range buckets {
+		fmt.Println(bucket.Name)
+		// processBucketObjects(mc, bucket.Name)
+	}
+
+	// MOCK call
+	// millersmock.MockObjects(mc, "getiedadataorg")
+
+	// GRAPH calls
+	// millersgraph.GraphMillObjects(mc, "getiedadataorg")
+	// millersgraph.GraphMillObjects(mc, "opentopographyorg")
+	// millersgraph.GraphMillObjects(mc, "dataneotomadborg")
+
+	// SPATIAL calls
+	millerspatial.ProcessBucketObjects(mc, "opentopographyorg")
+	// processBucketObjects(mc, "dataneotomadborg")
+	// processBucketObjects(mc, "getiedadataorg")
+	// processBucketObjects(mc, "opencoredataorg")
+	// processBucketObjects(mc, "wwwbco-dmoorg")
+
+	et := time.Now()
+	diff := et.Sub(st)
+	log.Printf("End time: %s \n", et)
+	log.Printf("Run time: %f \n", diff.Minutes())
 }
 
-func getBucketList() {
-	fmt.Println("Get bucket list")
-
+func miniConnection() *minio.Client {
 	// Set up minio and initialize client
 	endpoint := "localhost:9000"
 	accessKeyID := "AKIAIOSFODNN7EXAMPLE"
@@ -33,38 +60,15 @@ func getBucketList() {
 		log.Fatalln(err)
 	}
 
-	// Create a done channel to control 'ListObjectsV2' go routine.
-	doneCh := make(chan struct{})
+	return minioClient
+}
 
-	// Indicate to our routine to exit cleanly upon return.
-	defer close(doneCh)
-
-	isRecursive := true
-	objectCh := minioClient.ListObjectsV2("opencoredataorg", "", isRecursive, doneCh)
-	for object := range objectCh {
-		if object.Err != nil {
-			fmt.Println(object.Err)
-			return
-		}
-		fmt.Println(object)
-
-		fo, err := minioClient.GetObject("opencoredataorg", object.Key, minio.GetObjectOptions{})
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-
-		// Use io.copy
-		localFile, err := os.Create("./local-file.jsonld")
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-		if _, err = io.Copy(localFile, fo); err != nil {
-			fmt.Println(err)
-			return
-		}
-
+func listBuckets(mc *minio.Client) ([]minio.BucketInfo, error) {
+	buckets, err := mc.ListBuckets()
+	if err != nil {
+		fmt.Println(err)
+		return nil, err
 	}
 
+	return buckets, err
 }

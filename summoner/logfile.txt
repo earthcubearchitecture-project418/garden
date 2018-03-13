@@ -1,0 +1,1446 @@
+2018/03/08 13:44:26 Start time: 2018-03-08 13:44:26.607607558 -0600 CST m=+0.001830166 
+2018/03/08 13:44:26 Opening source list file:  
+2018/03/08 13:44:26 open : no such file or directory
+2018/03/08 13:45:23 Start time: 2018-03-08 13:45:23.591401581 -0600 CST m=+0.002314476 
+2018/03/08 13:45:23 Opening source list file:  
+2018/03/08 13:45:23 open : no such file or directory
+2018/03/08 14:08:18 Start time: 2018-03-08 14:08:18.599494303 -0600 CST m=+0.001953357 
+2018/03/08 14:08:18 Opening source list file:  
+2018/03/08 14:08:18 open : no such file or directory
+2018/03/08 14:08:29 Start time: 2018-03-08 14:08:29.183730601 -0600 CST m=+0.002035129 
+2018/03/08 14:08:29 Opening source list file: ./sources.txt 
+2018/03/08 14:08:29 wwwbco-dmoorg
+2018/03/08 14:08:30 wwwbco-dmoorg
+2018/03/08 14:08:30 Building buckets
+2018/03/08 14:08:30 We already own wwwbco-dmoorg
+2018/03/08 14:08:30 Successfully created wwwbco-dmoorg
+2018/03/08 14:08:30 Act on URL's for wwwbco-dmoorg
+2018/03/08 14:08:32 #70 Uploaded Bucket:wwwbco-dmoorg File:81a65d9eb0c130f7a18b18ca666f3822caf4a60e.jsonld Size 206
+2018/03/08 14:08:32 #70 would get http://www.bco-dmo.org/deployment/58575 
+2018/03/08 14:08:32 #12 Uploaded Bucket:wwwbco-dmoorg File:2fd1a4fcb94107c5567df584aaf025386224fd9c.jsonld Size 206
+2018/03/08 14:08:32 #12 would get http://www.bco-dmo.org/deployment/58510 
+2018/03/08 14:08:32 #37 Uploaded Bucket:wwwbco-dmoorg File:a73be18a22e610e3677ac9322f8a75202eedf7d0.jsonld Size 206
+2018/03/08 14:08:32 #37 would get http://www.bco-dmo.org/deployment/58542 
+2018/03/08 14:08:32 #36 Uploaded Bucket:wwwbco-dmoorg File:ce57f1c147204f3c95c337b3122b9938622f1347.jsonld Size 206
+2018/03/08 14:08:32 #36 would get http://www.bco-dmo.org/deployment/58541 
+2018/03/08 14:08:32 #15 Uploaded Bucket:wwwbco-dmoorg File:96347e0f570bd599c4dc5224897245bbf18eafb1.jsonld Size 206
+2018/03/08 14:08:32 #15 would get http://www.bco-dmo.org/deployment/58513 
+2018/03/08 14:08:33 #88 Uploaded Bucket:wwwbco-dmoorg File:e5dfe0164f50e9e255ab0db93981e5ab03867b0a.jsonld Size 206
+2018/03/08 14:08:33 #88 would get http://www.bco-dmo.org/deployment/58593 
+2018/03/08 14:08:33 #72 Uploaded Bucket:wwwbco-dmoorg File:e0e0ffa25a4d6ebd30ded32851cf3ce1a4b235df.jsonld Size 206
+2018/03/08 14:08:33 #72 would get http://www.bco-dmo.org/deployment/58577 
+2018/03/08 14:08:33 #16 Uploaded Bucket:wwwbco-dmoorg File:bf55f42e9c94a1e91a7729dabeeeef13f6c72ba7.jsonld Size 206
+2018/03/08 14:08:33 #16 would get http://www.bco-dmo.org/deployment/58514 
+2018/03/08 14:08:33 #11 Uploaded Bucket:wwwbco-dmoorg File:af5c4cc316ba34a950763acd1b438df525f8a304.jsonld Size 206
+2018/03/08 14:08:33 #11 would get http://www.bco-dmo.org/deployment/58509 
+2018/03/08 14:08:33 #14 Uploaded Bucket:wwwbco-dmoorg File:09051d301a6ead65fcb63824ee58d4972583f8ab.jsonld Size 206
+2018/03/08 14:08:33 #14 would get http://www.bco-dmo.org/deployment/58512 
+2018/03/08 14:08:33 #41 Uploaded Bucket:wwwbco-dmoorg File:6dad92f0330b7d2109a0d0d355ddab337301f16e.jsonld Size 206
+2018/03/08 14:08:33 #41 would get http://www.bco-dmo.org/deployment/58546 
+2018/03/08 14:08:33 #39 Uploaded Bucket:wwwbco-dmoorg File:e1e8f03352d398761182a2abf9b26b1f5a4a70d5.jsonld Size 206
+2018/03/08 14:08:33 #39 would get http://www.bco-dmo.org/deployment/58544 
+2018/03/08 14:08:33 #40 Uploaded Bucket:wwwbco-dmoorg File:224e38073577bc16367350b276731f0ee8d8499f.jsonld Size 206
+2018/03/08 14:08:33 #40 would get http://www.bco-dmo.org/deployment/58545 
+2018/03/08 14:08:33 #8 Uploaded Bucket:wwwbco-dmoorg File:196dcf1d3f1faa3c6124542192a2891591b7766e.jsonld Size 206
+2018/03/08 14:08:33 #8 would get http://www.bco-dmo.org/deployment/58506 
+2018/03/08 14:08:33 #38 Uploaded Bucket:wwwbco-dmoorg File:9c94dc50d5e2ef4b3b0fba37a88ceec700c02c23.jsonld Size 206
+2018/03/08 14:08:33 #38 would get http://www.bco-dmo.org/deployment/58543 
+2018/03/08 14:08:33 #9 Uploaded Bucket:wwwbco-dmoorg File:e9de1f40da1bf2cc99604695828ab10f68a49c8d.jsonld Size 206
+2018/03/08 14:08:33 #9 would get http://www.bco-dmo.org/deployment/58507 
+2018/03/08 14:08:34 #73 Uploaded Bucket:wwwbco-dmoorg File:c31eb7cee0974b6f06a3c06ccdee282091208aef.jsonld Size 206
+2018/03/08 14:08:34 #73 would get http://www.bco-dmo.org/deployment/58578 
+2018/03/08 14:08:34 #13 Uploaded Bucket:wwwbco-dmoorg File:beb91a27867956fb94091042974cfb7a24b90bfb.jsonld Size 206
+2018/03/08 14:08:34 #13 would get http://www.bco-dmo.org/deployment/58511 
+2018/03/08 14:08:34 #17 Uploaded Bucket:wwwbco-dmoorg File:a97d963348a6da390176e9add78074005101e690.jsonld Size 206
+2018/03/08 14:08:34 #17 would get http://www.bco-dmo.org/deployment/58515 
+2018/03/08 14:08:34 #71 Uploaded Bucket:wwwbco-dmoorg File:06ca7f9892b7e7c2aa890820a09f92d2d154d201.jsonld Size 206
+2018/03/08 14:08:34 #71 would get http://www.bco-dmo.org/deployment/58576 
+2018/03/08 14:08:34 #89 Uploaded Bucket:wwwbco-dmoorg File:6413be35edbf145292a06026aed19621a9825f96.jsonld Size 206
+2018/03/08 14:08:34 #89 would get http://www.bco-dmo.org/deployment/58594 
+2018/03/08 14:08:34 #104 Uploaded Bucket:wwwbco-dmoorg File:f19c5a54b8a798a75750be22292ddce00e4d67c6.jsonld Size 206
+2018/03/08 14:08:34 #104 would get http://www.bco-dmo.org/deployment/58608 
+2018/03/08 14:08:34 #1 would get http://www.bco-dmo.org/instrument/585 
+2018/03/08 14:08:34 #76 Uploaded Bucket:wwwbco-dmoorg File:6a8d8b474062c2e330a488899c2e8dfa5dd21064.jsonld Size 206
+2018/03/08 14:08:34 #76 would get http://www.bco-dmo.org/deployment/58581 
+2018/03/08 14:08:34 #105 Uploaded Bucket:wwwbco-dmoorg File:ff26169e57142a41709a6428d4c37c8c25403142.jsonld Size 206
+2018/03/08 14:08:34 #105 would get http://www.bco-dmo.org/deployment/58609 
+2018/03/08 14:08:34 #90 Uploaded Bucket:wwwbco-dmoorg File:8f55560ef527d8256d956fcff2a24e690d57c561.jsonld Size 206
+2018/03/08 14:08:34 #90 would get http://www.bco-dmo.org/deployment/58595 
+2018/03/08 14:08:34 #0 Uploaded Bucket:wwwbco-dmoorg File:e2c7ca5207a252561379dd542686528ad4a6e5dc.jsonld Size 206
+2018/03/08 14:08:34 #0 would get http://www.bco-dmo.org/deployment/58499 
+2018/03/08 14:08:35 #106 Uploaded Bucket:wwwbco-dmoorg File:ff6fa0db46a9284b6b2fcca5d498e1ce38101c19.jsonld Size 206
+2018/03/08 14:08:35 #106 would get http://www.bco-dmo.org/deployment/58610 
+2018/03/08 14:08:35 #107 Uploaded Bucket:wwwbco-dmoorg File:a2a06f88b7c1e255bb05938e305b678a4bf54cb2.jsonld Size 206
+2018/03/08 14:08:35 #107 would get http://www.bco-dmo.org/deployment/58611 
+2018/03/08 14:08:35 #79 Uploaded Bucket:wwwbco-dmoorg File:7f13ec9e2e6887ac18bf95134ec421df7f963eb1.jsonld Size 206
+2018/03/08 14:08:35 #79 would get http://www.bco-dmo.org/deployment/58584 
+2018/03/08 14:08:35 #91 Uploaded Bucket:wwwbco-dmoorg File:f1886ef89f8b2378ee10ca9cc33f23a37f30b9e7.jsonld Size 206
+2018/03/08 14:08:35 #91 would get http://www.bco-dmo.org/deployment/58596 
+2018/03/08 14:08:35 #93 Uploaded Bucket:wwwbco-dmoorg File:c50c11f70804816706c3042ddbf2ab53d1d86045.jsonld Size 206
+2018/03/08 14:08:35 #93 would get http://www.bco-dmo.org/deployment/58598 
+2018/03/08 14:08:35 #78 Uploaded Bucket:wwwbco-dmoorg File:79e40fff505c9764d97de2a58448a769c7e6c218.jsonld Size 206
+2018/03/08 14:08:35 #78 would get http://www.bco-dmo.org/deployment/58583 
+2018/03/08 14:08:35 #92 Uploaded Bucket:wwwbco-dmoorg File:c438e59238d821b41c39b260537d23dcd3c56d1d.jsonld Size 206
+2018/03/08 14:08:35 #92 would get http://www.bco-dmo.org/deployment/58597 
+2018/03/08 14:08:35 #77 Uploaded Bucket:wwwbco-dmoorg File:e441f010862777ba27b0a96586f181b73dea38fc.jsonld Size 206
+2018/03/08 14:08:35 #77 would get http://www.bco-dmo.org/deployment/58582 
+2018/03/08 14:08:35 #80 Uploaded Bucket:wwwbco-dmoorg File:fa4fc0f8873d71d28cef61263dfbc929a23f1af8.jsonld Size 206
+2018/03/08 14:08:35 #80 would get http://www.bco-dmo.org/deployment/58585 
+2018/03/08 14:08:35 #108 Uploaded Bucket:wwwbco-dmoorg File:7d255d2bdff73f6713e1a9607f3b53092c35fa58.jsonld Size 206
+2018/03/08 14:08:35 #108 would get http://www.bco-dmo.org/deployment/58612 
+2018/03/08 14:08:35 #81 Uploaded Bucket:wwwbco-dmoorg File:5d02276bff2467e73f91d37ef5a925762be14070.jsonld Size 206
+2018/03/08 14:08:35 #81 would get http://www.bco-dmo.org/deployment/58586 
+2018/03/08 14:08:36 #42 Uploaded Bucket:wwwbco-dmoorg File:381f99294747d45dfbe2d71a29b2e3c068828d07.jsonld Size 206
+2018/03/08 14:08:36 #42 would get http://www.bco-dmo.org/deployment/58547 
+2018/03/08 14:08:36 #95 would get http://www.bco-dmo.org/instrument/586 
+2018/03/08 14:18:03 Start time: 2018-03-08 14:18:03.75808218 -0600 CST m=+0.002150537 
+2018/03/08 14:18:03 Opening source list file: ./sources.txt 
+2018/03/08 14:18:03 wwwbco-dmoorg
+2018/03/08 14:18:48 Start time: 2018-03-08 14:18:48.051714654 -0600 CST m=+0.002086704 
+2018/03/08 14:18:48 Opening source list file: ./sources.txt 
+2018/03/08 14:18:48 wwwbco-dmoorg
+2018/03/08 14:19:18 Error reading sitemap: Get https://www.bco-dmo.org/sitemap.xml?page=1: dial tcp 128.128.181.60:443: i/o timeout
+2018/03/08 14:20:24 Start time: 2018-03-08 14:20:24.718473338 -0600 CST m=+0.002101612 
+2018/03/08 14:20:24 Opening source list file: ./sources.txt 
+2018/03/08 14:20:24 wwwbco-dmoorg
+2018/03/08 14:20:25 wwwbco-dmoorg
+2018/03/08 14:20:25 Building buckets
+2018/03/08 14:20:25 We already own wwwbco-dmoorg
+2018/03/08 14:20:25 Successfully created wwwbco-dmoorg
+2018/03/08 14:20:25 Act on URL's for wwwbco-dmoorg
+2018/03/08 14:20:27 #1 would get http://www.bco-dmo.org/instrument/585 
+2018/03/08 14:20:27 #19 Uploaded Bucket:wwwbco-dmoorg File:69bab476970b0b8ed962aaebd8f4e8baefe76753.jsonld Size 206
+2018/03/08 14:20:27 #19 would get http://www.bco-dmo.org/deployment/58517 
+2018/03/08 14:20:27 #4 Uploaded Bucket:wwwbco-dmoorg File:3fe8e59e9ede0148a0cabced064288ee74f1f506.jsonld Size 206
+2018/03/08 14:20:27 #4 would get http://www.bco-dmo.org/deployment/58502 
+2018/03/08 14:20:27 #67 Uploaded Bucket:wwwbco-dmoorg File:0ee3dac3b8d5035e11e2b773cf702a6c6f558595.jsonld Size 206
+2018/03/08 14:20:27 #67 would get http://www.bco-dmo.org/deployment/58572 
+2018/03/08 14:20:27 #173 Uploaded Bucket:wwwbco-dmoorg File:50a37ac9da6e3e7358c9fe64a11bf11328362f3c.jsonld Size 206
+2018/03/08 14:20:27 #173 would get http://www.bco-dmo.org/deployment/58679 
+2018/03/08 14:20:28 #7 Uploaded Bucket:wwwbco-dmoorg File:c46f63bce5c82f774b70457086e99052ed7fa8df.jsonld Size 206
+2018/03/08 14:20:28 #7 would get http://www.bco-dmo.org/deployment/58505 
+2018/03/08 14:20:28 #200 Uploaded Bucket:wwwbco-dmoorg File:aa83609049f5249160abe8a0edca9ff6a14d7fce.jsonld Size 206
+2018/03/08 14:20:28 #200 would get http://www.bco-dmo.org/deployment/58705 
+2018/03/08 14:20:28 #66 Uploaded Bucket:wwwbco-dmoorg File:cf3c2c43d6c3387aaba18af825e3d4de9da094fd.jsonld Size 206
+2018/03/08 14:20:28 #66 would get http://www.bco-dmo.org/deployment/58571 
+2018/03/08 14:20:28 #3 Uploaded Bucket:wwwbco-dmoorg File:a18f5006bbc3cdc7bbca19e602c102ae4bf7a968.jsonld Size 206
+2018/03/08 14:20:28 #3 would get http://www.bco-dmo.org/deployment/58501 
+2018/03/08 14:20:28 #5 Uploaded Bucket:wwwbco-dmoorg File:b572b6506884a4eedede566a35684921abaab876.jsonld Size 206
+2018/03/08 14:20:28 #5 would get http://www.bco-dmo.org/deployment/58503 
+2018/03/08 14:20:28 #2 Uploaded Bucket:wwwbco-dmoorg File:b50d9c346f000eee8d4adb4bb51a59ffcbb2d46f.jsonld Size 206
+2018/03/08 14:20:28 #2 would get http://www.bco-dmo.org/deployment/58500 
+2018/03/08 14:20:28 #22 Uploaded Bucket:wwwbco-dmoorg File:44adabeae2c1468144a4737c9c33683b2723c959.jsonld Size 206
+2018/03/08 14:20:28 #22 would get http://www.bco-dmo.org/deployment/58520 
+2018/03/08 14:20:28 #108 Uploaded Bucket:wwwbco-dmoorg File:7d255d2bdff73f6713e1a9607f3b53092c35fa58.jsonld Size 206
+2018/03/08 14:20:28 #108 would get http://www.bco-dmo.org/deployment/58612 
+2018/03/08 14:20:29 #175 Uploaded Bucket:wwwbco-dmoorg File:ece65f1a9658460be3e935dd79cdb72bf90d94c4.jsonld Size 206
+2018/03/08 14:20:29 #175 would get http://www.bco-dmo.org/deployment/58681 
+2018/03/08 14:20:29 #6 Uploaded Bucket:wwwbco-dmoorg File:20496a65e0ac27dc0abd90a5633731d38cfcf30f.jsonld Size 206
+2018/03/08 14:20:29 #6 would get http://www.bco-dmo.org/deployment/58504 
+2018/03/08 14:20:29 #174 Uploaded Bucket:wwwbco-dmoorg File:ba862ee05b3c0160b87400dbd4d4aaf4b9ea928e.jsonld Size 206
+2018/03/08 14:20:29 #174 would get http://www.bco-dmo.org/deployment/58680 
+2018/03/08 14:20:29 #142 Uploaded Bucket:wwwbco-dmoorg File:ffe02031a730974a4a5fb87d62dcf319db164865.jsonld Size 206
+2018/03/08 14:20:29 #142 would get http://www.bco-dmo.org/deployment/58646 
+2018/03/08 14:20:29 #178 Uploaded Bucket:wwwbco-dmoorg File:c0fee9a7294e35f50200ec39034c214a680a9c15.jsonld Size 206
+2018/03/08 14:20:29 #178 would get http://www.bco-dmo.org/deployment/58684 
+2018/03/08 14:20:29 #176 Uploaded Bucket:wwwbco-dmoorg File:ca223b423ac28b3006fb21e85f9ea838a02df0f0.jsonld Size 206
+2018/03/08 14:20:29 #176 would get http://www.bco-dmo.org/deployment/58682 
+2018/03/08 14:20:29 #177 Uploaded Bucket:wwwbco-dmoorg File:22098433ec764f361bcff6e81f5252c30eac5ffb.jsonld Size 206
+2018/03/08 14:20:29 #177 would get http://www.bco-dmo.org/deployment/58683 
+2018/03/08 14:20:29 #107 Uploaded Bucket:wwwbco-dmoorg File:a2a06f88b7c1e255bb05938e305b678a4bf54cb2.jsonld Size 206
+2018/03/08 14:20:29 #107 would get http://www.bco-dmo.org/deployment/58611 
+2018/03/08 14:20:29 #182 Uploaded Bucket:wwwbco-dmoorg File:c3b95c957b9ddd8101faff59c2abe8c9e87be76d.jsonld Size 206
+2018/03/08 14:20:29 #182 would get http://www.bco-dmo.org/deployment/58688 
+2018/03/08 14:20:29 #180 Uploaded Bucket:wwwbco-dmoorg File:768565489fe64ba242369eccf448eacbd598936f.jsonld Size 206
+2018/03/08 14:20:29 #180 would get http://www.bco-dmo.org/deployment/58686 
+2018/03/08 14:20:30 #179 Uploaded Bucket:wwwbco-dmoorg File:8b9491049f84bf8af758afd7391474b3109da010.jsonld Size 206
+2018/03/08 14:20:30 #179 would get http://www.bco-dmo.org/deployment/58685 
+2018/03/08 14:20:30 #24 Uploaded Bucket:wwwbco-dmoorg File:45b62b25a388cf331918166e8e6fef4464a2792d.jsonld Size 206
+2018/03/08 14:20:30 #24 would get http://www.bco-dmo.org/deployment/58522 
+2018/03/08 14:20:30 #25 Uploaded Bucket:wwwbco-dmoorg File:a254acfcbd9d315ecd794f13bfa6e828c91a891d.jsonld Size 206
+2018/03/08 14:20:30 #25 would get http://www.bco-dmo.org/deployment/58523 
+2018/03/08 14:20:30 #111 Uploaded Bucket:wwwbco-dmoorg File:ec297cf51fb6f1056aed5409b791d4cb70b83041.jsonld Size 206
+2018/03/08 14:20:30 #111 would get http://www.bco-dmo.org/deployment/58615 
+2018/03/08 14:20:30 #110 Uploaded Bucket:wwwbco-dmoorg File:d9bb3cafa972efadf7c2a7b5de725e571959d678.jsonld Size 206
+2018/03/08 14:20:30 #110 would get http://www.bco-dmo.org/deployment/58614 
+2018/03/08 14:20:30 #183 Uploaded Bucket:wwwbco-dmoorg File:b10d5db3558dde0a0a41a0bf599d150ab2a5af57.jsonld Size 206
+2018/03/08 14:20:30 #183 would get http://www.bco-dmo.org/deployment/58689 
+2018/03/08 14:20:30 #23 Uploaded Bucket:wwwbco-dmoorg File:5bf8c088cd9aa167ff5abf3bfcb813c45f0e0319.jsonld Size 206
+2018/03/08 14:20:30 #23 would get http://www.bco-dmo.org/deployment/58521 
+2018/03/08 14:20:30 #26 Uploaded Bucket:wwwbco-dmoorg File:6d670fc3e75e62be7cd627d01b47a4d7edcd668a.jsonld Size 206
+2018/03/08 14:20:30 #26 would get http://www.bco-dmo.org/deployment/58524 
+2018/03/08 14:20:30 #112 Uploaded Bucket:wwwbco-dmoorg File:3b673b1f0ae41a5c8ccc5056137f17681513601a.jsonld Size 206
+2018/03/08 14:20:30 #112 would get http://www.bco-dmo.org/deployment/58616 
+2018/03/08 14:20:31 #20 Uploaded Bucket:wwwbco-dmoorg File:ce8890c1ced51469401810e5ac33f12346c86678.jsonld Size 206
+2018/03/08 14:20:31 #20 would get http://www.bco-dmo.org/deployment/58518 
+2018/03/08 14:20:31 #21 Uploaded Bucket:wwwbco-dmoorg File:8b4a284e4574b0745a4dd00ac842622a652b6a89.jsonld Size 206
+2018/03/08 14:20:31 #21 would get http://www.bco-dmo.org/deployment/58519 
+2018/03/08 14:20:31 #189 Uploaded Bucket:wwwbco-dmoorg File:851da290766455a6894b67ca0ab3b3a638153558.jsonld Size 206
+2018/03/08 14:20:31 #189 would get http://www.bco-dmo.org/deployment/58695 
+2018/03/08 14:20:31 #188 Uploaded Bucket:wwwbco-dmoorg File:130a64f077c737fb0e57238df7c76376b017abf4.jsonld Size 206
+2018/03/08 14:20:31 #188 would get http://www.bco-dmo.org/deployment/58694 
+2018/03/08 14:20:31 #28 Uploaded Bucket:wwwbco-dmoorg File:8acc9d67147c41338c2856f69a929f87ed5a60a1.jsonld Size 206
+2018/03/08 14:20:31 #28 would get http://www.bco-dmo.org/deployment/58526 
+2018/03/08 14:20:31 #113 Uploaded Bucket:wwwbco-dmoorg File:5e4404b9ba8cb92886bb029a79ff003fa81503bc.jsonld Size 206
+2018/03/08 14:20:31 #113 would get http://www.bco-dmo.org/deployment/58617 
+2018/03/08 14:20:31 #109 Uploaded Bucket:wwwbco-dmoorg File:d020678351e7d8dacb5995439ed18e6d9cd4a31d.jsonld Size 206
+2018/03/08 14:20:31 #109 would get http://www.bco-dmo.org/deployment/58613 
+2018/03/08 14:20:32 #30 Uploaded Bucket:wwwbco-dmoorg File:7850d4d74d5aaeacfa2c37be43b1d96049e9fabc.jsonld Size 206
+2018/03/08 14:20:32 #30 would get http://www.bco-dmo.org/deployment/58535 
+2018/03/08 14:20:32 #190 Uploaded Bucket:wwwbco-dmoorg File:98683c19305cd4fe278787cc8671109a9172799e.jsonld Size 206
+2018/03/08 14:20:32 #190 would get http://www.bco-dmo.org/deployment/58696 
+2018/03/08 14:20:32 #114 Uploaded Bucket:wwwbco-dmoorg File:2ca8b65d84819eff857cbf6383fab1edc86f121f.jsonld Size 206
+2018/03/08 14:20:32 #114 would get http://www.bco-dmo.org/deployment/58618 
+2018/03/08 14:20:32 #191 Uploaded Bucket:wwwbco-dmoorg File:8c39187d0ce86d5a1d006790f9e47c9420204201.jsonld Size 206
+2018/03/08 14:20:32 #191 would get http://www.bco-dmo.org/deployment/58697 
+2018/03/08 14:20:32 #31 Uploaded Bucket:wwwbco-dmoorg File:cf265783ad76a6b02e363b506761928c8e3fcb0e.jsonld Size 206
+2018/03/08 14:20:32 #31 would get http://www.bco-dmo.org/deployment/58536 
+2018/03/08 14:20:32 #192 Uploaded Bucket:wwwbco-dmoorg File:340ce0401cdc29b241d5831d90309a2884ddf87c.jsonld Size 206
+2018/03/08 14:20:32 #192 would get http://www.bco-dmo.org/deployment/58698 
+2018/03/08 14:20:32 #9 Uploaded Bucket:wwwbco-dmoorg File:e9de1f40da1bf2cc99604695828ab10f68a49c8d.jsonld Size 206
+2018/03/08 14:20:32 #9 would get http://www.bco-dmo.org/deployment/58507 
+2018/03/08 14:20:32 #70 Uploaded Bucket:wwwbco-dmoorg File:81a65d9eb0c130f7a18b18ca666f3822caf4a60e.jsonld Size 206
+2018/03/08 14:20:32 #70 would get http://www.bco-dmo.org/deployment/58575 
+2018/03/08 14:20:32 #115 Uploaded Bucket:wwwbco-dmoorg File:5e9f96b34587a3cc2bfb8ad4b446535a50c39182.jsonld Size 206
+2018/03/08 14:20:32 #115 would get http://www.bco-dmo.org/deployment/58619 
+2018/03/08 14:20:32 #69 Uploaded Bucket:wwwbco-dmoorg File:f3a171f43e1cc494aa8b81bba26474d8ebd57e03.jsonld Size 206
+2018/03/08 14:20:32 #69 would get http://www.bco-dmo.org/deployment/58574 
+2018/03/08 14:20:33 #0 Uploaded Bucket:wwwbco-dmoorg File:e2c7ca5207a252561379dd542686528ad4a6e5dc.jsonld Size 206
+2018/03/08 14:20:33 #0 would get http://www.bco-dmo.org/deployment/58499 
+2018/03/08 14:20:33 #32 Uploaded Bucket:wwwbco-dmoorg File:da2dd5bbb2aa00717275065109ee397112dbfc53.jsonld Size 206
+2018/03/08 14:20:33 #32 would get http://www.bco-dmo.org/deployment/58537 
+2018/03/08 14:20:33 #71 Uploaded Bucket:wwwbco-dmoorg File:06ca7f9892b7e7c2aa890820a09f92d2d154d201.jsonld Size 206
+2018/03/08 14:20:33 #71 would get http://www.bco-dmo.org/deployment/58576 
+2018/03/08 14:20:33 #186 Uploaded Bucket:wwwbco-dmoorg File:0df24cbc4094ec1fee8010c34d9125e930865846.jsonld Size 206
+2018/03/08 14:20:33 #186 would get http://www.bco-dmo.org/deployment/58692 
+2018/03/08 14:20:33 #193 Uploaded Bucket:wwwbco-dmoorg File:493b73ac9cb907ade23963b96526c91d01edb6f0.jsonld Size 206
+2018/03/08 14:20:33 #193 would get http://www.bco-dmo.org/deployment/58699 
+2018/03/08 14:20:34 #181 Uploaded Bucket:wwwbco-dmoorg File:f52009bbcaf335c5b08bfac5675c6bf66291cd7b.jsonld Size 206
+2018/03/08 14:20:34 #181 would get http://www.bco-dmo.org/deployment/58687 
+2018/03/08 14:20:34 #8 Uploaded Bucket:wwwbco-dmoorg File:196dcf1d3f1faa3c6124542192a2891591b7766e.jsonld Size 206
+2018/03/08 14:20:34 #8 would get http://www.bco-dmo.org/deployment/58506 
+2018/03/08 14:20:34 #194 would get http://www.bco-dmo.org/instrument/587 
+2018/03/08 14:20:34 #185 Uploaded Bucket:wwwbco-dmoorg File:c23708e1827e957400d32cd11757fc0bdafbebfb.jsonld Size 206
+2018/03/08 14:20:34 #185 would get http://www.bco-dmo.org/deployment/58691 
+2018/03/08 14:20:34 #72 Uploaded Bucket:wwwbco-dmoorg File:e0e0ffa25a4d6ebd30ded32851cf3ce1a4b235df.jsonld Size 206
+2018/03/08 14:20:34 #72 would get http://www.bco-dmo.org/deployment/58577 
+2018/03/08 14:20:34 #29 Uploaded Bucket:wwwbco-dmoorg File:2c4087b0463e6acebc3d73676a7c90aa2b3701ce.jsonld Size 206
+2018/03/08 14:20:34 #29 would get http://www.bco-dmo.org/deployment/58527 
+2018/03/08 14:20:35 #11 Uploaded Bucket:wwwbco-dmoorg File:af5c4cc316ba34a950763acd1b438df525f8a304.jsonld Size 206
+2018/03/08 14:20:35 #11 would get http://www.bco-dmo.org/deployment/58509 
+2018/03/08 14:20:35 #35 Uploaded Bucket:wwwbco-dmoorg File:274c0abac4f675792b90e0d38acaa814b84d3ae1.jsonld Size 206
+2018/03/08 14:20:35 #35 would get http://www.bco-dmo.org/deployment/58540 
+2018/03/08 14:20:35 #117 Uploaded Bucket:wwwbco-dmoorg File:b2e31d9b7348b24468150c8b37a9ca25d283ffe0.jsonld Size 206
+2018/03/08 14:20:35 #117 would get http://www.bco-dmo.org/deployment/58621 
+2018/03/08 14:20:35 #184 Uploaded Bucket:wwwbco-dmoorg File:708a3e992391b4be01ecc9b481f23c1f695a609c.jsonld Size 206
+2018/03/08 14:20:35 #184 would get http://www.bco-dmo.org/deployment/58690 
+2018/03/08 14:20:35 #224 Uploaded Bucket:wwwbco-dmoorg File:822dcc78c97dbe2a8e2c10d81401f7007c98b8e4.jsonld Size 206
+2018/03/08 14:20:35 #224 would get http://www.bco-dmo.org/deployment/58729 
+2018/03/08 14:20:35 #120 Uploaded Bucket:wwwbco-dmoorg File:269466ae4bd2d6a15d1deed6f9a42f4d8eeeb818.jsonld Size 206
+2018/03/08 14:20:35 #120 would get http://www.bco-dmo.org/deployment/58624 
+2018/03/08 14:20:35 #34 Uploaded Bucket:wwwbco-dmoorg File:27c5df54f39a64188f00a1ace0740e1eb4dd9173.jsonld Size 206
+2018/03/08 14:20:35 #34 would get http://www.bco-dmo.org/deployment/58539 
+2018/03/08 14:20:35 #196 Uploaded Bucket:wwwbco-dmoorg File:2ce1f878fc6113c6a5b909f8f70cd6ace3ee1aa4.jsonld Size 206
+2018/03/08 14:20:35 #196 would get http://www.bco-dmo.org/deployment/58701 
+2018/03/08 14:20:35 #12 Uploaded Bucket:wwwbco-dmoorg File:2fd1a4fcb94107c5567df584aaf025386224fd9c.jsonld Size 206
+2018/03/08 14:20:35 #12 would get http://www.bco-dmo.org/deployment/58510 
+2018/03/08 14:20:35 #119 Uploaded Bucket:wwwbco-dmoorg File:f7f2755595af09ee81997d41fa2944dbd5eb95ae.jsonld Size 206
+2018/03/08 14:20:35 #119 would get http://www.bco-dmo.org/deployment/58623 
+2018/03/08 14:20:35 #73 Uploaded Bucket:wwwbco-dmoorg File:c31eb7cee0974b6f06a3c06ccdee282091208aef.jsonld Size 206
+2018/03/08 14:20:35 #73 would get http://www.bco-dmo.org/deployment/58578 
+2018/03/08 14:20:36 #37 Uploaded Bucket:wwwbco-dmoorg File:a73be18a22e610e3677ac9322f8a75202eedf7d0.jsonld Size 206
+2018/03/08 14:20:36 #37 would get http://www.bco-dmo.org/deployment/58542 
+2018/03/08 14:20:36 #74 Uploaded Bucket:wwwbco-dmoorg File:d38e769798e4d77cde64ee9bf8896c6b473e03c9.jsonld Size 206
+2018/03/08 14:20:36 #74 would get http://www.bco-dmo.org/deployment/58579 
+2018/03/08 14:20:36 #116 Uploaded Bucket:wwwbco-dmoorg File:dd32a868ed3ee993b339a24a7227fa94bddead48.jsonld Size 206
+2018/03/08 14:20:36 #116 would get http://www.bco-dmo.org/deployment/58620 
+2018/03/08 14:20:36 #195 Uploaded Bucket:wwwbco-dmoorg File:4be889fc8b8aece218966e6d33f547e15a57c55a.jsonld Size 206
+2018/03/08 14:20:36 #195 would get http://www.bco-dmo.org/deployment/58700 
+2018/03/08 14:20:36 #197 Uploaded Bucket:wwwbco-dmoorg File:33cc9106a183870c6ad141d5e282baee7c767efa.jsonld Size 206
+2018/03/08 14:20:36 #197 would get http://www.bco-dmo.org/deployment/58702 
+2018/03/08 14:20:36 #38 Uploaded Bucket:wwwbco-dmoorg File:9c94dc50d5e2ef4b3b0fba37a88ceec700c02c23.jsonld Size 206
+2018/03/08 14:20:36 #38 would get http://www.bco-dmo.org/deployment/58543 
+2018/03/08 14:20:36 #199 Uploaded Bucket:wwwbco-dmoorg File:85dd939b49dcdfd91d22cc5e22309a1abdc5c68d.jsonld Size 206
+2018/03/08 14:20:36 #199 would get http://www.bco-dmo.org/deployment/58704 
+2018/03/08 14:20:36 #39 Uploaded Bucket:wwwbco-dmoorg File:e1e8f03352d398761182a2abf9b26b1f5a4a70d5.jsonld Size 206
+2018/03/08 14:20:36 #39 would get http://www.bco-dmo.org/deployment/58544 
+2018/03/08 14:20:37 #13 Uploaded Bucket:wwwbco-dmoorg File:beb91a27867956fb94091042974cfb7a24b90bfb.jsonld Size 206
+2018/03/08 14:20:37 #13 would get http://www.bco-dmo.org/deployment/58511 
+2018/03/08 14:20:37 #33 Uploaded Bucket:wwwbco-dmoorg File:9303aabb359bf90789022514c6bfba2d183c5814.jsonld Size 206
+2018/03/08 14:20:37 #33 would get http://www.bco-dmo.org/deployment/58538 
+2018/03/08 14:20:37 #41 Uploaded Bucket:wwwbco-dmoorg File:6dad92f0330b7d2109a0d0d355ddab337301f16e.jsonld Size 206
+2018/03/08 14:20:37 #41 would get http://www.bco-dmo.org/deployment/58546 
+2018/03/08 14:20:37 #40 Uploaded Bucket:wwwbco-dmoorg File:224e38073577bc16367350b276731f0ee8d8499f.jsonld Size 206
+2018/03/08 14:20:37 #40 would get http://www.bco-dmo.org/deployment/58545 
+2018/03/08 14:20:37 #14 Uploaded Bucket:wwwbco-dmoorg File:09051d301a6ead65fcb63824ee58d4972583f8ab.jsonld Size 206
+2018/03/08 14:20:37 #14 would get http://www.bco-dmo.org/deployment/58512 
+2018/03/08 14:20:37 #226 Uploaded Bucket:wwwbco-dmoorg File:eea44c6ecfb89bcc20ee2d73b7ffd5d53c588d54.jsonld Size 206
+2018/03/08 14:20:37 #226 would get http://www.bco-dmo.org/deployment/58732 
+2018/03/08 14:20:37 #122 Uploaded Bucket:wwwbco-dmoorg File:37be0aa05f13278288d69e10df7f2913e534caae.jsonld Size 206
+2018/03/08 14:20:37 #122 would get http://www.bco-dmo.org/deployment/58626 
+2018/03/08 14:20:37 #42 Uploaded Bucket:wwwbco-dmoorg File:381f99294747d45dfbe2d71a29b2e3c068828d07.jsonld Size 206
+2018/03/08 14:20:37 #42 would get http://www.bco-dmo.org/deployment/58547 
+2018/03/08 14:20:38 #15 Uploaded Bucket:wwwbco-dmoorg File:96347e0f570bd599c4dc5224897245bbf18eafb1.jsonld Size 206
+2018/03/08 14:20:38 #15 would get http://www.bco-dmo.org/deployment/58513 
+2018/03/08 14:20:38 #44 Uploaded Bucket:wwwbco-dmoorg File:776290cbb2aae86b85cb080b4e4a069e848205e0.jsonld Size 206
+2018/03/08 14:20:38 #44 would get http://www.bco-dmo.org/deployment/58549 
+2018/03/08 14:20:38 #227 Uploaded Bucket:wwwbco-dmoorg File:dd72be1163306a17c43baa465aa9928c1c945a09.jsonld Size 206
+2018/03/08 14:20:38 #227 would get http://www.bco-dmo.org/deployment/58733 
+2018/03/08 14:20:38 #16 Uploaded Bucket:wwwbco-dmoorg File:bf55f42e9c94a1e91a7729dabeeeef13f6c72ba7.jsonld Size 206
+2018/03/08 14:20:38 #16 would get http://www.bco-dmo.org/deployment/58514 
+2018/03/08 14:20:38 #27 Uploaded Bucket:wwwbco-dmoorg File:ad752b4f234740920146a416245494f27a720e62.jsonld Size 206
+2018/03/08 14:20:38 #27 would get http://www.bco-dmo.org/deployment/58525 
+2018/03/08 14:20:38 #43 Uploaded Bucket:wwwbco-dmoorg File:2b7f62da7e2103eedba1f869da18224aaec1a4df.jsonld Size 206
+2018/03/08 14:20:38 #43 would get http://www.bco-dmo.org/deployment/58548 
+2018/03/08 14:20:38 #78 Uploaded Bucket:wwwbco-dmoorg File:79e40fff505c9764d97de2a58448a769c7e6c218.jsonld Size 206
+2018/03/08 14:20:38 #78 would get http://www.bco-dmo.org/deployment/58583 
+2018/03/08 14:20:39 #201 Uploaded Bucket:wwwbco-dmoorg File:f0af7d19ef07be8735f11875db43404f450253ae.jsonld Size 206
+2018/03/08 14:20:39 #201 would get http://www.bco-dmo.org/deployment/58706 
+2018/03/08 14:20:39 #124 Uploaded Bucket:wwwbco-dmoorg File:94d87397066292e9285a3b6e27dda8825bfa6a34.jsonld Size 206
+2018/03/08 14:20:39 #124 would get http://www.bco-dmo.org/deployment/58628 
+2018/03/08 14:20:39 #187 Uploaded Bucket:wwwbco-dmoorg File:cf21d0917e7342d54a0d7bccabefe10f79d7f909.jsonld Size 206
+2018/03/08 14:20:39 #187 would get http://www.bco-dmo.org/deployment/58693 
+2018/03/08 14:20:39 #36 Uploaded Bucket:wwwbco-dmoorg File:ce57f1c147204f3c95c337b3122b9938622f1347.jsonld Size 206
+2018/03/08 14:20:39 #36 would get http://www.bco-dmo.org/deployment/58541 
+2018/03/08 14:20:39 #123 Uploaded Bucket:wwwbco-dmoorg File:a951ea19c16e9fdab7b52e89cde5b634679857b1.jsonld Size 206
+2018/03/08 14:20:39 #123 would get http://www.bco-dmo.org/deployment/58627 
+2018/03/08 14:20:39 #198 Uploaded Bucket:wwwbco-dmoorg File:15ecedc2e9a31480ff2b7b47205b0ec1c0aa5899.jsonld Size 206
+2018/03/08 14:20:39 #198 would get http://www.bco-dmo.org/deployment/58703 
+2018/03/08 14:20:39 #17 Uploaded Bucket:wwwbco-dmoorg File:a97d963348a6da390176e9add78074005101e690.jsonld Size 206
+2018/03/08 14:20:39 #17 would get http://www.bco-dmo.org/deployment/58515 
+2018/03/08 14:20:39 #225 Uploaded Bucket:wwwbco-dmoorg File:cdee8353bc91e5af5965807c2717f5eda8a94169.jsonld Size 206
+2018/03/08 14:20:39 #225 would get http://www.bco-dmo.org/deployment/58731 
+2018/03/08 14:20:40 #279 Uploaded Bucket:wwwbco-dmoorg File:025f8f6943f23ef6ee216bc294d7afb930bfc190.jsonld Size 206
+2018/03/08 14:20:40 #279 would get http://www.bco-dmo.org/deployment/58785 
+2018/03/08 14:20:40 #202 Uploaded Bucket:wwwbco-dmoorg File:bc06a6dea7ef4425ff3e0041cef96c51e74956ec.jsonld Size 206
+2018/03/08 14:20:40 #202 would get http://www.bco-dmo.org/deployment/58707 
+2018/03/08 14:20:40 #228 Uploaded Bucket:wwwbco-dmoorg File:3070dd5f0822d8e522a6a6cbc101061ddf646d91.jsonld Size 206
+2018/03/08 14:20:40 #228 would get http://www.bco-dmo.org/deployment/58734 
+2018/03/08 14:20:40 #79 Uploaded Bucket:wwwbco-dmoorg File:7f13ec9e2e6887ac18bf95134ec421df7f963eb1.jsonld Size 206
+2018/03/08 14:20:40 #79 would get http://www.bco-dmo.org/deployment/58584 
+2018/03/08 14:20:40 #18 Uploaded Bucket:wwwbco-dmoorg File:ef2e64c6c42a3e34f1818f8bbcc42cdf6345de8d.jsonld Size 206
+2018/03/08 14:20:40 #18 would get http://www.bco-dmo.org/deployment/58516 
+2018/03/08 14:20:40 #229 Uploaded Bucket:wwwbco-dmoorg File:2d3fc3e26343182477ec8a502144798de458b50d.jsonld Size 206
+2018/03/08 14:20:40 #229 would get http://www.bco-dmo.org/deployment/58735 
+2018/03/08 14:20:40 #80 Uploaded Bucket:wwwbco-dmoorg File:fa4fc0f8873d71d28cef61263dfbc929a23f1af8.jsonld Size 206
+2018/03/08 14:20:40 #80 would get http://www.bco-dmo.org/deployment/58585 
+2018/03/08 14:20:40 #46 Uploaded Bucket:wwwbco-dmoorg File:34460bdd28a999375b439bcb2d483700d7608e47.jsonld Size 206
+2018/03/08 14:20:40 #46 would get http://www.bco-dmo.org/deployment/58551 
+2018/03/08 14:20:40 #203 Uploaded Bucket:wwwbco-dmoorg File:cef6e4de9dd90d9f20b5e1f4613a225b4413b8c4.jsonld Size 206
+2018/03/08 14:20:40 #203 would get http://www.bco-dmo.org/deployment/58708 
+2018/03/08 14:20:40 #125 Uploaded Bucket:wwwbco-dmoorg File:49338f127d0e0465e03f76ac5b6a74f8cd986a93.jsonld Size 206
+2018/03/08 14:20:40 #125 would get http://www.bco-dmo.org/deployment/58629 
+2018/03/08 14:20:40 #47 Uploaded Bucket:wwwbco-dmoorg File:8402ae58ddad571563829d3e0b7701aaadf521ce.jsonld Size 206
+2018/03/08 14:20:40 #47 would get http://www.bco-dmo.org/deployment/58552 
+2018/03/08 14:20:41 #230 Uploaded Bucket:wwwbco-dmoorg File:5a1c4b153e938f01592c9aaacb3bb06be6b43b54.jsonld Size 206
+2018/03/08 14:20:41 #230 would get http://www.bco-dmo.org/deployment/58736 
+2018/03/08 14:20:41 #126 Uploaded Bucket:wwwbco-dmoorg File:280d28b521b635aef824490f00b7d54f4cba25d4.jsonld Size 206
+2018/03/08 14:20:41 #126 would get http://www.bco-dmo.org/deployment/58630 
+2018/03/08 14:20:41 #118 Uploaded Bucket:wwwbco-dmoorg File:3e69ea8c62338fa443e4a873d73daa6d62864087.jsonld Size 206
+2018/03/08 14:20:41 #118 would get http://www.bco-dmo.org/deployment/58622 
+2018/03/08 14:20:41 #75 Uploaded Bucket:wwwbco-dmoorg File:9caf410e4f3cccedd9a2db6d03e858d8506c9063.jsonld Size 206
+2018/03/08 14:20:41 #75 would get http://www.bco-dmo.org/deployment/58580 
+2018/03/08 14:20:41 #121 Uploaded Bucket:wwwbco-dmoorg File:585f2a74c805bbbafb6b9219924a0691da9e574d.jsonld Size 206
+2018/03/08 14:20:41 #121 would get http://www.bco-dmo.org/deployment/58625 
+2018/03/08 14:20:41 #81 Uploaded Bucket:wwwbco-dmoorg File:5d02276bff2467e73f91d37ef5a925762be14070.jsonld Size 206
+2018/03/08 14:20:41 #81 would get http://www.bco-dmo.org/deployment/58586 
+2018/03/08 14:20:41 #204 Uploaded Bucket:wwwbco-dmoorg File:4b55e7608563f2cc956f968c635e97fa9dd2ca65.jsonld Size 206
+2018/03/08 14:20:41 #204 would get http://www.bco-dmo.org/deployment/58709 
+2018/03/08 14:20:41 #77 Uploaded Bucket:wwwbco-dmoorg File:e441f010862777ba27b0a96586f181b73dea38fc.jsonld Size 206
+2018/03/08 14:20:41 #77 would get http://www.bco-dmo.org/deployment/58582 
+2018/03/08 14:20:41 #76 Uploaded Bucket:wwwbco-dmoorg File:6a8d8b474062c2e330a488899c2e8dfa5dd21064.jsonld Size 206
+2018/03/08 14:20:41 #76 would get http://www.bco-dmo.org/deployment/58581 
+2018/03/08 14:20:41 #68 Uploaded Bucket:wwwbco-dmoorg File:2723c3955a8439659e40aea36e95a04c1ab6712f.jsonld Size 206
+2018/03/08 14:20:41 #68 would get http://www.bco-dmo.org/deployment/58573 
+2018/03/08 14:20:41 #127 Uploaded Bucket:wwwbco-dmoorg File:861c147b6df62d95cbfa9653586ba3d7d7a5b9a6.jsonld Size 206
+2018/03/08 14:20:41 #127 would get http://www.bco-dmo.org/deployment/58631 
+2018/03/08 14:20:42 #49 Uploaded Bucket:wwwbco-dmoorg File:f4bc97176eebbb5e0c3b7d3f99a4a69a1830df38.jsonld Size 206
+2018/03/08 14:20:42 #49 would get http://www.bco-dmo.org/deployment/58554 
+2018/03/08 14:20:42 #205 Uploaded Bucket:wwwbco-dmoorg File:2319349a3a4fbaa8e09f4bde21e6f6971a70f968.jsonld Size 206
+2018/03/08 14:20:42 #205 would get http://www.bco-dmo.org/deployment/58710 
+2018/03/08 14:20:42 #231 Uploaded Bucket:wwwbco-dmoorg File:8a14417987b1ea2fad9fab0a631cd7b3cf1b5a35.jsonld Size 206
+2018/03/08 14:20:42 #231 would get http://www.bco-dmo.org/deployment/58737 
+2018/03/08 14:20:42 #206 Uploaded Bucket:wwwbco-dmoorg File:5b66ac918dd47f0aed918d896e2fd1d5b4e8ac88.jsonld Size 206
+2018/03/08 14:20:42 #206 would get http://www.bco-dmo.org/deployment/58711 
+2018/03/08 14:20:42 #280 Uploaded Bucket:wwwbco-dmoorg File:87bd9858114698a93f358d8e39140810885bddb0.jsonld Size 206
+2018/03/08 14:20:42 #280 would get http://www.bco-dmo.org/deployment/58786 
+2018/03/08 14:20:43 #82 Uploaded Bucket:wwwbco-dmoorg File:249e132536491062e6a8c1a10d0e4ad5492f341a.jsonld Size 206
+2018/03/08 14:20:43 #82 would get http://www.bco-dmo.org/deployment/58587 
+2018/03/08 14:20:43 #83 Uploaded Bucket:wwwbco-dmoorg File:328121514bd699f49d5310e69a9ee2b36e2375d2.jsonld Size 206
+2018/03/08 14:20:43 #83 would get http://www.bco-dmo.org/deployment/58588 
+2018/03/08 14:20:43 #128 Uploaded Bucket:wwwbco-dmoorg File:7b19018c3a665300ca5aff7bb8f4c5f22d045732.jsonld Size 206
+2018/03/08 14:20:43 #128 would get http://www.bco-dmo.org/deployment/58632 
+2018/03/08 14:20:43 #326 Uploaded Bucket:wwwbco-dmoorg File:f337bcf3f5813db1777404f0d5a28a2176f0d879.jsonld Size 206
+2018/03/08 14:20:43 #326 would get http://www.bco-dmo.org/deployment/58831 
+2018/03/08 14:20:43 #282 Uploaded Bucket:wwwbco-dmoorg File:f570ad76fadde1da693a871b41eb2ce4d7707207.jsonld Size 206
+2018/03/08 14:20:43 #282 would get http://www.bco-dmo.org/deployment/58788 
+2018/03/08 14:20:43 #233 Uploaded Bucket:wwwbco-dmoorg File:224cd7f19c047fd18fb1503e1e3c29d0c036e889.jsonld Size 206
+2018/03/08 14:20:43 #233 would get http://www.bco-dmo.org/deployment/58739 
+2018/03/08 14:20:44 #234 Uploaded Bucket:wwwbco-dmoorg File:6edb1581596a2b1f8c089a4eaf9064c165cac027.jsonld Size 206
+2018/03/08 14:20:44 #234 would get http://www.bco-dmo.org/deployment/58740 
+2018/03/08 14:20:44 #129 Uploaded Bucket:wwwbco-dmoorg File:bf909865132f08d121d2198fbf3743495f826300.jsonld Size 206
+2018/03/08 14:20:44 #129 would get http://www.bco-dmo.org/deployment/58633 
+2018/03/08 14:20:44 #10 Uploaded Bucket:wwwbco-dmoorg File:7533ff515fdc6826aeb38d12905ab7b77a4235e4.jsonld Size 206
+2018/03/08 14:20:44 #10 would get http://www.bco-dmo.org/deployment/58508 
+2018/03/08 14:20:44 #51 Uploaded Bucket:wwwbco-dmoorg File:199e37964b805efbe827fe1dc57ad680550305c4.jsonld Size 206
+2018/03/08 14:20:44 #51 would get http://www.bco-dmo.org/deployment/58556 
+2018/03/08 14:20:44 #85 Uploaded Bucket:wwwbco-dmoorg File:7ecb869f0cd18870480ee7b0228bf5d22a30590c.jsonld Size 206
+2018/03/08 14:20:44 #85 would get http://www.bco-dmo.org/deployment/58590 
+2018/03/08 14:20:44 #84 Uploaded Bucket:wwwbco-dmoorg File:026dc01d6801757dfd8e613c55bd8356d2f2b05e.jsonld Size 206
+2018/03/08 14:20:44 #84 would get http://www.bco-dmo.org/deployment/58589 
+2018/03/08 14:20:44 #208 Uploaded Bucket:wwwbco-dmoorg File:f627386038bd4bc91eb9b3cc1232d9230703c04c.jsonld Size 206
+2018/03/08 14:20:44 #208 would get http://www.bco-dmo.org/deployment/58713 
+2018/03/08 14:20:44 #235 Uploaded Bucket:wwwbco-dmoorg File:9fde7696ada8df66bf1c65364a2f3cae64af0789.jsonld Size 206
+2018/03/08 14:20:44 #235 would get http://www.bco-dmo.org/deployment/58741 
+2018/03/08 14:20:45 #284 Uploaded Bucket:wwwbco-dmoorg File:21184c3c62f988299f2a43118aea511a420e4a09.jsonld Size 206
+2018/03/08 14:20:45 #284 would get http://www.bco-dmo.org/deployment/58790 
+2018/03/08 14:20:45 #209 Uploaded Bucket:wwwbco-dmoorg File:45b70c49d953cb25bb4e2b9937c1e192c5292488.jsonld Size 206
+2018/03/08 14:20:45 #209 would get http://www.bco-dmo.org/deployment/58714 
+2018/03/08 14:20:45 #258 Uploaded Bucket:wwwbco-dmoorg File:090b75e52205fdccbb69bfa43418a4a7672860a5.jsonld Size 206
+2018/03/08 14:20:45 #258 would get http://www.bco-dmo.org/deployment/58764 
+2018/03/08 14:20:45 #52 Uploaded Bucket:wwwbco-dmoorg File:b34028e6eba58c15fa67b5d3df2ca6c7b5cd3637.jsonld Size 206
+2018/03/08 14:20:45 #52 would get http://www.bco-dmo.org/deployment/58557 
+2018/03/08 14:20:45 #86 Uploaded Bucket:wwwbco-dmoorg File:b9b5872b7fb81fafee6d24366f22d82dcbac4bc3.jsonld Size 206
+2018/03/08 14:20:45 #86 would get http://www.bco-dmo.org/deployment/58591 
+2018/03/08 14:20:45 #48 Uploaded Bucket:wwwbco-dmoorg File:79cc181c99f09f7cb2259c28f64f3af3217ebe09.jsonld Size 206
+2018/03/08 14:20:45 #48 would get http://www.bco-dmo.org/deployment/58553 
+2018/03/08 14:20:45 #45 Uploaded Bucket:wwwbco-dmoorg File:afc0a761b0d11617f1b6c5fe1974033f9e23eb91.jsonld Size 206
+2018/03/08 14:20:45 #45 would get http://www.bco-dmo.org/deployment/58550 
+2018/03/08 14:20:45 #131 Uploaded Bucket:wwwbco-dmoorg File:bcb426cca220e8946e45c30f793e773254d94380.jsonld Size 206
+2018/03/08 14:20:45 #131 would get http://www.bco-dmo.org/deployment/58635 
+2018/03/08 14:20:45 #53 Uploaded Bucket:wwwbco-dmoorg File:6536acb49451fa6e495918553242f24ec816ad29.jsonld Size 206
+2018/03/08 14:20:45 #53 would get http://www.bco-dmo.org/deployment/58558 
+2018/03/08 14:20:45 #207 Uploaded Bucket:wwwbco-dmoorg File:e1e9bbf7efdc22036320fa875ee88b3d75eaa11f.jsonld Size 206
+2018/03/08 14:20:45 #207 would get http://www.bco-dmo.org/deployment/58712 
+2018/03/08 14:20:46 #283 Uploaded Bucket:wwwbco-dmoorg File:36b75f6014c6aa6cb5cf65395ab3f01d40c6ed97.jsonld Size 206
+2018/03/08 14:20:46 #283 would get http://www.bco-dmo.org/deployment/58789 
+2018/03/08 14:20:46 #87 Uploaded Bucket:wwwbco-dmoorg File:89ddc0c3412d324682dfda323c5bf170c4bfd4ea.jsonld Size 206
+2018/03/08 14:20:46 #87 would get http://www.bco-dmo.org/deployment/58592 
+2018/03/08 14:20:46 #54 Uploaded Bucket:wwwbco-dmoorg File:d2c1b44995cc289fc4a016824a8ebcb045d75b98.jsonld Size 206
+2018/03/08 14:20:46 #54 would get http://www.bco-dmo.org/deployment/58559 
+2018/03/08 14:20:46 #210 Uploaded Bucket:wwwbco-dmoorg File:d81b5d8a07d871c2d553aa31dcd4d83686361c2a.jsonld Size 206
+2018/03/08 14:20:46 #210 would get http://www.bco-dmo.org/deployment/58715 
+2018/03/08 14:20:46 #132 Uploaded Bucket:wwwbco-dmoorg File:c42fe6444fe86a9a0342dcbf6ec263d5e47d9d75.jsonld Size 206
+2018/03/08 14:20:46 #132 would get http://www.bco-dmo.org/deployment/58636 
+2018/03/08 14:20:46 #238 Uploaded Bucket:wwwbco-dmoorg File:edda4c7a4cdf56407dd2c661c4f9b10ba83dae27.jsonld Size 206
+2018/03/08 14:20:46 #238 would get http://www.bco-dmo.org/deployment/58744 
+2018/03/08 14:20:46 #88 Uploaded Bucket:wwwbco-dmoorg File:e5dfe0164f50e9e255ab0db93981e5ab03867b0a.jsonld Size 206
+2018/03/08 14:20:46 #88 would get http://www.bco-dmo.org/deployment/58593 
+2018/03/08 14:20:46 #55 Uploaded Bucket:wwwbco-dmoorg File:3d82068e473db3f959340278b1e92004c981f974.jsonld Size 206
+2018/03/08 14:20:46 #55 would get http://www.bco-dmo.org/deployment/58560 
+2018/03/08 14:20:47 #56 Uploaded Bucket:wwwbco-dmoorg File:ef71187fd0e8dc29324581b914a06ead4567cbbb.jsonld Size 206
+2018/03/08 14:20:47 #56 would get http://www.bco-dmo.org/deployment/58561 
+2018/03/08 14:20:47 #89 Uploaded Bucket:wwwbco-dmoorg File:6413be35edbf145292a06026aed19621a9825f96.jsonld Size 206
+2018/03/08 14:20:47 #89 would get http://www.bco-dmo.org/deployment/58594 
+2018/03/08 14:20:47 #239 Uploaded Bucket:wwwbco-dmoorg File:079845d312a6569238edf6833ebcda6ccf4430f3.jsonld Size 206
+2018/03/08 14:20:47 #239 would get http://www.bco-dmo.org/deployment/58745 
+2018/03/08 14:20:47 #133 Uploaded Bucket:wwwbco-dmoorg File:66f8087732427672f7836441c17affce59d3d9ea.jsonld Size 206
+2018/03/08 14:20:47 #133 would get http://www.bco-dmo.org/deployment/58637 
+2018/03/08 14:20:47 #281 Uploaded Bucket:wwwbco-dmoorg File:9c8665d122be52e3408596d07b0a003486767f7d.jsonld Size 206
+2018/03/08 14:20:47 #281 would get http://www.bco-dmo.org/deployment/58787 
+2018/03/08 14:20:47 #90 Uploaded Bucket:wwwbco-dmoorg File:8f55560ef527d8256d956fcff2a24e690d57c561.jsonld Size 206
+2018/03/08 14:20:47 #90 would get http://www.bco-dmo.org/deployment/58595 
+2018/03/08 14:20:47 #135 Uploaded Bucket:wwwbco-dmoorg File:70244d48015f76cd263d4fd8c21722f8ffd4f78f.jsonld Size 206
+2018/03/08 14:20:47 #135 would get http://www.bco-dmo.org/deployment/58639 
+2018/03/08 14:20:47 #212 Uploaded Bucket:wwwbco-dmoorg File:d7d6ff41f5b4db3e0d7ad2c1f49dbee042144ccf.jsonld Size 206
+2018/03/08 14:20:47 #212 would get http://www.bco-dmo.org/deployment/58717 
+2018/03/08 14:20:48 #240 Uploaded Bucket:wwwbco-dmoorg File:20508e4b227cf5d333defb535b3c0f629ef44e1e.jsonld Size 206
+2018/03/08 14:20:48 #240 would get http://www.bco-dmo.org/deployment/58746 
+2018/03/08 14:20:48 #57 Uploaded Bucket:wwwbco-dmoorg File:93d9dc5883c9291ad800781282c5af01112b793b.jsonld Size 206
+2018/03/08 14:20:48 #57 would get http://www.bco-dmo.org/deployment/58562 
+2018/03/08 14:20:48 #211 Uploaded Bucket:wwwbco-dmoorg File:f449f6101269840f3b9018936540c7eb64334b13.jsonld Size 206
+2018/03/08 14:20:48 #211 would get http://www.bco-dmo.org/deployment/58716 
+2018/03/08 14:20:48 #50 Uploaded Bucket:wwwbco-dmoorg File:196a77836cdeac28f59ae6141a50d3eb1f6bee12.jsonld Size 206
+2018/03/08 14:20:48 #50 would get http://www.bco-dmo.org/deployment/58555 
+2018/03/08 14:20:49 #138 Uploaded Bucket:wwwbco-dmoorg File:44097d84d4f31390d645f2898bad7879ab8e3ce7.jsonld Size 206
+2018/03/08 14:20:49 #138 would get http://www.bco-dmo.org/deployment/58642 
+2018/03/08 14:20:49 #91 Uploaded Bucket:wwwbco-dmoorg File:f1886ef89f8b2378ee10ca9cc33f23a37f30b9e7.jsonld Size 206
+2018/03/08 14:20:49 #91 would get http://www.bco-dmo.org/deployment/58596 
+2018/03/08 14:20:49 #214 Uploaded Bucket:wwwbco-dmoorg File:ed36959f328859513223941f241efaeebc6b50c6.jsonld Size 206
+2018/03/08 14:20:49 #214 would get http://www.bco-dmo.org/deployment/58719 
+2018/03/08 14:20:49 #59 Uploaded Bucket:wwwbco-dmoorg File:e700eaa36d23caee8f6a9a75bb99c1507f4b6fc9.jsonld Size 206
+2018/03/08 14:20:49 #59 would get http://www.bco-dmo.org/deployment/58564 
+2018/03/08 14:20:49 #289 Uploaded Bucket:wwwbco-dmoorg File:d6577f3ed39da88e5a681f46bc929dbd0b032dfc.jsonld Size 206
+2018/03/08 14:20:49 #289 would get http://www.bco-dmo.org/deployment/58795 
+2018/03/08 14:20:49 #232 Uploaded Bucket:wwwbco-dmoorg File:309407888d7557b996d7a7ad17aeb7421d3422f2.jsonld Size 206
+2018/03/08 14:20:49 #232 would get http://www.bco-dmo.org/deployment/58738 
+2018/03/08 14:20:50 #242 Uploaded Bucket:wwwbco-dmoorg File:6f63dd35152df724701f1263c261127dda19360e.jsonld Size 206
+2018/03/08 14:20:50 #242 would get http://www.bco-dmo.org/deployment/58748 
+2018/03/08 14:20:50 #60 Uploaded Bucket:wwwbco-dmoorg File:94680cdf5651dbf6486e9110cd90f7d89b78e3cc.jsonld Size 206
+2018/03/08 14:20:50 #60 would get http://www.bco-dmo.org/deployment/58565 
+2018/03/08 14:20:50 #139 Uploaded Bucket:wwwbco-dmoorg File:02b2681001b3c44765c1546d01ef296fd55eb771.jsonld Size 206
+2018/03/08 14:20:50 #139 would get http://www.bco-dmo.org/deployment/58643 
+2018/03/08 14:20:51 #290 Uploaded Bucket:wwwbco-dmoorg File:c5b2b31fb4b7213af02fbd8de01a3b66ac316330.jsonld Size 206
+2018/03/08 14:20:51 #290 would get http://www.bco-dmo.org/deployment/58796 
+2018/03/08 14:20:51 #134 Uploaded Bucket:wwwbco-dmoorg File:52ff4913f3c9885885e89b485ce515e6a5f5aa6a.jsonld Size 206
+2018/03/08 14:20:51 #134 would get http://www.bco-dmo.org/deployment/58638 
+2018/03/08 14:20:51 #94 Uploaded Bucket:wwwbco-dmoorg File:8515e654cc577ba05fd165267548577f382aedf8.jsonld Size 206
+2018/03/08 14:20:51 #94 would get http://www.bco-dmo.org/deployment/58599 
+2018/03/08 14:20:51 #216 Uploaded Bucket:wwwbco-dmoorg File:0e7cb873004c7cecf7b57ff85fcfaee504d8884c.jsonld Size 206
+2018/03/08 14:20:51 #216 would get http://www.bco-dmo.org/deployment/58721 
+2018/03/08 14:20:52 #130 Uploaded Bucket:wwwbco-dmoorg File:6ce7f8f6194393fe683339a23c8e4844ae78b07b.jsonld Size 206
+2018/03/08 14:20:52 #130 would get http://www.bco-dmo.org/deployment/58634 
+2018/03/08 14:20:52 #291 Uploaded Bucket:wwwbco-dmoorg File:e9dd9850eb4ddbe504e8dd1529eb1c74cda93220.jsonld Size 206
+2018/03/08 14:20:52 #291 would get http://www.bco-dmo.org/deployment/58797 
+2018/03/08 14:20:52 #61 Uploaded Bucket:wwwbco-dmoorg File:a9bbf28ac3b0cde821f959ac12d645a6073f6df2.jsonld Size 206
+2018/03/08 14:20:52 #61 would get http://www.bco-dmo.org/deployment/58566 
+2018/03/08 14:20:52 #288 Uploaded Bucket:wwwbco-dmoorg File:3ca64735707a020ccbfb01d8b9102038a415fa95.jsonld Size 206
+2018/03/08 14:20:52 #288 would get http://www.bco-dmo.org/deployment/58794 
+2018/03/08 14:20:52 #137 Uploaded Bucket:wwwbco-dmoorg File:a33c3b43146228c1b7e9acd73bad01d18f3078b8.jsonld Size 206
+2018/03/08 14:20:52 #137 would get http://www.bco-dmo.org/deployment/58641 
+2018/03/08 14:20:53 #93 Uploaded Bucket:wwwbco-dmoorg File:c50c11f70804816706c3042ddbf2ab53d1d86045.jsonld Size 206
+2018/03/08 14:20:53 #93 would get http://www.bco-dmo.org/deployment/58598 
+2018/03/08 14:20:53 #217 Uploaded Bucket:wwwbco-dmoorg File:3989a01adad801f36130c96a94b2a788e3c872c0.jsonld Size 206
+2018/03/08 14:20:53 #217 would get http://www.bco-dmo.org/deployment/58722 
+2018/03/08 14:20:53 #62 Uploaded Bucket:wwwbco-dmoorg File:3ef54ffdf27acd11990dd45b58e44db21d1858dc.jsonld Size 206
+2018/03/08 14:20:53 #62 would get http://www.bco-dmo.org/deployment/58567 
+2018/03/08 14:20:53 #285 Uploaded Bucket:wwwbco-dmoorg File:b4b9ec28e52c1e52f0a90dc80bf5ea2279733726.jsonld Size 206
+2018/03/08 14:20:53 #285 would get http://www.bco-dmo.org/deployment/58791 
+2018/03/08 14:20:53 #292 Uploaded Bucket:wwwbco-dmoorg File:f48a9b4c9a8c588841d02e2e14ad149e0c0a964c.jsonld Size 206
+2018/03/08 14:20:53 #292 would get http://www.bco-dmo.org/deployment/58798 
+2018/03/08 14:20:53 #140 Uploaded Bucket:wwwbco-dmoorg File:4e4711411e4ff4d9e1b9392a5eab9d3dc9c0e0f8.jsonld Size 206
+2018/03/08 14:20:53 #140 would get http://www.bco-dmo.org/deployment/58644 
+2018/03/08 14:20:53 #63 Uploaded Bucket:wwwbco-dmoorg File:d6e43fceb053747093bc1e8c311a436eed2ca723.jsonld Size 206
+2018/03/08 14:20:53 #63 would get http://www.bco-dmo.org/deployment/58568 
+2018/03/08 14:20:53 #236 Uploaded Bucket:wwwbco-dmoorg File:ae632aea1008af3d25f0340fd6d674f8501016a5.jsonld Size 206
+2018/03/08 14:20:53 #236 would get http://www.bco-dmo.org/deployment/58742 
+2018/03/08 14:20:54 #237 Uploaded Bucket:wwwbco-dmoorg File:dda957469cf30443255d07e108411a9ac4e0cb5a.jsonld Size 206
+2018/03/08 14:20:54 #237 would get http://www.bco-dmo.org/deployment/58743 
+2018/03/08 15:08:04 Start time: 2018-03-08 15:08:04.364224122 -0600 CST m=+0.001933314 
+2018/03/08 15:08:04 Opening source list file: ./sources.txt 
+2018/03/08 15:08:04 opentopographyorg
+2018/03/08 15:08:04 Building buckets
+2018/03/08 15:08:04 Successfully created opentopographyorg
+2018/03/08 15:08:04 Act on URL's for opentopographyorg
+2018/03/08 15:08:06 #0 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:06 #0 would get http://opentopography.org 
+2018/03/08 15:08:06 #22 Uploaded Bucket:opentopographyorg File:5d659440467652fb1afe6038d66978bc01ce3ac2.jsonld Size 4480
+2018/03/08 15:08:06 #22 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26910.2 
+2018/03/08 15:08:06 #17 Uploaded Bucket:opentopographyorg File:5d126133ab8562ea5c6ff46138acefd0d97573db.jsonld Size 4320
+2018/03/08 15:08:06 #17 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052017.2193.1 
+2018/03/08 15:08:06 #19 Uploaded Bucket:opentopographyorg File:98353e18cd2eeddddb0402c1de0a46c552b052d3.jsonld Size 4811
+2018/03/08 15:08:06 #19 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042017.2193.2 
+2018/03/08 15:08:06 #27 Uploaded Bucket:opentopographyorg File:1821fd8a4e48d8cfb076fc76c73c9bfc9f9ae9a0.jsonld Size 4908
+2018/03/08 15:08:06 #27 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.2193.1 
+2018/03/08 15:08:06 #23 Uploaded Bucket:opentopographyorg File:7f0022d333cf25cb2e47cef269d1c8abba8b49df.jsonld Size 4992
+2018/03/08 15:08:06 #23 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042017.2193.1 
+2018/03/08 15:08:06 #25 Uploaded Bucket:opentopographyorg File:e9de481a66819073fc8af914874153d1d7768a5f.jsonld Size 5155
+2018/03/08 15:08:06 #25 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.26910.2 
+2018/03/08 15:08:06 #18 Uploaded Bucket:opentopographyorg File:84a857cfc7fa3bcca111b68ac0cd868eb9157082.jsonld Size 3818
+2018/03/08 15:08:06 #18 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052017.26913.1 
+2018/03/08 15:08:06 #26 Uploaded Bucket:opentopographyorg File:a138b92fa3d431e2700a53fe38fe521e8ef5d5e7.jsonld Size 5155
+2018/03/08 15:08:06 #26 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.26910.1 
+2018/03/08 15:08:06 #10 Uploaded Bucket:opentopographyorg File:93c61105f6d986852406f5c92d3b6a824a11eecb.jsonld Size 3933
+2018/03/08 15:08:06 #10 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26912.1 
+2018/03/08 15:08:06 #24 Uploaded Bucket:opentopographyorg File:88a6be61a215b726b9f485442aae83413164bbe9.jsonld Size 3760
+2018/03/08 15:08:06 #24 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.26911.1 
+2018/03/08 15:08:06 #29 Uploaded Bucket:opentopographyorg File:90939fa8a903796c9a21edc197f80e4e1b616d71.jsonld Size 5272
+2018/03/08 15:08:06 #29 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022017.26910.2 
+2018/03/08 15:08:06 #20 Uploaded Bucket:opentopographyorg File:d616647239894caf56e670be27acaa727d86800b.jsonld Size 5463
+2018/03/08 15:08:06 #20 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26910.1 
+2018/03/08 15:08:06 #30 Uploaded Bucket:opentopographyorg File:8d1cd69870e81601b33e47e71a3885f1cdbd4e6b.jsonld Size 5271
+2018/03/08 15:08:06 #30 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26915.1 
+2018/03/08 15:08:06 #8 Uploaded Bucket:opentopographyorg File:53e5fd1298d76b3d6d20d7e729550de30e02dc31.jsonld Size 3981
+2018/03/08 15:08:06 #8 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26912.2 
+2018/03/08 15:08:06 #9 Uploaded Bucket:opentopographyorg File:ead55f776e984ff1d35dd5d2a95f46b7353ac591.jsonld Size 3902
+2018/03/08 15:08:06 #9 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26910.1 
+2018/03/08 15:08:07 #28 Uploaded Bucket:opentopographyorg File:4b9cde7274d40e75e1d0db4b9835eb380490f163.jsonld Size 5421
+2018/03/08 15:08:07 #28 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022017.26910.3 
+2018/03/08 15:08:07 #1 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:07 #1 would get http://opentopography.org/about 
+2018/03/08 15:08:07 #32 Uploaded Bucket:opentopographyorg File:5282a45e2b7ac4e92afb728f3b2d3b8421a4f1d1.jsonld Size 4998
+2018/03/08 15:08:07 #32 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26916.1 
+2018/03/08 15:08:07 #31 Uploaded Bucket:opentopographyorg File:26b4a54e022960eb6196e24751c563593bf7bb0d.jsonld Size 5338
+2018/03/08 15:08:07 #31 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26915.1b 
+2018/03/08 15:08:07 #38 Uploaded Bucket:opentopographyorg File:62d9e4a8b7f773f97305ee6c76164fc0556e3235.jsonld Size 4655
+2018/03/08 15:08:07 #38 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26916.1b 
+2018/03/08 15:08:07 #37 Uploaded Bucket:opentopographyorg File:4cdddd22bc11c0097e5a0b2b5275aad549e83216.jsonld Size 4873
+2018/03/08 15:08:07 #37 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.3 
+2018/03/08 15:08:07 #34 Uploaded Bucket:opentopographyorg File:0a7f7875cb8245e0c9e03952af1db51a376308ab.jsonld Size 4894
+2018/03/08 15:08:07 #34 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.2 
+2018/03/08 15:08:07 #6 Uploaded Bucket:opentopographyorg File:364653f0e2b57754025ac8ac631247a6fbd3c834.jsonld Size 3882
+2018/03/08 15:08:07 #6 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26914.1 
+2018/03/08 15:08:07 #40 Uploaded Bucket:opentopographyorg File:092c4783fa38d25ec8952ebc5b74ab8eb0e0e4a6.jsonld Size 4057
+2018/03/08 15:08:07 #40 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.3b 
+2018/03/08 15:08:07 #14 Uploaded Bucket:opentopographyorg File:055f1e9d280cdb9e22bd6fa7a4b289fe1980555c.jsonld Size 4798
+2018/03/08 15:08:07 #14 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26913.3 
+2018/03/08 15:08:07 #35 Uploaded Bucket:opentopographyorg File:e109ef674feeece2ad11861f35dde58bf04c02c0.jsonld Size 5000
+2018/03/08 15:08:07 #35 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.6 
+2018/03/08 15:08:07 #39 Uploaded Bucket:opentopographyorg File:161649b98c42f22dc524f339ed96a0a3199165ef.jsonld Size 4830
+2018/03/08 15:08:07 #39 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.1 
+2018/03/08 15:08:07 #12 Uploaded Bucket:opentopographyorg File:aeb268db61adae8eec13ea9618e318e1610cfc2d.jsonld Size 3742
+2018/03/08 15:08:07 #12 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26910.1 
+2018/03/08 15:08:08 #5 Uploaded Bucket:opentopographyorg File:e45f7c607f7f7ca3df70c62e0e27bdf7cd7a2713.jsonld Size 4946
+2018/03/08 15:08:08 #5 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012018.32641.1 
+2018/03/08 15:08:08 #53 Uploaded Bucket:opentopographyorg File:b7787101da2918ff88624ab26204855d9e54627a.jsonld Size 3969
+2018/03/08 15:08:08 #53 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092016.26911.1 
+2018/03/08 15:08:08 #54 Uploaded Bucket:opentopographyorg File:ffa121dea74cc428ca560c740c8ada7ac7cc06d7.jsonld Size 3820
+2018/03/08 15:08:08 #54 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072016.32611.1 
+2018/03/08 15:08:08 #36 Uploaded Bucket:opentopographyorg File:711c93d1ca49f5fabdf394765397bcbc98d1b463.jsonld Size 5294
+2018/03/08 15:08:08 #36 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.5 
+2018/03/08 15:08:08 #11 Uploaded Bucket:opentopographyorg File:fc343ac8c0c95b10fe0b372158d0a28803a8f42c.jsonld Size 3828
+2018/03/08 15:08:08 #11 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052017.32611.1 
+2018/03/08 15:08:08 #63 Uploaded Bucket:opentopographyorg File:0cc9b49b9c23eb831029b42f3bf107e257410ed6.jsonld Size 5021
+2018/03/08 15:08:08 #63 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062016.32648.1 
+2018/03/08 15:08:08 #55 Uploaded Bucket:opentopographyorg File:0165a38aed942ef6d6bbfc4494a056ab0619fddc.jsonld Size 6740
+2018/03/08 15:08:08 #55 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.26913.3 
+2018/03/08 15:08:08 #65 Uploaded Bucket:opentopographyorg File:d1995a68b77e4f7a047bb598a595675592a6343e.jsonld Size 4055
+2018/03/08 15:08:08 #65 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.3 
+2018/03/08 15:08:08 #52 Uploaded Bucket:opentopographyorg File:1fe6e3b18f77121f3342cd28fe7320cacccd26a5.jsonld Size 3794
+2018/03/08 15:08:08 #52 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092016.26911.2 
+2018/03/08 15:08:08 #56 Uploaded Bucket:opentopographyorg File:28e10f90d775a4dce9bc2f7bcf52ddf02a2af9d2.jsonld Size 6733
+2018/03/08 15:08:08 #56 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.26913.2 
+2018/03/08 15:08:08 #41 Uploaded Bucket:opentopographyorg File:2bd5a2ee26137bf6ad8623de59d8ad80a8ba756b.jsonld Size 4070
+2018/03/08 15:08:08 #41 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.2b 
+2018/03/08 15:08:08 #13 Uploaded Bucket:opentopographyorg File:432882d733125bba8e7dfc30da43c53199c20c71.jsonld Size 3913
+2018/03/08 15:08:08 #13 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26911.1 
+2018/03/08 15:08:08 #58 Uploaded Bucket:opentopographyorg File:a2db7cebdc071afd7236720e3160bf157515732f.jsonld Size 5389
+2018/03/08 15:08:08 #58 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.32611.1 
+2018/03/08 15:08:09 #67 Uploaded Bucket:opentopographyorg File:209293778d7f390a10fb7e1b856f4034e9e14ebb.jsonld Size 3936
+2018/03/08 15:08:09 #67 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.1 
+2018/03/08 15:08:09 #60 Uploaded Bucket:opentopographyorg File:2fc7d4d242dd581d8b1761008d368e05f6eed4c5.jsonld Size 3755
+2018/03/08 15:08:09 #60 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072016.26917.1 
+2018/03/08 15:08:09 #57 Uploaded Bucket:opentopographyorg File:30253b225087c925f75c510b7d6acfa2e3876f06.jsonld Size 6734
+2018/03/08 15:08:09 #57 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.26913.1 
+2018/03/08 15:08:09 #64 Uploaded Bucket:opentopographyorg File:faf8a04a034f5d92a4682910aabb8d652c6891d3.jsonld Size 7102
+2018/03/08 15:08:09 #64 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092015.32611.1 
+2018/03/08 15:08:09 #42 Uploaded Bucket:opentopographyorg File:9c8635cc45cdb132874c0dfc216391d62b6fe210.jsonld Size 4374
+2018/03/08 15:08:09 #42 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26914.1b 
+2018/03/08 15:08:09 #43 Uploaded Bucket:opentopographyorg File:223e655319974256efb6c757f88a6193676dc0f9.jsonld Size 5501
+2018/03/08 15:08:09 #43 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112016.3294.1 
+2018/03/08 15:08:09 #2 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:09 #2 would get http://opentopography.org/blog 
+2018/03/08 15:08:09 #66 Uploaded Bucket:opentopographyorg File:12ea56d30472f8001fe9c1fa7ff4a104f794952e.jsonld Size 3861
+2018/03/08 15:08:09 #66 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26911.1 
+2018/03/08 15:08:09 #59 Uploaded Bucket:opentopographyorg File:c2e4067b245caaec313d7dfb0d71baf5de0afbe7.jsonld Size 4235
+2018/03/08 15:08:09 #59 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072016.26917.2 
+2018/03/08 15:08:09 #7 Uploaded Bucket:opentopographyorg File:a739d74dac3d062375d5ed206bb44d373d3c51ca.jsonld Size 4234
+2018/03/08 15:08:09 #7 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26911.1 
+2018/03/08 15:08:09 #48 Uploaded Bucket:opentopographyorg File:91301a36553c995e23621d999c335175629bb8ff.jsonld Size 3904
+2018/03/08 15:08:09 #48 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26911.1 
+2018/03/08 15:08:09 #21 Uploaded Bucket:opentopographyorg File:9686830e10b854e805693eeb2afb1c9460ded782.jsonld Size 5536
+2018/03/08 15:08:09 #21 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26910.1b 
+2018/03/08 15:08:09 #69 Uploaded Bucket:opentopographyorg File:87ffd594254d344ed0419d1a2244f926329437f7.jsonld Size 3871
+2018/03/08 15:08:09 #69 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042016.26913.1 
+2018/03/08 15:08:09 #47 Uploaded Bucket:opentopographyorg File:a556e54d23717de11156652f0ffe1336539b1877.jsonld Size 4539
+2018/03/08 15:08:09 #47 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.32615.1 
+2018/03/08 15:08:10 #3 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:10 #3 would get http://opentopography.org/contact 
+2018/03/08 15:08:26 Start time: 2018-03-08 15:08:26.726379392 -0600 CST m=+0.001979208 
+2018/03/08 15:08:26 Opening source list file: ./sources.txt 
+2018/03/08 15:08:26 opentopographyorg
+2018/03/08 15:08:27 Building buckets
+2018/03/08 15:08:27 We already own opentopographyorg
+2018/03/08 15:08:27 Successfully created opentopographyorg
+2018/03/08 15:08:27 Act on URL's for opentopographyorg
+2018/03/08 15:08:28 #15 Uploaded Bucket:opentopographyorg File:fa4d3d868bb44361479217a87de77372d2322ca7.jsonld Size 4794
+2018/03/08 15:08:28 #15 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26913.2 
+2018/03/08 15:08:28 #63 Uploaded Bucket:opentopographyorg File:0cc9b49b9c23eb831029b42f3bf107e257410ed6.jsonld Size 5021
+2018/03/08 15:08:28 #63 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062016.32648.1 
+2018/03/08 15:08:28 #16 Uploaded Bucket:opentopographyorg File:d84df909815cc1cdc5d89b9cd330a1afccd97f10.jsonld Size 4794
+2018/03/08 15:08:28 #16 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26913.1 
+2018/03/08 15:08:28 #64 Uploaded Bucket:opentopographyorg File:faf8a04a034f5d92a4682910aabb8d652c6891d3.jsonld Size 7102
+2018/03/08 15:08:28 #64 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092015.32611.1 
+2018/03/08 15:08:28 #85 Uploaded Bucket:opentopographyorg File:8162ebe0d41e40e2a8fd578696a9eed66b7efd02.jsonld Size 3862
+2018/03/08 15:08:28 #85 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26910.1 
+2018/03/08 15:08:28 #0 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:28 #0 would get http://opentopography.org 
+2018/03/08 15:08:28 #33 Uploaded Bucket:opentopographyorg File:b573c557e7a10670dc287e8b8686784960086080.jsonld Size 4909
+2018/03/08 15:08:28 #33 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.4 
+2018/03/08 15:08:28 #87 Uploaded Bucket:opentopographyorg File:fe308043bc7631e07798d62a9d13cf19bed7e5dc.jsonld Size 3944
+2018/03/08 15:08:28 #87 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26910.3 
+2018/03/08 15:08:28 #31 Uploaded Bucket:opentopographyorg File:26b4a54e022960eb6196e24751c563593bf7bb0d.jsonld Size 5338
+2018/03/08 15:08:28 #31 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26915.1b 
+2018/03/08 15:08:28 #86 Uploaded Bucket:opentopographyorg File:555f6cf12cbb476eefa150ddd84e07557c074779.jsonld Size 4034
+2018/03/08 15:08:28 #86 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26910.2 
+2018/03/08 15:08:28 #54 Uploaded Bucket:opentopographyorg File:ffa121dea74cc428ca560c740c8ada7ac7cc06d7.jsonld Size 3820
+2018/03/08 15:08:28 #54 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072016.32611.1 
+2018/03/08 15:08:28 #84 Uploaded Bucket:opentopographyorg File:bed4f2e481bec74d8b10c933080c9c2ebf687270.jsonld Size 4617
+2018/03/08 15:08:28 #84 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092014.26911.1 
+2018/03/08 15:08:28 #50 Uploaded Bucket:opentopographyorg File:c2a476b2620cefffd1cb37fc2471d35a263fe968.jsonld Size 3945
+2018/03/08 15:08:28 #50 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.2039.1 
+2018/03/08 15:08:28 #35 Uploaded Bucket:opentopographyorg File:e109ef674feeece2ad11861f35dde58bf04c02c0.jsonld Size 5000
+2018/03/08 15:08:28 #35 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.6 
+2018/03/08 15:08:28 #55 Uploaded Bucket:opentopographyorg File:0165a38aed942ef6d6bbfc4494a056ab0619fddc.jsonld Size 6740
+2018/03/08 15:08:28 #55 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.26913.3 
+2018/03/08 15:08:28 #57 Uploaded Bucket:opentopographyorg File:30253b225087c925f75c510b7d6acfa2e3876f06.jsonld Size 6734
+2018/03/08 15:08:28 #57 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.26913.1 
+2018/03/08 15:08:28 #83 Uploaded Bucket:opentopographyorg File:48324b9b7551ab5845a6a354b506aa09d2e32019.jsonld Size 4285
+2018/03/08 15:08:28 #83 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092014.26913.1 
+2018/03/08 15:08:29 #56 Uploaded Bucket:opentopographyorg File:28e10f90d775a4dce9bc2f7bcf52ddf02a2af9d2.jsonld Size 6733
+2018/03/08 15:08:29 #56 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.26913.2 
+2018/03/08 15:08:29 #52 Uploaded Bucket:opentopographyorg File:1fe6e3b18f77121f3342cd28fe7320cacccd26a5.jsonld Size 3794
+2018/03/08 15:08:29 #52 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092016.26911.2 
+2018/03/08 15:08:29 #53 Uploaded Bucket:opentopographyorg File:b7787101da2918ff88624ab26204855d9e54627a.jsonld Size 3969
+2018/03/08 15:08:29 #53 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092016.26911.1 
+2018/03/08 15:08:29 #58 Uploaded Bucket:opentopographyorg File:a2db7cebdc071afd7236720e3160bf157515732f.jsonld Size 5389
+2018/03/08 15:08:29 #58 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082016.32611.1 
+2018/03/08 15:08:29 #59 Uploaded Bucket:opentopographyorg File:c2e4067b245caaec313d7dfb0d71baf5de0afbe7.jsonld Size 4235
+2018/03/08 15:08:29 #59 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072016.26917.2 
+2018/03/08 15:08:29 #60 Uploaded Bucket:opentopographyorg File:2fc7d4d242dd581d8b1761008d368e05f6eed4c5.jsonld Size 3755
+2018/03/08 15:08:29 #60 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072016.26917.1 
+2018/03/08 15:08:29 #62 Uploaded Bucket:opentopographyorg File:87aa0840236d4fca1d064891c5ae777d9bf0c778.jsonld Size 4861
+2018/03/08 15:08:29 #62 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062016.2193.1 
+2018/03/08 15:08:29 #91 Uploaded Bucket:opentopographyorg File:65a87c7f0001d0171c2acc040fa74f5b9c00153c.jsonld Size 3884
+2018/03/08 15:08:29 #91 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032014.26916.1 
+2018/03/08 15:08:29 #95 Uploaded Bucket:opentopographyorg File:e6ce8e2b7e0d9cd2a134af1705a7cd604d11bb62.jsonld Size 4156
+2018/03/08 15:08:29 #95 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012014.26904.2 
+2018/03/08 15:08:29 #51 Uploaded Bucket:opentopographyorg File:2e48c1993c4a2b29f895ea0864bcd43fe6280b10.jsonld Size 3668
+2018/03/08 15:08:29 #51 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092016.26912.1 
+2018/03/08 15:08:30 #89 Uploaded Bucket:opentopographyorg File:20555f8abbdf9d9c258cdd8441e3647eb93f46cb.jsonld Size 3919
+2018/03/08 15:08:30 #89 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26910.4 
+2018/03/08 15:08:30 #90 Uploaded Bucket:opentopographyorg File:0a07c257ba4700874b035ab6dea65cf5a1d54b86.jsonld Size 3965
+2018/03/08 15:08:30 #90 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26912.1 
+2018/03/08 15:08:30 #92 Uploaded Bucket:opentopographyorg File:4c12e89e778638d477d7f5b8981e76bc2e678182.jsonld Size 3916
+2018/03/08 15:08:30 #92 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022014.32616.1 
+2018/03/08 15:08:30 #96 Uploaded Bucket:opentopographyorg File:2295252009c7ece71336587e6cab83bcd3fe2a8e.jsonld Size 3865
+2018/03/08 15:08:30 #96 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082013.26917.1 
+2018/03/08 15:08:30 #23 Uploaded Bucket:opentopographyorg File:7f0022d333cf25cb2e47cef269d1c8abba8b49df.jsonld Size 4992
+2018/03/08 15:08:30 #23 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042017.2193.1 
+2018/03/08 15:08:30 #100 Uploaded Bucket:opentopographyorg File:7e9e400671dbd95f855d84e2ac0b725c39191b86.jsonld Size 3950
+2018/03/08 15:08:30 #100 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052013.26912.1 
+2018/03/08 15:08:30 #97 Uploaded Bucket:opentopographyorg File:ab8155a4c3f1b0682396fd712195d5682a601d63.jsonld Size 4036
+2018/03/08 15:08:30 #97 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082013.26910.1 
+2018/03/08 15:08:30 #103 Uploaded Bucket:opentopographyorg File:dceb16035ca67382abd31068fdd1e4ca5b9e4b78.jsonld Size 3763
+2018/03/08 15:08:30 #103 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052013.26913.2 
+2018/03/08 15:08:30 #94 Uploaded Bucket:opentopographyorg File:4c41557491e6215a2bf90ba985120aa96d274bde.jsonld Size 4141
+2018/03/08 15:08:30 #94 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012014.26904.1 
+2018/03/08 15:08:30 #88 Uploaded Bucket:opentopographyorg File:1242c1a14e34b551eba7c4216dab97a265943d6b.jsonld Size 4498
+2018/03/08 15:08:30 #88 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26912.2 
+2018/03/08 15:08:30 #42 Uploaded Bucket:opentopographyorg File:9c8635cc45cdb132874c0dfc216391d62b6fe210.jsonld Size 4374
+2018/03/08 15:08:30 #42 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26914.1b 
+2018/03/08 15:08:30 #36 Uploaded Bucket:opentopographyorg File:711c93d1ca49f5fabdf394765397bcbc98d1b463.jsonld Size 5294
+2018/03/08 15:08:30 #36 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.5 
+2018/03/08 15:08:30 #61 Uploaded Bucket:opentopographyorg File:76637b5c6a28df318c7206c4e58144ad691995f6.jsonld Size 6887
+2018/03/08 15:08:30 #61 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072016.32759.1 
+2018/03/08 15:08:30 #98 Uploaded Bucket:opentopographyorg File:1613806b821492562fee58e4f5d11870990bd591.jsonld Size 4977
+2018/03/08 15:08:30 #98 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062013.28354.1 
+2018/03/08 15:08:30 #39 Uploaded Bucket:opentopographyorg File:161649b98c42f22dc524f339ed96a0a3199165ef.jsonld Size 4830
+2018/03/08 15:08:30 #39 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.1 
+2018/03/08 15:08:31 #41 Uploaded Bucket:opentopographyorg File:2bd5a2ee26137bf6ad8623de59d8ad80a8ba756b.jsonld Size 4070
+2018/03/08 15:08:31 #41 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.2b 
+2018/03/08 15:08:31 #40 Uploaded Bucket:opentopographyorg File:092c4783fa38d25ec8952ebc5b74ab8eb0e0e4a6.jsonld Size 4057
+2018/03/08 15:08:31 #40 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.3b 
+2018/03/08 15:08:31 #102 Uploaded Bucket:opentopographyorg File:97b23c1a1d007b1f6a4af61f84b016c3f96a5260.jsonld Size 4475
+2018/03/08 15:08:31 #102 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052013.26910.1 
+2018/03/08 15:08:31 #38 Uploaded Bucket:opentopographyorg File:62d9e4a8b7f773f97305ee6c76164fc0556e3235.jsonld Size 4655
+2018/03/08 15:08:31 #38 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26916.1b 
+2018/03/08 15:08:31 #105 Uploaded Bucket:opentopographyorg File:e469cb9f105472c6a650e9776a4feda49acf1dff.jsonld Size 3914
+2018/03/08 15:08:31 #105 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052013.26911.1 
+2018/03/08 15:08:31 #106 Uploaded Bucket:opentopographyorg File:909267b5b99dabf54e4df12497a2dcc7638c1e08.jsonld Size 3788
+2018/03/08 15:08:31 #106 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26913.1 
+2018/03/08 15:08:31 #109 Uploaded Bucket:opentopographyorg File:674bdb5380d66c6d3d124181400b83663b44a419.jsonld Size 5901
+2018/03/08 15:08:31 #109 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26911.1 
+2018/03/08 15:08:31 #207 Uploaded Bucket:opentopographyorg File:297a2d2e5113e41fbab5def9d55da51d4235a858.jsonld Size 6691
+2018/03/08 15:08:31 #207 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26913.1 
+2018/03/08 15:08:31 #108 Uploaded Bucket:opentopographyorg File:a41f277907327575b6c0eb44b030bad595b0ba6f.jsonld Size 3969
+2018/03/08 15:08:31 #108 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26919.1 
+2018/03/08 15:08:31 #113 Uploaded Bucket:opentopographyorg File:57291b7e94b2e2f64615254bd963af9f7c0f1d31.jsonld Size 6044
+2018/03/08 15:08:31 #113 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26912.1 
+2018/03/08 15:08:31 #111 Uploaded Bucket:opentopographyorg File:612b38f06e166059166e5adc38321934433b6a5f.jsonld Size 4789
+2018/03/08 15:08:31 #111 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26918.1 
+2018/03/08 15:08:32 #118 Uploaded Bucket:opentopographyorg File:ac8db023c8f927dc07780f948a3d3f877d1d5108.jsonld Size 4712
+2018/03/08 15:08:32 #118 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.26912.1 
+2018/03/08 15:08:32 #37 Uploaded Bucket:opentopographyorg File:4cdddd22bc11c0097e5a0b2b5275aad549e83216.jsonld Size 4873
+2018/03/08 15:08:32 #37 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.3 
+2018/03/08 15:08:32 #112 Uploaded Bucket:opentopographyorg File:eeeff9fe1ba9c663deb67a8df10425f0ad5520cd.jsonld Size 4791
+2018/03/08 15:08:32 #112 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26918.2 
+2018/03/08 15:08:32 #49 Uploaded Bucket:opentopographyorg File:c8ae79ae39013426d4b8ddfa55418eee33673039.jsonld Size 3712
+2018/03/08 15:08:32 #49 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26910.1 
+2018/03/08 15:08:32 #117 Uploaded Bucket:opentopographyorg File:fb66211eb39be32693fb67fa67f56ad71db158e2.jsonld Size 3844
+2018/03/08 15:08:32 #117 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.32611.1 
+2018/03/08 15:08:32 #114 Uploaded Bucket:opentopographyorg File:17d64c39a4f9bd467b1f77b5187908bcd89ddda0.jsonld Size 4278
+2018/03/08 15:08:32 #114 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.26918.2 
+2018/03/08 15:08:32 #43 Uploaded Bucket:opentopographyorg File:223e655319974256efb6c757f88a6193676dc0f9.jsonld Size 5501
+2018/03/08 15:08:32 #43 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112016.3294.1 
+2018/03/08 15:08:32 #119 Uploaded Bucket:opentopographyorg File:4d1c3ce814186b92f6d2843a04b7c535b3b50b3d.jsonld Size 3984
+2018/03/08 15:08:32 #119 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.26910.1 
+2018/03/08 15:08:32 #115 Uploaded Bucket:opentopographyorg File:e4aa75c3ee2254ddf106183385a95f5f0264845a.jsonld Size 4671
+2018/03/08 15:08:32 #115 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.26918.1 
+2018/03/08 15:08:32 #121 Uploaded Bucket:opentopographyorg File:d431901ebfafdc9d6e055e58b5e99898f1007867.jsonld Size 3901
+2018/03/08 15:08:32 #121 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.26918.3 
+2018/03/08 15:08:32 #107 Uploaded Bucket:opentopographyorg File:ea1d78fa5618265fcbd8819a2c16b78659c4616d.jsonld Size 3852
+2018/03/08 15:08:32 #107 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26918.3 
+2018/03/08 15:08:33 #32 Uploaded Bucket:opentopographyorg File:5282a45e2b7ac4e92afb728f3b2d3b8421a4f1d1.jsonld Size 4998
+2018/03/08 15:08:33 #32 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26916.1 
+2018/03/08 15:08:33 #120 Uploaded Bucket:opentopographyorg File:22fc114eb717548a973c133de6f8333f60809d91.jsonld Size 3793
+2018/03/08 15:08:33 #120 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26910.3 
+2018/03/08 15:08:33 #122 Uploaded Bucket:opentopographyorg File:ac24e8587ec849da646fcfe49fc77434d84d23fa.jsonld Size 3781
+2018/03/08 15:08:33 #122 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.26911.1 
+2018/03/08 15:08:33 #44 Uploaded Bucket:opentopographyorg File:221c3ce578b7e8912d281ea7b08de17d0ab32e1c.jsonld Size 4291
+2018/03/08 15:08:33 #44 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26914.1 
+2018/03/08 15:08:33 #123 Uploaded Bucket:opentopographyorg File:87ceb210c4bcbcf04747a6530b5d4cc3d0f9d28f.jsonld Size 4194
+2018/03/08 15:08:33 #123 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.32722.1 
+2018/03/08 15:08:33 #46 Uploaded Bucket:opentopographyorg File:5f9b44ec56f7e25ac70d5aac4e20afdc46b8d65d.jsonld Size 3996
+2018/03/08 15:08:33 #46 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26915.1 
+2018/03/08 15:08:33 #48 Uploaded Bucket:opentopographyorg File:91301a36553c995e23621d999c335175629bb8ff.jsonld Size 3904
+2018/03/08 15:08:33 #48 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26911.1 
+2018/03/08 15:08:33 #47 Uploaded Bucket:opentopographyorg File:a556e54d23717de11156652f0ffe1336539b1877.jsonld Size 4539
+2018/03/08 15:08:33 #47 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.32615.1 
+2018/03/08 15:08:33 #263 Uploaded Bucket:opentopographyorg File:b4b58a5f2d6eaaed5a082592374bdc094ab82efd.jsonld Size 3846
+2018/03/08 15:08:33 #263 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072017.26912.2 
+2018/03/08 15:08:33 #27 Uploaded Bucket:opentopographyorg File:1821fd8a4e48d8cfb076fc76c73c9bfc9f9ae9a0.jsonld Size 4908
+2018/03/08 15:08:33 #27 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.2193.1 
+2018/03/08 15:08:33 #28 Uploaded Bucket:opentopographyorg File:4b9cde7274d40e75e1d0db4b9835eb380490f163.jsonld Size 5421
+2018/03/08 15:08:33 #28 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022017.26910.3 
+2018/03/08 15:08:33 #30 Uploaded Bucket:opentopographyorg File:8d1cd69870e81601b33e47e71a3885f1cdbd4e6b.jsonld Size 5271
+2018/03/08 15:08:33 #30 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26915.1 
+2018/03/08 15:08:33 #101 Uploaded Bucket:opentopographyorg File:46015d0d6e277f7968b466ddceaee4f9cb4ba9da.jsonld Size 3925
+2018/03/08 15:08:33 #101 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052013.26910.2 
+2018/03/08 15:08:33 #29 Uploaded Bucket:opentopographyorg File:90939fa8a903796c9a21edc197f80e4e1b616d71.jsonld Size 5272
+2018/03/08 15:08:33 #29 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022017.26910.2 
+2018/03/08 15:08:34 #24 Uploaded Bucket:opentopographyorg File:88a6be61a215b726b9f485442aae83413164bbe9.jsonld Size 3760
+2018/03/08 15:08:34 #24 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.26911.1 
+2018/03/08 15:08:34 #26 Uploaded Bucket:opentopographyorg File:a138b92fa3d431e2700a53fe38fe521e8ef5d5e7.jsonld Size 5155
+2018/03/08 15:08:34 #26 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.26910.1 
+2018/03/08 15:08:34 #104 Uploaded Bucket:opentopographyorg File:4df447e24c3090727b1bce00f82fa42d342f4acb.jsonld Size 5418
+2018/03/08 15:08:34 #104 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052013.26913.1 
+2018/03/08 15:08:34 #265 Uploaded Bucket:opentopographyorg File:2ceeffce000e296e566c5bdc01e05fba18fdee1b.jsonld Size 3800
+2018/03/08 15:08:34 #265 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072017.26912.1 
+2018/03/08 15:08:34 #93 Uploaded Bucket:opentopographyorg File:ed6c2212ff6f7fbc06afa667e3256c9393a4cc52.jsonld Size 4125
+2018/03/08 15:08:34 #93 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022014.32610.1 
+2018/03/08 15:08:34 #264 Uploaded Bucket:opentopographyorg File:5fe2688b09ae22eaa288a5599c30e6cadbe25cb9.jsonld Size 3763
+2018/03/08 15:08:34 #264 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072017.26910.1 
+2018/03/08 15:08:34 #208 Uploaded Bucket:opentopographyorg File:852a1004b4071855c47c651a3a8e33ee6c2794fb.jsonld Size 4620
+2018/03/08 15:08:34 #208 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26911.1 
+2018/03/08 15:08:34 #210 Uploaded Bucket:opentopographyorg File:1f47b28b4256a3ff0cd28c60e191c377c9fa0442.jsonld Size 4078
+2018/03/08 15:08:34 #210 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.32605.1 
+2018/03/08 15:08:34 #19 Uploaded Bucket:opentopographyorg File:98353e18cd2eeddddb0402c1de0a46c552b052d3.jsonld Size 4811
+2018/03/08 15:08:34 #19 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042017.2193.2 
+2018/03/08 15:08:35 #20 Uploaded Bucket:opentopographyorg File:d616647239894caf56e670be27acaa727d86800b.jsonld Size 5463
+2018/03/08 15:08:35 #20 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26910.1 
+2018/03/08 15:08:35 #266 Uploaded Bucket:opentopographyorg File:e1367b5de5d607fd6ee6bf8f2534c7fd9e678111.jsonld Size 3780
+2018/03/08 15:08:35 #266 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062012.26911.1 
+2018/03/08 15:08:35 #116 Uploaded Bucket:opentopographyorg File:5761e72ece3c2395de5d2ad203b2f1b8d1532ca5.jsonld Size 4242
+2018/03/08 15:08:35 #116 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26906.1 
+2018/03/08 15:08:35 #65 Uploaded Bucket:opentopographyorg File:d1995a68b77e4f7a047bb598a595675592a6343e.jsonld Size 4055
+2018/03/08 15:08:35 #65 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.3 
+2018/03/08 15:08:35 #268 Uploaded Bucket:opentopographyorg File:47d510b352d01e09fd898d3163778870382b4d91.jsonld Size 3607
+2018/03/08 15:08:35 #268 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062017.26910.1 
+2018/03/08 15:08:35 #267 Uploaded Bucket:opentopographyorg File:d5ba1a3f33a2d852f385f787fccbedc84db74bf7.jsonld Size 3695
+2018/03/08 15:08:35 #267 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052017.32611.1 
+2018/03/08 15:08:35 #99 Uploaded Bucket:opentopographyorg File:4109bb16bd24a559cf6a23a52b20801c4b4ee66c.jsonld Size 4714
+2018/03/08 15:08:35 #99 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052013.26912.2 
+2018/03/08 15:08:35 #17 Uploaded Bucket:opentopographyorg File:5d126133ab8562ea5c6ff46138acefd0d97573db.jsonld Size 4320
+2018/03/08 15:08:35 #17 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052017.2193.1 
+2018/03/08 15:08:35 #269 Uploaded Bucket:opentopographyorg File:1cf013ce5fd13a01be7fbf14b68ebf9f9cbbe499.jsonld Size 4169
+2018/03/08 15:08:35 #269 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092014.26913.1 
+2018/03/08 15:08:35 #270 Uploaded Bucket:opentopographyorg File:180f1fec02de337287c10eaaae3c06351fb8cad7.jsonld Size 3778
+2018/03/08 15:08:35 #270 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062017.26911.1 
+2018/03/08 15:08:35 #272 Uploaded Bucket:opentopographyorg File:1676fe4d3497fadb3a7b616a4d48b9c4aa0624a4.jsonld Size 4662
+2018/03/08 15:08:35 #272 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062017.26913.2 
+2018/03/08 15:08:35 #66 Uploaded Bucket:opentopographyorg File:12ea56d30472f8001fe9c1fa7ff4a104f794952e.jsonld Size 3861
+2018/03/08 15:08:35 #66 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26911.1 
+2018/03/08 15:08:35 #273 Uploaded Bucket:opentopographyorg File:cf27939cd695435084a9e93d1a28dc0ce12e0081.jsonld Size 4662
+2018/03/08 15:08:35 #273 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062017.26913.1 
+2018/03/08 15:08:35 #110 Uploaded Bucket:opentopographyorg File:9c721775740f52b3beb02c2e5aca383780a6be64.jsonld Size 5904
+2018/03/08 15:08:35 #110 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042013.26911.2 
+2018/03/08 15:08:36 #68 Uploaded Bucket:opentopographyorg File:6ad4d090b13a98b73226441f59c541281c5d55ff.jsonld Size 4069
+2018/03/08 15:08:36 #68 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.2 
+2018/03/08 15:08:36 #67 Uploaded Bucket:opentopographyorg File:209293778d7f390a10fb7e1b856f4034e9e14ebb.jsonld Size 3936
+2018/03/08 15:08:36 #67 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052016.26912.1 
+2018/03/08 15:08:36 #274 Uploaded Bucket:opentopographyorg File:7676f26f6aa22d59a1540931621f36b222a46221.jsonld Size 3786
+2018/03/08 15:08:36 #274 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012013.26912.3 
+2018/03/08 15:08:36 #291 Uploaded Bucket:opentopographyorg File:76fccaf0fc0fa19cb243096cd3f0122ff95021cb.jsonld Size 5315
+2018/03/08 15:08:36 #291 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSRTM.082016.4326.1 
+2018/03/08 15:08:36 #45 Uploaded Bucket:opentopographyorg File:af94748d3907ef6f2a22df0f945eaad974fbff25.jsonld Size 3817
+2018/03/08 15:08:36 #45 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102016.26916.1 
+2018/03/08 15:08:36 #214 Uploaded Bucket:opentopographyorg File:43b366910702e42b8f3b7bdd4bdeba7df894630e.jsonld Size 3787
+2018/03/08 15:08:36 #214 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26913.1 
+2018/03/08 15:08:36 #213 Uploaded Bucket:opentopographyorg File:a2211e3654de7b0767afe4632f449983ab6e9028.jsonld Size 3828
+2018/03/08 15:08:36 #213 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26914.1 
+2018/03/08 15:08:36 #212 Uploaded Bucket:opentopographyorg File:9717fd1131a7dda1c03f7fde1f16403880fee8bd.jsonld Size 3929
+2018/03/08 15:08:36 #212 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26910.3 
+2018/03/08 15:08:36 #277 Uploaded Bucket:opentopographyorg File:49c6a7936a08f5f87b0b34dd9408090c640ed579.jsonld Size 4337
+2018/03/08 15:08:36 #277 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122016.26910.2 
+2018/03/08 15:08:36 #125 Uploaded Bucket:opentopographyorg File:78f3d36e6454eebe158d00e8e1ec0f2f1c7dda26.jsonld Size 6088
+2018/03/08 15:08:36 #125 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022013.26910.3 
+2018/03/08 15:08:36 #126 Uploaded Bucket:opentopographyorg File:1ce052d4b9f7946fcdb084d6014d48dd8ef3a77d.jsonld Size 6287
+2018/03/08 15:08:36 #126 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022013.26910.2 
+2018/03/08 15:08:36 #21 Uploaded Bucket:opentopographyorg File:9686830e10b854e805693eeb2afb1c9460ded782.jsonld Size 5536
+2018/03/08 15:08:36 #21 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26910.1b 
+2018/03/08 15:08:36 #276 Uploaded Bucket:opentopographyorg File:69f3bb12afe8c264c6c820c5919d0de051675f3a.jsonld Size 4758
+2018/03/08 15:08:36 #276 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122016.26910.1 
+2018/03/08 15:08:36 #124 Uploaded Bucket:opentopographyorg File:8159e75a162cfc8333893c7f9e3feb807ade87be.jsonld Size 7473
+2018/03/08 15:08:36 #124 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032013.26910.2 
+2018/03/08 15:08:36 #69 Uploaded Bucket:opentopographyorg File:87ffd594254d344ed0419d1a2244f926329437f7.jsonld Size 3871
+2018/03/08 15:08:36 #69 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042016.26913.1 
+2018/03/08 15:08:37 #22 Uploaded Bucket:opentopographyorg File:5d659440467652fb1afe6038d66978bc01ce3ac2.jsonld Size 4480
+2018/03/08 15:08:37 #22 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.26910.2 
+2018/03/08 15:08:37 #278 Uploaded Bucket:opentopographyorg File:23b27c5aa8c1d8649e7097d2b115007f905142a2.jsonld Size 4843
+2018/03/08 15:08:37 #278 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052015.32611.1 
+2018/03/08 15:08:37 #71 Uploaded Bucket:opentopographyorg File:ad1cba0cf07ec6900626add0dd921eb5c8c9903a.jsonld Size 5060
+2018/03/08 15:08:37 #71 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122015.26917.1 
+2018/03/08 15:08:37 #279 Uploaded Bucket:opentopographyorg File:ffa748863560cdef7e50395e3bf15fedaec47383.jsonld Size 3755
+2018/03/08 15:08:37 #279 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032017.26911.1 
+2018/03/08 15:08:37 #18 Uploaded Bucket:opentopographyorg File:84a857cfc7fa3bcca111b68ac0cd868eb9157082.jsonld Size 3818
+2018/03/08 15:08:37 #18 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052017.26913.1 
+2018/03/08 15:08:37 #129 Uploaded Bucket:opentopographyorg File:679628059bffb85c44514e890dd5de52377cfa95.jsonld Size 4111
+2018/03/08 15:08:37 #129 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022013.26918.1 
+2018/03/08 15:08:37 #281 Uploaded Bucket:opentopographyorg File:efc2c90108ed3a7d339aca809965c503aa02c196.jsonld Size 5020
+2018/03/08 15:08:37 #281 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032017.26910.2 
+2018/03/08 15:08:37 #285 Uploaded Bucket:opentopographyorg File:0bdad6befd63827d9df6e851d9ce5243ad21af36.jsonld Size 4319
+2018/03/08 15:08:37 #285 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122016.26916.1 
+2018/03/08 15:08:37 #72 Uploaded Bucket:opentopographyorg File:502b476a9914e8dbb44adfadbb1c322e6e8b4e9c.jsonld Size 4937
+2018/03/08 15:08:37 #72 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112015.26912.1 
+2018/03/08 15:08:37 #130 Uploaded Bucket:opentopographyorg File:a9ecc9c21fc47794c6c070ea18f8dfea7aab18b0.jsonld Size 3824
+2018/03/08 15:08:37 #130 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022013.26911.1 
+2018/03/08 15:08:37 #131 Uploaded Bucket:opentopographyorg File:337eedf849f2af4570c3ec58fc2958bf7ade56f6.jsonld Size 4360
+2018/03/08 15:08:37 #131 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022013.32145.1 
+2018/03/08 15:08:38 #286 Uploaded Bucket:opentopographyorg File:ed4dd67f415df2fcd244ea0ce17e602ce4b2a423.jsonld Size 4184
+2018/03/08 15:08:38 #286 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122016.26915.1 
+2018/03/08 15:08:38 #73 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072015.26916.1 
+2018/03/08 15:08:38 #34 Uploaded Bucket:opentopographyorg File:0a7f7875cb8245e0c9e03952af1db51a376308ab.jsonld Size 4894
+2018/03/08 15:08:38 #34 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122016.2193.2 
+2018/03/08 15:08:38 #271 Uploaded Bucket:opentopographyorg File:5c5dcda1000eedf4ee9f0cbae1ec018bca65beea.jsonld Size 4666
+2018/03/08 15:08:38 #271 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062017.26913.3 
+2018/03/08 15:08:38 #282 Uploaded Bucket:opentopographyorg File:d0282565aaa8f10f08fa4f7e2a8f42f6c82f0418.jsonld Size 5019
+2018/03/08 15:08:38 #282 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032017.26910.1 
+2018/03/08 15:08:38 #290 Uploaded Bucket:opentopographyorg File:e015e90106b114679b4bc8874d57729c642ccf1d.jsonld Size 4575
+2018/03/08 15:08:38 #290 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTGMRT.112016.4326.1 
+2018/03/08 15:08:38 #288 Uploaded Bucket:opentopographyorg File:0ed7d5be847e7d14b65f281824d592c07868fec0.jsonld Size 5135
+2018/03/08 15:08:38 #288 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022017.26910.2 
+2018/03/08 15:08:38 #283 Uploaded Bucket:opentopographyorg File:948a7cf9947e42e170639d8f3c507f9ae4016b5e.jsonld Size 4781
+2018/03/08 15:08:38 #283 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112015.26912.1 
+2018/03/08 15:08:38 #216 Uploaded Bucket:opentopographyorg File:3d69040812286b4dd795abd333a850760e69166c.jsonld Size 3846
+2018/03/08 15:08:38 #216 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26910.2 
+2018/03/08 15:08:38 #217 Uploaded Bucket:opentopographyorg File:a307450020617f15e28b310b1d89e4bdc5f8c1b5.jsonld Size 3808
+2018/03/08 15:08:38 #217 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26911.1 
+2018/03/08 15:08:38 #75 Uploaded Bucket:opentopographyorg File:afc5af55cd482a8437e0637a89463f2d4772d94f.jsonld Size 4975
+2018/03/08 15:08:38 #75 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052015.32611.1 
+2018/03/08 15:08:38 #74 Uploaded Bucket:opentopographyorg File:9ea982dbc76af25438a3086afd73e856d173bfe8.jsonld Size 4558
+2018/03/08 15:08:38 #74 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052015.26910.1 
+2018/03/08 15:08:39 #242 Uploaded Bucket:opentopographyorg File:dbdf96cfa72acac74f6e251a05916061938109d5.jsonld Size 4617
+2018/03/08 15:08:39 #242 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032011.26910.1 
+2018/03/08 15:08:39 #317 Uploaded Bucket:opentopographyorg File:60b6d5f359bd704fb76114f381a60c0c04710673.jsonld Size 3746
+2018/03/08 15:08:39 #317 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.042016.26911.1 
+2018/03/08 15:08:39 #76 Uploaded Bucket:opentopographyorg File:4fb7ef6250ab72fe2f082b295749eb32eec33acd.jsonld Size 7398
+2018/03/08 15:08:39 #76 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122014.26910.1 
+2018/03/08 15:08:39 #132 Uploaded Bucket:opentopographyorg File:b82523eb0153f962f82334bcd4f2932d138dba50.jsonld Size 7037
+2018/03/08 15:08:39 #132 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.32611.1 
+2018/03/08 15:08:39 #134 Uploaded Bucket:opentopographyorg File:4a385b9c8b15efc4852a0fc56e0bc8ef9f6169f8.jsonld Size 3827
+2018/03/08 15:08:39 #134 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26912.2 
+2018/03/08 15:08:39 #292 Uploaded Bucket:opentopographyorg File:8e22192dd7f8ce7a4e75c2741b699b10028ecb6f.jsonld Size 5144
+2018/03/08 15:08:39 #292 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTALOS.112016.4326.2 
+2018/03/08 15:08:39 #25 Uploaded Bucket:opentopographyorg File:e9de481a66819073fc8af914874153d1d7768a5f.jsonld Size 5155
+2018/03/08 15:08:39 #25 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032017.26910.2 
+2018/03/08 15:08:39 #133 Uploaded Bucket:opentopographyorg File:7a708a3a5c5a075592bdf2d48cc7f723ee9ddbc1.jsonld Size 3826
+2018/03/08 15:08:39 #133 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26912.2 
+2018/03/08 15:08:39 #135 Uploaded Bucket:opentopographyorg File:2ac3391a9496129a411947ec73fb909aa9ef1731.jsonld Size 3851
+2018/03/08 15:08:39 #135 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26910.2 
+2018/03/08 15:08:39 #215 Uploaded Bucket:opentopographyorg File:0cc755a3e8b61cd5abe4e6e2929e8fcc860ccde5.jsonld Size 3909
+2018/03/08 15:08:39 #215 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26917.1 
+2018/03/08 15:08:40 #77 Uploaded Bucket:opentopographyorg File:f82442b849b41638619c9961faa869adb6ac9461.jsonld Size 4154
+2018/03/08 15:08:40 #77 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022015.26911.2 
+2018/03/08 15:08:40 #78 Uploaded Bucket:opentopographyorg File:95e64af4c0e9eb0acaab284c30479f520cd189b0.jsonld Size 3930
+2018/03/08 15:08:40 #78 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022015.26911.1 
+2018/03/08 15:08:40 #136 Uploaded Bucket:opentopographyorg File:e8fbf54f366f07c460673876b20f9784e1db83e1.jsonld Size 3847
+2018/03/08 15:08:40 #136 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26986.1 
+2018/03/08 15:08:40 #80 Uploaded Bucket:opentopographyorg File:728b13c90bcc576f9f961daef03209134c5917b1.jsonld Size 5818
+2018/03/08 15:08:40 #80 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022015.26912.1 
+2018/03/08 15:08:40 #243 Uploaded Bucket:opentopographyorg File:363eefd36cf00940fc345b1e1b5c6288e2319a28.jsonld Size 5696
+2018/03/08 15:08:40 #243 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022011.2994.1 
+2018/03/08 15:08:40 #79 Uploaded Bucket:opentopographyorg File:519d30e2e14e6a5d5675c9f06cf9bc40b9a4b8e8.jsonld Size 4131
+2018/03/08 15:08:40 #79 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022015.26913.1 
+2018/03/08 15:08:40 #244 Uploaded Bucket:opentopographyorg File:3a5d595b385a21383d3206a6b2d0cae48e119627.jsonld Size 5042
+2018/03/08 15:08:40 #244 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122010.32611.1 
+2018/03/08 15:08:40 #228 Uploaded Bucket:opentopographyorg File:94e8bc92fe9b1a9dd9a125d45dcc8154cdd78bf7.jsonld Size 3935
+2018/03/08 15:08:40 #228 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26912.2 
+2018/03/08 15:08:40 #289 Uploaded Bucket:opentopographyorg File:8af95c491432bed515bb5ad8fb047a2d7d2f0c76.jsonld Size 4319
+2018/03/08 15:08:40 #289 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122016.26916.1b 
+2018/03/08 15:08:40 #218 Uploaded Bucket:opentopographyorg File:60136467e36fb5eeb3b39e67564a2f34318e1832.jsonld Size 3730
+2018/03/08 15:08:40 #218 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26910.1 
+2018/03/08 15:08:40 #229 Uploaded Bucket:opentopographyorg File:e3cdfedf8e795afe8e5ac05f548edcb06254e111.jsonld Size 3866
+2018/03/08 15:08:40 #229 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26912.1 
+2018/03/08 15:08:40 #246 Uploaded Bucket:opentopographyorg File:dfefd8e4f1f740df48a283c0419d10583c4d6626.jsonld Size 5693
+2018/03/08 15:08:40 #246 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102010.26910.1 
+2018/03/08 15:08:40 #240 Uploaded Bucket:opentopographyorg File:fa05d2c997cad6b586039edb9522622e511996d7.jsonld Size 3836
+2018/03/08 15:08:40 #240 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062011.26912.1 
+2018/03/08 15:08:41 #231 Uploaded Bucket:opentopographyorg File:21264379b0ac989520604c1b7d7eb18d2a88808b.jsonld Size 3974
+2018/03/08 15:08:41 #231 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26911.2 
+2018/03/08 15:08:41 #294 Uploaded Bucket:opentopographyorg File:4776408a5dad610583cd133420ae4cdcd376d00d.jsonld Size 3474
+2018/03/08 15:08:41 #294 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102016.26914.1 
+2018/03/08 15:08:41 #293 Uploaded Bucket:opentopographyorg File:67a887ea2c4d2cb827fdebfda40be5f25b685d66.jsonld Size 5022
+2018/03/08 15:08:41 #293 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112016.3294.1 
+2018/03/08 15:08:41 #295 Uploaded Bucket:opentopographyorg File:9af613b661f64310ffe6338596b7af5e11c94a53.jsonld Size 3854
+2018/03/08 15:08:41 #295 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102016.26916.1 
+2018/03/08 15:08:41 #209 Uploaded Bucket:opentopographyorg File:f0b3e4fbdaafafae2960b3aad4cb5c566ad47769.jsonld Size 4516
+2018/03/08 15:08:41 #209 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26910.1 
+2018/03/08 15:08:41 #296 Uploaded Bucket:opentopographyorg File:5deb9c092f99c2d797eb4167de65d03604c5c1bb.jsonld Size 3863
+2018/03/08 15:08:41 #296 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102016.26915.1 
+2018/03/08 15:08:41 #1 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:41 #1 would get http://opentopography.org/about 
+2018/03/08 15:08:41 #247 Uploaded Bucket:opentopographyorg File:e788b9ba809a0d11b34f6b404fdf5ac874a3ff08.jsonld Size 4411
+2018/03/08 15:08:41 #247 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102010.26912.1 
+2018/03/08 15:08:41 #2 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:41 #2 would get http://opentopography.org/blog 
+2018/03/08 15:08:41 #275 Uploaded Bucket:opentopographyorg File:9360150307d70d86ff0cd7ffa609f522a0001ec6.jsonld Size 3680
+2018/03/08 15:08:41 #275 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052017.26913.1 
+2018/03/08 15:08:42 #4 Uploaded Bucket:opentopographyorg File:e2c2ac90155b2c12927bd59ac74d262d2c0d8c8f.jsonld Size 3769
+2018/03/08 15:08:42 #4 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022018.26915.1 
+2018/03/08 15:08:42 #230 Uploaded Bucket:opentopographyorg File:dbbb37b72f5d028a41788c5675baba2fa0d27678.jsonld Size 3853
+2018/03/08 15:08:42 #230 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26911.3 
+2018/03/08 15:08:42 #249 Uploaded Bucket:opentopographyorg File:0e51ae350d9a5788dc04cb7dcf126a2d7221df69.jsonld Size 4286
+2018/03/08 15:08:42 #249 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052010.26910.1 
+2018/03/08 15:08:42 #248 Uploaded Bucket:opentopographyorg File:ab02c99ed0c9c9c0cf8cc3f2907923143a976862.jsonld Size 4981
+2018/03/08 15:08:42 #248 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072010.32618.1 
+2018/03/08 15:08:42 #287 Uploaded Bucket:opentopographyorg File:4914541343c310ed675caace767e2e93132e44ab.jsonld Size 5260
+2018/03/08 15:08:42 #287 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022017.26910.3 
+2018/03/08 15:08:42 #220 Uploaded Bucket:opentopographyorg File:d9aa597afbc74bdb4a73d2188aa2d4b3db042059.jsonld Size 3940
+2018/03/08 15:08:42 #220 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012012.26919.2 
+2018/03/08 15:08:42 #221 Uploaded Bucket:opentopographyorg File:fc7b7438c1c89e739c61d1cccce79987172dd734.jsonld Size 4072
+2018/03/08 15:08:42 #221 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012012.26911.1 
+2018/03/08 15:08:42 #251 Uploaded Bucket:opentopographyorg File:4caa4ac77538139897cf390fdf69cf4879527b37.jsonld Size 4786
+2018/03/08 15:08:42 #251 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112009.32610.1 
+2018/03/08 15:08:42 #250 Uploaded Bucket:opentopographyorg File:9e478d3e441bfaadaa2a6a8d144a5e100e3ed942.jsonld Size 4912
+2018/03/08 15:08:42 #250 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122009.32611.1 
+2018/03/08 15:08:42 #252 Uploaded Bucket:opentopographyorg File:9df8219c025604b81bcbf282802dc86713796092.jsonld Size 4807
+2018/03/08 15:08:42 #252 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102009.32607.1 
+2018/03/08 15:08:42 #223 Uploaded Bucket:opentopographyorg File:8aa9c317762119ec85d3d8263213f74914fe0c4a.jsonld Size 4047
+2018/03/08 15:08:42 #223 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26919.1 
+2018/03/08 15:08:42 #284 Uploaded Bucket:opentopographyorg File:b013885d4b00ba5bdc3d5a24c5149ffcb4fcda92.jsonld Size 4183
+2018/03/08 15:08:42 #284 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122016.26915.1b 
+2018/03/08 15:08:43 #254 Uploaded Bucket:opentopographyorg File:6d7c24f01b71992d4f444a0bbaac398cdd5ba221.jsonld Size 5127
+2018/03/08 15:08:43 #254 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052008.32610.1 
+2018/03/08 15:08:43 #253 Uploaded Bucket:opentopographyorg File:44af04db993f10e2a8f68a1da39ddba2abd040e8.jsonld Size 4957
+2018/03/08 15:08:43 #253 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052009.32612.1 
+2018/03/08 15:08:43 #224 Uploaded Bucket:opentopographyorg File:16474849c0339de02949fd3726c2e0a1790a20fd.jsonld Size 3887
+2018/03/08 15:08:43 #224 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26916.1 
+2018/03/08 15:08:43 #222 Uploaded Bucket:opentopographyorg File:be946f6074ee586c2225c2646821a2237ae092e3.jsonld Size 3847
+2018/03/08 15:08:43 #222 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012012.26919.1 
+2018/03/08 15:08:43 #225 Uploaded Bucket:opentopographyorg File:6a29db01de4a894b302b3b2df9f962846ff8e8a3.jsonld Size 4131
+2018/03/08 15:08:43 #225 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26913.2 
+2018/03/08 15:08:43 #5 Uploaded Bucket:opentopographyorg File:e45f7c607f7f7ca3df70c62e0e27bdf7cd7a2713.jsonld Size 4946
+2018/03/08 15:08:43 #5 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012018.32641.1 
+2018/03/08 15:08:43 #232 Uploaded Bucket:opentopographyorg File:ac19eb183326e2afc81d0040c82c035c057a5e05.jsonld Size 3851
+2018/03/08 15:08:43 #232 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26911.1 
+2018/03/08 15:08:43 #227 Uploaded Bucket:opentopographyorg File:bc1e86832ba432fa8ae8ba7ef54bd3f368405618.jsonld Size 3950
+2018/03/08 15:08:43 #227 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26912.3 
+2018/03/08 15:08:43 #10 Uploaded Bucket:opentopographyorg File:93c61105f6d986852406f5c92d3b6a824a11eecb.jsonld Size 3933
+2018/03/08 15:08:43 #10 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26912.1 
+2018/03/08 15:08:43 #11 Uploaded Bucket:opentopographyorg File:fc343ac8c0c95b10fe0b372158d0a28803a8f42c.jsonld Size 3828
+2018/03/08 15:08:43 #11 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052017.32611.1 
+2018/03/08 15:08:43 #233 Uploaded Bucket:opentopographyorg File:435adc488bb3a6830bcd7d02d512415aa8f90e94.jsonld Size 4722
+2018/03/08 15:08:43 #233 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102011.26918.2 
+2018/03/08 15:08:43 #13 Uploaded Bucket:opentopographyorg File:432882d733125bba8e7dfc30da43c53199c20c71.jsonld Size 3913
+2018/03/08 15:08:43 #13 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26911.1 
+2018/03/08 15:08:43 #219 Uploaded Bucket:opentopographyorg File:aba434a322ef4fd3692e509afd6c3b707f831c73.jsonld Size 4128
+2018/03/08 15:08:43 #219 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012012.26915.1 
+2018/03/08 15:08:43 #6 Uploaded Bucket:opentopographyorg File:364653f0e2b57754025ac8ac631247a6fbd3c834.jsonld Size 3882
+2018/03/08 15:08:43 #6 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26914.1 
+2018/03/08 15:08:43 #226 Uploaded Bucket:opentopographyorg File:e1beb2eaf5f7034c3d17c7d180ed223b2e54de65.jsonld Size 3929
+2018/03/08 15:08:43 #226 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112011.26913.1 
+2018/03/08 15:08:43 #8 Uploaded Bucket:opentopographyorg File:53e5fd1298d76b3d6d20d7e729550de30e02dc31.jsonld Size 3981
+2018/03/08 15:08:43 #8 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26912.2 
+2018/03/08 15:08:44 #9 Uploaded Bucket:opentopographyorg File:ead55f776e984ff1d35dd5d2a95f46b7353ac591.jsonld Size 3902
+2018/03/08 15:08:44 #9 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26910.1 
+2018/03/08 15:08:44 #12 Uploaded Bucket:opentopographyorg File:aeb268db61adae8eec13ea9618e318e1610cfc2d.jsonld Size 3742
+2018/03/08 15:08:44 #12 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26910.1 
+2018/03/08 15:08:44 #354 Uploaded Bucket:opentopographyorg File:bd499722b06068f2daf02f8a6ea0c0e66a14953b.jsonld Size 3638
+2018/03/08 15:08:44 #354 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112012.26913.1 
+2018/03/08 15:08:44 #235 Uploaded Bucket:opentopographyorg File:3d0177d8bb9fb23494846f106c374bede3a1b8ee.jsonld Size 4439
+2018/03/08 15:08:44 #235 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092011.2875.1 
+2018/03/08 15:08:44 #256 Uploaded Bucket:opentopographyorg File:a86393a7c24d31b5949b58ae6f05afc83c511953.jsonld Size 5490
+2018/03/08 15:08:44 #256 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032006.32611.1 
+2018/03/08 15:08:44 #319 Uploaded Bucket:opentopographyorg File:cd39a62cd0879d079076c633cb70010904341dd7.jsonld Size 4806
+2018/03/08 15:08:44 #319 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSRTM.082015.4326.1 
+2018/03/08 15:08:44 #128 Uploaded Bucket:opentopographyorg File:bb1c6080ac7c6c560e3ff2c07bd7657d2b8496f1.jsonld Size 3696
+2018/03/08 15:08:44 #128 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022013.26910.1 
+2018/03/08 15:08:44 #257 Uploaded Bucket:opentopographyorg File:c062432b222f4f6039a45b5b4a6ac0efe5422d27.jsonld Size 4721
+2018/03/08 15:08:44 #257 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062005.2926.1 
+2018/03/08 15:08:44 #404 Uploaded Bucket:opentopographyorg File:3d957e6d43e75c0c3b49befcd154513f521eeab2.jsonld Size 4023
+2018/03/08 15:08:44 #404 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052008.32610.1 
+2018/03/08 15:08:45 #245 Uploaded Bucket:opentopographyorg File:848cfcc51c56305c61a5e8dd73afbef54b01c7ec.jsonld Size 4623
+2018/03/08 15:08:45 #245 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122010.26912.1 
+2018/03/08 15:08:45 #355 Uploaded Bucket:opentopographyorg File:2235444c8ba32dfb631c7d3c87d109e31c2d17d7.jsonld Size 3603
+2018/03/08 15:08:45 #355 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112012.26911.1 
+2018/03/08 15:08:45 #234 Uploaded Bucket:opentopographyorg File:bcb11c08d048340cca90f1f982009068347a1603.jsonld Size 4724
+2018/03/08 15:08:45 #234 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102011.26918.1 
+2018/03/08 15:08:45 #81 Uploaded Bucket:opentopographyorg File:142220081fc40ed1f25321b398f1bc26a67ba802.jsonld Size 6543
+2018/03/08 15:08:45 #81 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.122014.26912.1 
+2018/03/08 15:08:45 #357 Uploaded Bucket:opentopographyorg File:2efe8b9e1619e9718951cfafc74be9d8d7e98671.jsonld Size 3893
+2018/03/08 15:08:45 #357 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102012.26910.1 
+2018/03/08 15:08:45 #236 Uploaded Bucket:opentopographyorg File:36b2c67227a0bbbb8ce6a617b469bd92955d0d0c.jsonld Size 4489
+2018/03/08 15:08:45 #236 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082011.26910.1 
+2018/03/08 15:08:45 #82 Uploaded Bucket:opentopographyorg File:005ee0b5b10608fb2dc84eb1bec9f8fd409be497.jsonld Size 7146
+2018/03/08 15:08:45 #82 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092014.2871.1 
+2018/03/08 15:08:45 #237 Uploaded Bucket:opentopographyorg File:5df839cb6904f3e75ae03d99aa27af52b169b7da.jsonld Size 4591
+2018/03/08 15:08:45 #237 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072011.32611.2 
+2018/03/08 15:08:46 #172 Uploaded Bucket:opentopographyorg File:3223944f9ee51cac3fe2ccbcbb2431c50dfe3d78.jsonld Size 3810
+2018/03/08 15:08:46 #172 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26913.2 
+2018/03/08 15:08:46 #238 Uploaded Bucket:opentopographyorg File:9d9785e16ee272af985df47a7d9579a3e529688e.jsonld Size 4321
+2018/03/08 15:08:46 #238 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072011.32611.1 
+2018/03/08 15:08:46 #358 Uploaded Bucket:opentopographyorg File:5e15faf03826a097bd2398fbb35e80d7ac6e8a5f.jsonld Size 3794
+2018/03/08 15:08:46 #358 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102012.26911.4 
+2018/03/08 15:08:46 #320 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072015.26916.1 
+2018/03/08 15:08:46 #239 Uploaded Bucket:opentopographyorg File:d331c2aadd3979863806ca356d39ebfe9a99d3fd.jsonld Size 4587
+2018/03/08 15:08:46 #239 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072011.26911.1 
+2018/03/08 15:08:46 #318 Uploaded Bucket:opentopographyorg File:c50deb15549cc419f8772ee6efc6ff14c005a8ca.jsonld Size 3925
+2018/03/08 15:08:46 #318 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122015.26917.1 
+2018/03/08 15:08:46 #138 Uploaded Bucket:opentopographyorg File:983375558455fc071e4f8f17473ecff511b6176f.jsonld Size 4049
+2018/03/08 15:08:46 #138 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26913.1 
+2018/03/08 15:08:46 #127 Uploaded Bucket:opentopographyorg File:4954b3bb4da36e6d2344c9b0a9b263f6d002add9.jsonld Size 3974
+2018/03/08 15:08:46 #127 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022013.26911.2 
+2018/03/08 15:08:46 #70 Uploaded Bucket:opentopographyorg File:0f5d952e68e46595258d6b55e08129160e94810c.jsonld Size 3880
+2018/03/08 15:08:46 #70 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042016.26911.1 
+2018/03/08 15:08:46 #297 Uploaded Bucket:opentopographyorg File:076d3fdc1101c26b10bd8c755314cd3589c71bdf.jsonld Size 4405
+2018/03/08 15:08:46 #297 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102016.32615.1 
+2018/03/08 15:08:46 #137 Uploaded Bucket:opentopographyorg File:b3cc8cafa4356af352da79417ec9c0ca593baab6.jsonld Size 4059
+2018/03/08 15:08:46 #137 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26913.2 
+2018/03/08 15:08:46 #299 Uploaded Bucket:opentopographyorg File:cc64dd9337c9a303edc47000111d2e3d2f4a6143.jsonld Size 3813
+2018/03/08 15:08:46 #299 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102016.2039.1 
+2018/03/08 15:08:47 #173 Uploaded Bucket:opentopographyorg File:b3afb512d9a0015c6fda7ec16946a910749e5b94.jsonld Size 3877
+2018/03/08 15:08:47 #173 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26912.2 
+2018/03/08 15:08:47 #300 Uploaded Bucket:opentopographyorg File:aeb36c55849ac4cd3c93500239ce3dc1c3243993.jsonld Size 3839
+2018/03/08 15:08:47 #300 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092016.26911.1 
+2018/03/08 15:08:47 #322 Uploaded Bucket:opentopographyorg File:7c91e666b61bd96da1f861b5ed321f6ea4f59dc9.jsonld Size 6380
+2018/03/08 15:08:47 #322 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122014.26912.1 
+2018/03/08 15:08:47 #280 Uploaded Bucket:opentopographyorg File:29fb5f108d2a59051034cfa2aaa999bcc710f6d1.jsonld Size 6395
+2018/03/08 15:08:47 #280 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122014.26910.1 
+2018/03/08 15:08:47 #211 Uploaded Bucket:opentopographyorg File:2ace0837c74b285a35fbf59b337b160c3f403d04.jsonld Size 4392
+2018/03/08 15:08:47 #211 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.022012.26910.4 
+2018/03/08 15:08:47 #323 Uploaded Bucket:opentopographyorg File:fe5563f0b8d839b4a2e56be67d47e90190697d2d.jsonld Size 4021
+2018/03/08 15:08:47 #323 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022015.26911.2 
+2018/03/08 15:08:47 #7 Uploaded Bucket:opentopographyorg File:a739d74dac3d062375d5ed206bb44d373d3c51ca.jsonld Size 4234
+2018/03/08 15:08:47 #7 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.072017.26911.1 
+2018/03/08 15:08:47 #14 Uploaded Bucket:opentopographyorg File:055f1e9d280cdb9e22bd6fa7a4b289fe1980555c.jsonld Size 4798
+2018/03/08 15:08:47 #14 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062017.26913.3 
+2018/03/08 15:08:47 #382 Uploaded Bucket:opentopographyorg File:7dbe0c4906becd7b2fcfc4307e52bf79fa640a1e.jsonld Size 3994
+2018/03/08 15:08:47 #382 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012012.26915.1 
+2018/03/08 15:08:47 #359 Uploaded Bucket:opentopographyorg File:88138e15a9092515a3d413deb9a407802dddba35.jsonld Size 3647
+2018/03/08 15:08:47 #359 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102012.26911.3 
+2018/03/08 15:08:48 #303 Uploaded Bucket:opentopographyorg File:7e8e09793bd8aacbf9d192f1d4877127f2210e1c.jsonld Size 6537
+2018/03/08 15:08:48 #303 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032012.26913.1 
+2018/03/08 15:08:48 #321 Uploaded Bucket:opentopographyorg File:11dbf396b0ec0e3905f2097810abbd79f80f65b1.jsonld Size 4425
+2018/03/08 15:08:48 #321 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052015.26910.1 
+2018/03/08 15:08:48 #302 Uploaded Bucket:opentopographyorg File:168cf194aa67b3013123f110374894c0c15a8537.jsonld Size 3661
+2018/03/08 15:08:48 #302 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092016.26911.2 
+2018/03/08 15:08:48 #383 Uploaded Bucket:opentopographyorg File:a194b9f701a71094bed25a6cb4f7cfcb34633656.jsonld Size 3939
+2018/03/08 15:08:48 #383 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012012.26911.1 
+2018/03/08 15:08:48 Error when transforming JSON-LD document to interface: invalid character '\x1a' in string literal
+2018/03/08 15:08:48 ERROR: At http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092014.2871.1 JSON-LD is NOT valid: invalid character '\x1a' in string literal
+2018/03/08 15:08:48 #324 Uploaded Bucket:opentopographyorg File:fa7a2d99c6a80a9c897fca968ad558b96303b966.jsonld Size 7013
+2018/03/08 15:08:48 #324 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092014.2871.1 
+2018/03/08 15:08:48 #255 Uploaded Bucket:opentopographyorg File:4cd67cda7f057de1ce4c1faaf1c860a8456740f9.jsonld Size 4059
+2018/03/08 15:08:48 #255 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062006.32611.1 
+2018/03/08 15:08:48 #384 Uploaded Bucket:opentopographyorg File:c39c4a5e8bf23c83a5f464ff9e84273696552908.jsonld Size 3914
+2018/03/08 15:08:48 #384 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26919.1 
+2018/03/08 15:08:48 #260 Uploaded Bucket:opentopographyorg File:5171095aad9029324e60545516caec2f6aae4138.jsonld Size 5664
+2018/03/08 15:08:48 #260 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTALOS.082017.4326.1 
+2018/03/08 15:08:48 #325 Uploaded Bucket:opentopographyorg File:88a94b3b62c2bca090e9a1abcba8167d5360a2a1.jsonld Size 3784
+2018/03/08 15:08:48 #325 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022014.32616.1 
+2018/03/08 15:08:48 #304 Uploaded Bucket:opentopographyorg File:7fd02c9662a33ff03bf1bf2c5b6ddb2bddd20a9e.jsonld Size 3688
+2018/03/08 15:08:48 #304 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072016.32611.1 
+2018/03/08 15:08:48 #326 Uploaded Bucket:opentopographyorg File:0c71bfccf422e037963501dd817e1e0aadf0bd00.jsonld Size 3990
+2018/03/08 15:08:48 #326 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022014.32610.1 
+2018/03/08 15:08:48 #261 Uploaded Bucket:opentopographyorg File:5530304234fa6e4808f9be1997a4ab61584712fc.jsonld Size 3749
+2018/03/08 15:08:48 #261 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072017.26914.1 
+2018/03/08 15:08:48 #385 Uploaded Bucket:opentopographyorg File:727b87fef1fea0fffae05aa46b3ecc347038713a.jsonld Size 3753
+2018/03/08 15:08:48 #385 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26916.1 
+2018/03/08 15:08:48 #327 Uploaded Bucket:opentopographyorg File:73721aeb9ee69b15e5362cda89682e56cae4fe2a.jsonld Size 3792
+2018/03/08 15:08:48 #327 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052013.26910.2 
+2018/03/08 15:08:48 #305 Uploaded Bucket:opentopographyorg File:cd7d760bb2b514d6e56ca502293c248e79010b7b.jsonld Size 6606
+2018/03/08 15:08:48 #305 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.082016.26913.3 
+2018/03/08 15:08:49 #306 Uploaded Bucket:opentopographyorg File:470df1de6647d50852788fbe57314d3b02464e11.jsonld Size 6601
+2018/03/08 15:08:49 #306 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.082016.26913.2 
+2018/03/08 15:08:49 #241 Uploaded Bucket:opentopographyorg File:d02f165cf1a5fcd6df37995d14773e6145476799.jsonld Size 5307
+2018/03/08 15:08:49 #241 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032011.26912.1 
+2018/03/08 15:08:49 #356 Uploaded Bucket:opentopographyorg File:3d3cf5e21f3a05b26d563ed9a82ffbb58ef3a217.jsonld Size 3724
+2018/03/08 15:08:49 #356 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112012.26910.1 
+2018/03/08 15:08:49 #308 Uploaded Bucket:opentopographyorg File:be5d13b068d9fb2351f719da8838ec1ceeef908e.jsonld Size 3863
+2018/03/08 15:08:49 #308 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072016.26917.2 
+2018/03/08 15:08:49 #176 Uploaded Bucket:opentopographyorg File:89291891a2b38448a3c8fb15a6aa754f52c3c65a.jsonld Size 3886
+2018/03/08 15:08:49 #176 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26911.2 
+2018/03/08 15:08:49 #388 Uploaded Bucket:opentopographyorg File:5db64d69d8731e54ca4740b9760cc77689b9e484.jsonld Size 3817
+2018/03/08 15:08:49 #388 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26912.3 
+2018/03/08 15:08:49 #175 Uploaded Bucket:opentopographyorg File:06582481429616a29fbf9123bb4cd58eda787614.jsonld Size 3889
+2018/03/08 15:08:49 #175 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26911.3 
+2018/03/08 15:08:49 #331 Uploaded Bucket:opentopographyorg File:ebee2b543e62e24553c88574434b1ec9206822eb.jsonld Size 3781
+2018/03/08 15:08:49 #331 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052013.26911.1 
+2018/03/08 15:08:49 #307 Uploaded Bucket:opentopographyorg File:b963870a8423e9c6fe46d07d0abb894c681572ab.jsonld Size 6600
+2018/03/08 15:08:49 #307 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.082016.26913.1 
+2018/03/08 15:08:49 #370 Uploaded Bucket:opentopographyorg File:79df85338bf50d504746b3039651b3f39f8575f0.jsonld Size 3688
+2018/03/08 15:08:49 #370 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062012.26917.1 
+2018/03/08 15:08:49 #177 Uploaded Bucket:opentopographyorg File:29dd0d2a7ba77711a5f162dac00ea2c7e73c92ed.jsonld Size 3899
+2018/03/08 15:08:49 #177 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26913.1 
+2018/03/08 15:08:49 #386 Uploaded Bucket:opentopographyorg File:bfdf14d6d69291a9b7db700b6f1dcfd715ecaea4.jsonld Size 3772
+2018/03/08 15:08:49 #386 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26913.2 
+2018/03/08 15:08:49 #381 Uploaded Bucket:opentopographyorg File:37776ab36ae6efac9138171b81ccc3f3990c38ed.jsonld Size 3597
+2018/03/08 15:08:49 #381 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022012.26910.1 
+2018/03/08 15:08:50 #371 Uploaded Bucket:opentopographyorg File:cc35316727d85281ae533f87b6915639950b82a2.jsonld Size 3993
+2018/03/08 15:08:50 #371 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052012.26917.2 
+2018/03/08 15:08:50 #360 Uploaded Bucket:opentopographyorg File:649e4c9a0a1a7e0592693605d9b142a9c990fe1c.jsonld Size 3670
+2018/03/08 15:08:50 #360 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102012.26916.1 
+2018/03/08 15:08:50 #362 Uploaded Bucket:opentopographyorg File:2c7c39f928c76f72fb06acddc1e6d702fb2f3330.jsonld Size 8130
+2018/03/08 15:08:50 #362 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072013.2966.1 
+2018/03/08 15:08:50 #330 Uploaded Bucket:opentopographyorg File:28fce0481e91188e1f42b94d487b984d1a046716.jsonld Size 5285
+2018/03/08 15:08:50 #330 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052013.26913.1 
+2018/03/08 15:08:50 #178 Uploaded Bucket:opentopographyorg File:f29939c5baecc2187ce01c9e9a1751521cd2aabe.jsonld Size 4840
+2018/03/08 15:08:50 #178 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26911.1 
+2018/03/08 15:08:50 #372 Uploaded Bucket:opentopographyorg File:32944bb2514ba3ac4b46610df1210d1a41d55812.jsonld Size 3956
+2018/03/08 15:08:50 #372 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052012.26910.1 
+2018/03/08 15:08:50 #262 Uploaded Bucket:opentopographyorg File:fdbc39751969eaf33d4fd957d0ed08e3a51ce2e6.jsonld Size 4101
+2018/03/08 15:08:50 #262 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072017.26911.1 
+2018/03/08 15:08:50 #179 Uploaded Bucket:opentopographyorg File:7a457b8100b5483d755825dc2784e56218c79858.jsonld Size 6220
+2018/03/08 15:08:50 #179 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26913.1 
+2018/03/08 15:08:50 #3 Uploaded Bucket:opentopographyorg File:b938db3e2e5a5544126b3613b9eac388bacec753.jsonld Size 1959
+2018/03/08 15:08:50 #3 would get http://opentopography.org/contact 
+2018/03/08 15:08:50 #298 Uploaded Bucket:opentopographyorg File:eb83eddaf617fa25535b4b3076b71a9a6f122b7e.jsonld Size 3581
+2018/03/08 15:08:50 #298 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102016.26910.1 
+2018/03/08 15:08:50 #373 Uploaded Bucket:opentopographyorg File:6dbc6e0c074733ce7ea47be25c837b78036fec60.jsonld Size 3787
+2018/03/08 15:08:50 #373 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052012.26911.1 
+2018/03/08 15:08:50 #334 Uploaded Bucket:opentopographyorg File:1ed1a26bcddbfcd8d2f47fa8a65fac3ed54c7610.jsonld Size 5769
+2018/03/08 15:08:50 #334 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.042013.26911.2 
+2018/03/08 15:08:50 #335 Uploaded Bucket:opentopographyorg File:1c35ed385385339b34beb4431e7de6f0510d1483.jsonld Size 4654
+2018/03/08 15:08:50 #335 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.042013.26918.1 
+2018/03/08 15:08:51 #333 Uploaded Bucket:opentopographyorg File:e3c3adc8d50ccaf4466ff786324cc58a241aa757.jsonld Size 5767
+2018/03/08 15:08:51 #333 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.042013.26911.1 
+2018/03/08 15:08:51 #310 Uploaded Bucket:opentopographyorg File:d430f67219db6c50aa0d341108392ba4acca2a8f.jsonld Size 6782
+2018/03/08 15:08:51 #310 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072016.32759.1 
+2018/03/08 15:08:51 #309 Uploaded Bucket:opentopographyorg File:9a074b2c4079ce4d775df9b6df265be306b7ed69.jsonld Size 3621
+2018/03/08 15:08:51 #309 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072016.26917.1 
+2018/03/08 15:08:51 #376 Uploaded Bucket:opentopographyorg File:a5ca137a4cc801da1c874449ad09320214dcc197.jsonld Size 3872
+2018/03/08 15:08:51 #376 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032012.26911.2 
+2018/03/08 15:08:51 #258 Uploaded Bucket:opentopographyorg File:7f82263bfa2c8044313467a6cc800859a72e90a0.jsonld Size 4562
+2018/03/08 15:08:51 #258 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062005.2871.1 
+2018/03/08 15:08:51 #375 Uploaded Bucket:opentopographyorg File:98fdf84e6f9bddc7d67711bfaae406886f9fba7d.jsonld Size 4026
+2018/03/08 15:08:51 #375 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032012.26916.1 
+2018/03/08 15:08:51 #374 Uploaded Bucket:opentopographyorg File:d51206427d352a9db4654417012d3cb351f8a524.jsonld Size 3737
+2018/03/08 15:08:51 #374 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052012.26917.1 
+2018/03/08 15:08:51 #312 Uploaded Bucket:opentopographyorg File:7b69a938841296686fa4a658fc8e721d62517819.jsonld Size 3741
+2018/03/08 15:08:51 #312 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052016.26912.3 
+2018/03/08 15:08:51 #313 Uploaded Bucket:opentopographyorg File:0c5e8bbe4cafc2ab84b60e52bfda8a9903bfeb2a.jsonld Size 3728
+2018/03/08 15:08:51 #313 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052016.26911.1 
+2018/03/08 15:08:52 #180 Uploaded Bucket:opentopographyorg File:a5d43aafd85d35286128abf6bd8b5caaf9ad8952.jsonld Size 4964
+2018/03/08 15:08:52 #180 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26913.2 
+2018/03/08 15:08:52 #337 Uploaded Bucket:opentopographyorg File:cf98fdcb3d72de7cdb4109270aa196b248f136d9.jsonld Size 5264
+2018/03/08 15:08:52 #337 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSRTM.042013.4326.1 
+2018/03/08 15:08:52 #181 Uploaded Bucket:opentopographyorg File:340698b8ef25151bfa7e790d90b8deeaeeba11fd.jsonld Size 3856
+2018/03/08 15:08:52 #181 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26918.1 
+2018/03/08 15:08:52 #182 Uploaded Bucket:opentopographyorg File:9506260d07c6e99031edc3258e5ef78fc3d3a73f.jsonld Size 3916
+2018/03/08 15:08:52 #182 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26911.1 
+2018/03/08 15:08:52 #315 Uploaded Bucket:opentopographyorg File:37f4bd257cffe44d8c8d9551f4fa848f97400030.jsonld Size 3753
+2018/03/08 15:08:52 #315 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052016.26912.2 
+2018/03/08 15:08:52 #339 Uploaded Bucket:opentopographyorg File:0c519199cae628227bf261299e74837aa8c2e1e0.jsonld Size 3711
+2018/03/08 15:08:52 #339 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032013.32611.1 
+2018/03/08 15:08:52 #259 Uploaded Bucket:opentopographyorg File:93a50a1f347a5c25f597baada87eb737a99b5923.jsonld Size 3634
+2018/03/08 15:08:52 #259 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022018.26915.1 
+2018/03/08 15:08:52 #139 Uploaded Bucket:opentopographyorg File:d80b99e7624da86cb14fba90f7c1f4949bdb3a3f.jsonld Size 4991
+2018/03/08 15:08:52 #139 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26911.1 
+2018/03/08 15:08:52 #329 Uploaded Bucket:opentopographyorg File:973bf5b681842df980100bd9e9ca17e5499dfd79.jsonld Size 3629
+2018/03/08 15:08:52 #329 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052013.26913.2 
+2018/03/08 15:08:52 #141 Uploaded Bucket:opentopographyorg File:bb4b5d530020ebf64b8aefcec635c9a00eccadd6.jsonld Size 3794
+2018/03/08 15:08:52 #141 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26911.3 
+2018/03/08 15:08:52 #183 Uploaded Bucket:opentopographyorg File:3bb68b10e2f613f6229b579e8ce3c27dbfb45365.jsonld Size 3945
+2018/03/08 15:08:52 #183 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26916.1 
+2018/03/08 15:08:53 #379 Uploaded Bucket:opentopographyorg File:a26fdd3eaf5ce461eff00ae9d451551f16e47074.jsonld Size 3712
+2018/03/08 15:08:53 #379 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022012.26910.2 
+2018/03/08 15:08:53 #361 Uploaded Bucket:opentopographyorg File:86ff2c3ee137a9b974bc9bb6f5ae5ad8b5736481.jsonld Size 3849
+2018/03/08 15:08:53 #361 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102012.26911.1 
+2018/03/08 15:08:53 #338 Uploaded Bucket:opentopographyorg File:a3255ac27281398b3602c57a2806184bbf4e1e08.jsonld Size 4108
+2018/03/08 15:08:53 #338 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012013.26906.1 
+2018/03/08 15:08:53 #142 Uploaded Bucket:opentopographyorg File:afcf79bc18e8c079544defb06085ceaee580ddfb.jsonld Size 3716
+2018/03/08 15:08:53 #142 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26912.1 
+2018/03/08 15:08:53 #143 Uploaded Bucket:opentopographyorg File:ceb967b1eddec9545cd7083d72260628b9ee1e91.jsonld Size 3668
+2018/03/08 15:08:53 #143 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26910.1 
+2018/03/08 15:08:53 #387 Uploaded Bucket:opentopographyorg File:ff43a5317bf412b58b51c0518b791d149a3fca0f.jsonld Size 3796
+2018/03/08 15:08:53 #387 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26913.1 
+2018/03/08 15:08:53 #184 Uploaded Bucket:opentopographyorg File:3f667de933fdfb01a821a110b13fafe180030614.jsonld Size 3821
+2018/03/08 15:08:53 #184 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26917.1 
+2018/03/08 15:08:53 #174 Uploaded Bucket:opentopographyorg File:90b732f17a62d13cf8f0c73c88957480a4347961.jsonld Size 3924
+2018/03/08 15:08:53 #174 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26912.1 
+2018/03/08 15:08:53 #363 Uploaded Bucket:opentopographyorg File:595e15d0aa89e22d5a34080c339c6665a5b71965.jsonld Size 8129
+2018/03/08 15:08:53 #363 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.072013.2965.1 
+2018/03/08 15:08:53 #380 Uploaded Bucket:opentopographyorg File:7d7264e4f98f7ef3ff597fa4d394b5799c4bb1dc.jsonld Size 3675
+2018/03/08 15:08:53 #380 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022012.26911.1 
+2018/03/08 15:08:53 #185 Uploaded Bucket:opentopographyorg File:15fd4627dc3d7be48bbdcb1c374cfe90d3a4b037.jsonld Size 4126
+2018/03/08 15:08:53 #185 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052012.26917.2 
+2018/03/08 15:08:53 #340 Uploaded Bucket:opentopographyorg File:15288927d69b8f7922b22deefc05f7c0541e8167.jsonld Size 3851
+2018/03/08 15:08:53 #340 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032013.26910.1 
+2018/03/08 15:08:54 #159 Uploaded Bucket:opentopographyorg File:26c2b7a000ea70aa237ab7fcf2ffa982e9fcd079.jsonld Size 8267
+2018/03/08 15:08:54 #159 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.4326.1 
+2018/03/08 15:08:54 #341 Uploaded Bucket:opentopographyorg File:5fcf18a4209e4e2e055b59e84360da9c7a830ddd.jsonld Size 3768
+2018/03/08 15:08:54 #341 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032013.26918.3 
+2018/03/08 15:08:54 #157 Uploaded Bucket:opentopographyorg File:f9d342ed30a072da51b976d6d9e4cef843b6d4a6.jsonld Size 3981
+2018/03/08 15:08:54 #157 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26911.1 
+2018/03/08 15:08:54 #140 Uploaded Bucket:opentopographyorg File:5246d5b4abd3f100ab09344c17abe0f5cf0285d3.jsonld Size 3919
+2018/03/08 15:08:54 #140 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26912.3 
+2018/03/08 15:08:54 #144 Uploaded Bucket:opentopographyorg File:606ccceaf443e4b2eab4aa72afabea7b323b13f9.jsonld Size 3827
+2018/03/08 15:08:54 #144 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.012013.26912.1 
+2018/03/08 15:08:54 #364 Uploaded Bucket:opentopographyorg File:43920e135a0dc082bf95ada89cfb0ce9c4f8d58e.jsonld Size 3705
+2018/03/08 15:08:54 #364 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092012.26910.1 
+2018/03/08 15:08:54 #160 Uploaded Bucket:opentopographyorg File:f822f5cfe0e82b1c65479235ace47a3e233d3605.jsonld Size 3856
+2018/03/08 15:08:54 #160 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26913.2 
+2018/03/08 15:08:54 #186 Uploaded Bucket:opentopographyorg File:c15b138babf5dd62c6593e436eebded66d7c8902.jsonld Size 4089
+2018/03/08 15:08:54 #186 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052012.26910.1 
+2018/03/08 15:08:54 #146 Uploaded Bucket:opentopographyorg File:ee7692ef3ed3c8d97da1aa5f1fa16eeefcce66c1.jsonld Size 3770
+2018/03/08 15:08:54 #146 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112012.26913.1 
+2018/03/08 15:08:54 #365 Uploaded Bucket:opentopographyorg File:697a9ffaffdf88d8aa25ba5591f22c081d2870c1.jsonld Size 3756
+2018/03/08 15:08:54 #365 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.082012.26911.3 
+2018/03/08 15:08:54 #311 Uploaded Bucket:opentopographyorg File:f8b986ae2af5a8e058b1cfcbbff4050e09746102.jsonld Size 6968
+2018/03/08 15:08:54 #311 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092015.32611.1 
+2018/03/08 15:08:54 #366 Uploaded Bucket:opentopographyorg File:a5b19229af58937663d84034c44279e6e00880c7.jsonld Size 3753
+2018/03/08 15:08:54 #366 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.082012.26911.2 
+2018/03/08 15:08:55 #147 Uploaded Bucket:opentopographyorg File:d712395f14db709d0bfbe86d12f011d77451ff47.jsonld Size 3722
+2018/03/08 15:08:55 #147 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112012.26917.1 
+2018/03/08 15:08:55 #161 Uploaded Bucket:opentopographyorg File:48ed26e9f614ca43361c8caacf847c82470208be.jsonld Size 3650
+2018/03/08 15:08:55 #161 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26913.1 
+2018/03/08 15:08:55 #163 Uploaded Bucket:opentopographyorg File:badf8c39433fb0a21313bf5a3de14aa2521a0e0f.jsonld Size 3840
+2018/03/08 15:08:55 #163 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26910.2 
+2018/03/08 15:08:55 #164 Uploaded Bucket:opentopographyorg File:fd535a0bdfa47144c28877bef8e99e377f95180a.jsonld Size 4315
+2018/03/08 15:08:55 #164 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26920.1 
+2018/03/08 15:08:55 #165 Uploaded Bucket:opentopographyorg File:6660530a61dee5464aa704b67e32d3345db1d5c2.jsonld Size 6017
+2018/03/08 15:08:55 #165 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26915.1 
+2018/03/08 15:08:55 #145 Uploaded Bucket:opentopographyorg File:7069fdd9a9670a1bb7e46faf8371ee37b289f33f.jsonld Size 3798
+2018/03/08 15:08:55 #145 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26913.1 
+2018/03/08 15:08:55 #367 Uploaded Bucket:opentopographyorg File:825d88d5f4604fce0ccb43f35ba71147c2ef6857.jsonld Size 6086
+2018/03/08 15:08:55 #367 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062012.26913.1 
+2018/03/08 15:08:55 #301 Uploaded Bucket:opentopographyorg File:a4c0d87dbfa4b55a39205913e91647305fef4801.jsonld Size 3537
+2018/03/08 15:08:55 #301 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.092016.26912.1 
+2018/03/08 15:08:55 #166 Uploaded Bucket:opentopographyorg File:e304bc86e98ad53e8cc02e75a6ac3370b5555f05.jsonld Size 3951
+2018/03/08 15:08:55 #166 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26911.2 
+2018/03/08 15:08:55 #343 Uploaded Bucket:opentopographyorg File:f234220722e4dd2ecafda8471fe1bd1582fd04a0.jsonld Size 5981
+2018/03/08 15:08:55 #343 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022013.26910.3 
+2018/03/08 15:08:55 #336 Uploaded Bucket:opentopographyorg File:17655bd266fa9e7f1a9cb555d602121967dc06b2.jsonld Size 4656
+2018/03/08 15:08:55 #336 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.042013.26918.2 
+2018/03/08 15:08:55 #389 Uploaded Bucket:opentopographyorg File:5b9e001511d9a894c7de814b548f858dc2d0c725.jsonld Size 3802
+2018/03/08 15:08:55 #389 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26912.2 
+2018/03/08 15:08:56 #397 Uploaded Bucket:opentopographyorg File:efe6d7c35f875f9912f5634886e929994a17106f.jsonld Size 3578
+2018/03/08 15:08:56 #397 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062011.26912.1 
+2018/03/08 15:08:56 #167 Uploaded Bucket:opentopographyorg File:71f28d976384809b3a5977785e08c4b39d6baae1.jsonld Size 3887
+2018/03/08 15:08:56 #167 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26911.1 
+2018/03/08 15:08:56 #328 Uploaded Bucket:opentopographyorg File:1fbffb9780eb3ec2d1a6253518abb3b261023c9b.jsonld Size 4342
+2018/03/08 15:08:56 #328 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052013.26910.1 
+2018/03/08 15:08:56 #168 Uploaded Bucket:opentopographyorg File:1ab97151b6e7f534e991d1548663eb6a1720fe16.jsonld Size 3806
+2018/03/08 15:08:56 #168 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26917.1 
+2018/03/08 15:08:56 #368 Uploaded Bucket:opentopographyorg File:89e0d95ce9f50cd342edf14d3b535fb718c9dbe4.jsonld Size 4830
+2018/03/08 15:08:56 #368 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062012.26913.2 
+2018/03/08 15:08:56 #369 Uploaded Bucket:opentopographyorg File:7490719a9b80ef4cdeac725398416bba61f02b20.jsonld Size 3812
+2018/03/08 15:08:56 #369 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.062012.26916.1 
+2018/03/08 15:08:56 #396 Uploaded Bucket:opentopographyorg File:ff6ee658b0ebf15e1bcf2e9cfd5f0878acc1b9e5.jsonld Size 4212
+2018/03/08 15:08:56 #396 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.082011.26910.1 
+2018/03/08 15:08:56 #377 Uploaded Bucket:opentopographyorg File:5ec24a535b64e0fe4e4e864f1bc5ef5b84f00cc9.jsonld Size 3960
+2018/03/08 15:08:56 #377 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032012.32605.1 
+2018/03/08 15:08:56 #314 Uploaded Bucket:opentopographyorg File:fa68732cefb0dfac5d735270cebb313a7d83fe8c.jsonld Size 3805
+2018/03/08 15:08:56 #314 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052016.26912.1 
+2018/03/08 15:08:56 #392 Uploaded Bucket:opentopographyorg File:e9c172508eb0b324bc3f539d51a9bbdf5d56b132.jsonld Size 3841
+2018/03/08 15:08:56 #392 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26911.2 
+2018/03/08 15:08:56 #316 Uploaded Bucket:opentopographyorg File:193a7c5c55b4dcce7999cf1ab867c00a6a1291a4.jsonld Size 3682
+2018/03/08 15:08:56 #316 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.042016.26913.1 
+2018/03/08 15:08:56 #400 Uploaded Bucket:opentopographyorg File:0a6216077251884c33c2f7cefbf6dce059c6dd3d.jsonld Size 4082
+2018/03/08 15:08:56 #400 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122009.32611.1 
+2018/03/08 15:08:57 #344 Uploaded Bucket:opentopographyorg File:bce50b3380631dda044ffac5c205ea616163f418.jsonld Size 6124
+2018/03/08 15:08:57 #344 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022013.26910.2 
+2018/03/08 15:08:57 #378 Uploaded Bucket:opentopographyorg File:0176543bb271e52f67001c18f6be35ddd52fc092.jsonld Size 3796
+2018/03/08 15:08:57 #378 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022012.26910.3 
+2018/03/08 15:08:57 #394 Uploaded Bucket:opentopographyorg File:62466a8fa87f1bdf1293a65d36900bf98e2ba64c.jsonld Size 4587
+2018/03/08 15:08:57 #394 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102011.26918.2 
+2018/03/08 15:08:57 #401 Uploaded Bucket:opentopographyorg File:1fa23a9c188fbda5072cc4d704b75ba88f832889.jsonld Size 3907
+2018/03/08 15:08:57 #401 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112009.32610.1 
+2018/03/08 15:08:57 #345 Uploaded Bucket:opentopographyorg File:60425d1db83e62b915c4a21d269fb9d15808e00e.jsonld Size 3841
+2018/03/08 15:08:57 #345 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022013.26911.2 
+2018/03/08 15:08:57 #346 Uploaded Bucket:opentopographyorg File:7acf1ceef1ad215b37ffb809f8c3490e5d3e0033.jsonld Size 3563
+2018/03/08 15:08:57 #346 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022013.26910.1 
+2018/03/08 15:08:57 #187 Uploaded Bucket:opentopographyorg File:76a1c05d1460ec50104788d052bb52520195970d.jsonld Size 3920
+2018/03/08 15:08:57 #187 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052012.26911.1 
+2018/03/08 15:08:57 #351 Uploaded Bucket:opentopographyorg File:6d60b030e2cf9a4ca9dfdda7e0b40ef51a9ec35f.jsonld Size 3535
+2018/03/08 15:08:57 #351 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012013.26910.1 
+2018/03/08 15:08:57 #347 Uploaded Bucket:opentopographyorg File:e050d992b8eebb1ad1c4064b90994537bed600a0.jsonld Size 3977
+2018/03/08 15:08:57 #347 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022013.26918.1 
+2018/03/08 15:08:57 #395 Uploaded Bucket:opentopographyorg File:1e3193d3a9f1a756fe9c82d7aa973079d2d9e968.jsonld Size 4589
+2018/03/08 15:08:57 #395 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102011.26918.1 
+2018/03/08 15:08:57 #350 Uploaded Bucket:opentopographyorg File:d9b62622a863e42ee3e055f399bd957c7c587404.jsonld Size 3714
+2018/03/08 15:08:57 #350 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012013.26986.1 
+2018/03/08 15:08:57 #332 Uploaded Bucket:opentopographyorg File:1795f9acd2f8b60e6aa64042caa21defac0543d1.jsonld Size 3836
+2018/03/08 15:08:57 #332 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.042013.26919.1 
+2018/03/08 15:08:57 #393 Uploaded Bucket:opentopographyorg File:4a881ed478ab4616d434e3ff499bf128333d8751.jsonld Size 3718
+2018/03/08 15:08:57 #393 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26911.1 
+2018/03/08 15:08:58 #189 Uploaded Bucket:opentopographyorg File:31bc30d1908fec1dcc8c2b93122ec0b0d5866059.jsonld Size 3996
+2018/03/08 15:08:58 #189 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052012.32604.1 
+2018/03/08 15:08:58 #348 Uploaded Bucket:opentopographyorg File:14f91f0ac38fa467b736c3bf5e33af6171d54f02.jsonld Size 3690
+2018/03/08 15:08:58 #348 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.022013.26911.1 
+2018/03/08 15:08:58 #192 Uploaded Bucket:opentopographyorg File:3c41a8a607697f91f022c9115f07d37a4174d926.jsonld Size 5234
+2018/03/08 15:08:58 #192 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.26911.3 
+2018/03/08 15:08:58 #190 Uploaded Bucket:opentopographyorg File:f80c5ad04af67be10daf598ae6270158766995db.jsonld Size 5627
+2018/03/08 15:08:58 #190 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.26911.1 
+2018/03/08 15:08:58 #349 Uploaded Bucket:opentopographyorg File:326a050f1cba1cc46db08f24e2e5a514caa6e065.jsonld Size 3720
+2018/03/08 15:08:58 #349 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012013.26910.2 
+2018/03/08 15:08:58 #403 Uploaded Bucket:opentopographyorg File:37cb8524c0bfa0a70cf34c892a31139d1e0dc2c9.jsonld Size 4078
+2018/03/08 15:08:58 #403 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.052009.32612.1 
+2018/03/08 15:08:58 #202 Uploaded Bucket:opentopographyorg File:39ffdf29a421e058b80f3fd83fb4af5b9977ce3c.jsonld Size 4266
+2018/03/08 15:08:58 #202 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26913.2 
+2018/03/08 15:08:58 #191 Uploaded Bucket:opentopographyorg File:a77699f6960bab453a95acf4bb37963092740f13.jsonld Size 5416
+2018/03/08 15:08:58 #191 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.26911.2 
+2018/03/08 15:08:58 #188 Uploaded Bucket:opentopographyorg File:471ac8920a24ad10dedb894270d0844daade312c.jsonld Size 3870
+2018/03/08 15:08:58 #188 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052012.26917.1 
+2018/03/08 15:08:58 #203 Uploaded Bucket:opentopographyorg File:89f32c2d569fed04427be7cafbc6051f4f01b6b5.jsonld Size 4085
+2018/03/08 15:08:58 #203 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26911.3 
+2018/03/08 15:08:58 #149 Uploaded Bucket:opentopographyorg File:ccf7aa35caf9e01800c87b573f77208696d7988d.jsonld Size 3856
+2018/03/08 15:08:58 #149 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112012.26910.1 
+2018/03/08 15:08:58 #200 Uploaded Bucket:opentopographyorg File:ece3e0025b51bc30880ec190c8c7645d4121ddf9.jsonld Size 4359
+2018/03/08 15:08:58 #200 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052012.32611.1 
+2018/03/08 15:08:58 #390 Uploaded Bucket:opentopographyorg File:8d78c2e1be872c7175598315e3e8df4572004c80.jsonld Size 3733
+2018/03/08 15:08:58 #390 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26912.1 
+2018/03/08 15:08:59 #204 Uploaded Bucket:opentopographyorg File:50ef5c7fa6d36529c98f472aad7660563aa77e17.jsonld Size 4160
+2018/03/08 15:08:59 #204 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26916.1 
+2018/03/08 15:08:59 #199 Uploaded Bucket:opentopographyorg File:4212171ed4ce8eae35d426a263be6ee195f5872d.jsonld Size 5283
+2018/03/08 15:08:59 #199 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.32611.1 
+2018/03/08 15:08:59 #154 Uploaded Bucket:opentopographyorg File:e8fc2b649fd10f3977d8003cdb2554602f313ac4.jsonld Size 3780
+2018/03/08 15:08:59 #154 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26911.3 
+2018/03/08 15:08:59 #342 Uploaded Bucket:opentopographyorg File:23dbbde785282b0bc5dd91432bbb84d0e4faaab5.jsonld Size 7306
+2018/03/08 15:08:59 #342 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032013.26910.2 
+2018/03/08 15:08:59 #155 Uploaded Bucket:opentopographyorg File:14089c4bc961be9fa821e99f3a7a607fe820c481.jsonld Size 3964
+2018/03/08 15:08:59 #155 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26911.2 
+2018/03/08 15:08:59 #169 Uploaded Bucket:opentopographyorg File:72a40a947aec492d605682777084f9cfe6033883.jsonld Size 3838
+2018/03/08 15:08:59 #169 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26910.1 
+2018/03/08 15:08:59 #353 Uploaded Bucket:opentopographyorg File:df094a585370837edb4029afb6710a900ee3e142.jsonld Size 3665
+2018/03/08 15:08:59 #353 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102012.26913.1 
+2018/03/08 15:08:59 #153 Uploaded Bucket:opentopographyorg File:8d69573670c17802535e5894b6f896a3fea4de13.jsonld Size 3926
+2018/03/08 15:08:59 #153 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26911.4 
+2018/03/08 15:08:59 #206 Uploaded Bucket:opentopographyorg File:de3b82cfe0406401c52f73d58693807a4a11fcd8.jsonld Size 3980
+2018/03/08 15:08:59 #206 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26911.2 
+2018/03/08 15:08:59 #171 Uploaded Bucket:opentopographyorg File:a8350c41aefaa15b58633eab4b6588a3694481e2.jsonld Size 3883
+2018/03/08 15:08:59 #171 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.082012.26914.1 
+2018/03/08 15:08:59 #170 Uploaded Bucket:opentopographyorg File:9e662d7afa32a317b055ef068fff666a7357776a.jsonld Size 3805
+2018/03/08 15:08:59 #170 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.32612.1 
+2018/03/08 15:08:59 #195 Uploaded Bucket:opentopographyorg File:d92bd09b8a52225483c5b13591843907b704f210.jsonld Size 4698
+2018/03/08 15:08:59 #195 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.2243.1 
+2018/03/08 15:09:00 #150 Uploaded Bucket:opentopographyorg File:728a7319c1eceb170ca19139422645e15b5d1848.jsonld Size 4026
+2018/03/08 15:09:00 #150 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26910.1 
+2018/03/08 15:09:00 #352 Uploaded Bucket:opentopographyorg File:12bf7b821a46a59a4e61ce6cca49c33133fb0be6.jsonld Size 3694
+2018/03/08 15:09:00 #352 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.012013.26912.1 
+2018/03/08 15:09:00 #201 Uploaded Bucket:opentopographyorg File:8fef956a26ea3fc712c53d4619abb9496a6c18bb.jsonld Size 4384
+2018/03/08 15:09:00 #201 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052012.32611.2 
+2018/03/08 15:09:00 #391 Uploaded Bucket:opentopographyorg File:2ef82c5ad04a0a00773c0fc15ef57f78ef6ca40f.jsonld Size 3720
+2018/03/08 15:09:00 #391 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.112011.26911.3 
+2018/03/08 15:09:00 #148 Uploaded Bucket:opentopographyorg File:3e6dae4519af785d1909a19d39a247c0f11cb0b7.jsonld Size 3735
+2018/03/08 15:09:00 #148 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.112012.26911.1 
+2018/03/08 15:09:00 #194 Uploaded Bucket:opentopographyorg File:7947aabf9395ed882608c63f6fa0e12a82efb487.jsonld Size 4622
+2018/03/08 15:09:00 #194 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.26911.5 
+2018/03/08 15:09:00 #196 Uploaded Bucket:opentopographyorg File:b83c231d38cfd5233bb7ec2af23239fe01674a59.jsonld Size 5386
+2018/03/08 15:09:00 #196 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.26911.6 
+2018/03/08 15:09:00 #198 Uploaded Bucket:opentopographyorg File:4fc91ee2dd78d32bdda4376323899187660d5969.jsonld Size 5263
+2018/03/08 15:09:00 #198 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.32611.2 
+2018/03/08 15:09:00 #399 Uploaded Bucket:opentopographyorg File:faf26c122818004f0a003c8bc0f4ea39a789eed7.jsonld Size 4921
+2018/03/08 15:09:00 #399 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.122010.32611.1 
+2018/03/08 15:09:00 #151 Uploaded Bucket:opentopographyorg File:7580ad51f0a39673bc291e8d69dd3cee6480d0c2.jsonld Size 3824
+2018/03/08 15:09:00 #151 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26912.4 
+2018/03/08 15:09:00 #197 Uploaded Bucket:opentopographyorg File:8eb41f82bec398f01a006c615273f501eefa8202.jsonld Size 5508
+2018/03/08 15:09:00 #197 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.26911.7 
+2018/03/08 15:09:00 #205 Uploaded Bucket:opentopographyorg File:4699d4fe8aff8ab3c816dcfd169502d2d2a6f913.jsonld Size 3799
+2018/03/08 15:09:00 #205 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26912.1 
+2018/03/08 15:09:01 #156 Uploaded Bucket:opentopographyorg File:95c979cf4c39276769694f34d56c38bc4b209654.jsonld Size 3803
+2018/03/08 15:09:01 #156 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26916.1 
+2018/03/08 15:09:01 #193 Uploaded Bucket:opentopographyorg File:8de1548ad9eb4d960722ad4ddb5384e3e3307a86.jsonld Size 4510
+2018/03/08 15:09:01 #193 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.042012.26911.4 
+2018/03/08 15:09:01 #402 Uploaded Bucket:opentopographyorg File:fa602498e16c19d14d6d992bcb7654a8563139c5.jsonld Size 3974
+2018/03/08 15:09:01 #402 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.102009.32607.1 
+2018/03/08 15:09:01 #158 Uploaded Bucket:opentopographyorg File:43a19a8d3f8941d9a97976fba3361cb5a5f1688f.jsonld Size 3761
+2018/03/08 15:09:01 #158 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26912.1 
+2018/03/08 15:09:02 #152 Uploaded Bucket:opentopographyorg File:46b34e4f37d037d97383e2e311a4abdc9751c50d.jsonld Size 3894
+2018/03/08 15:09:02 #152 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.102012.26912.3 
+2018/03/08 15:09:02 #162 Uploaded Bucket:opentopographyorg File:dcf93c44c6cf2179bb8fdeb06274b2f2d3c7e115.jsonld Size 3877
+2018/03/08 15:09:02 #162 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.092012.26910.4 
+2018/03/08 15:09:03 #398 Uploaded Bucket:opentopographyorg File:d5fda6acff8152c848f5e4cb65d91c6e9464cf18.jsonld Size 3884
+2018/03/08 15:09:03 #398 would get http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTSDEM.032011.26910.1 
+2018/03/08 15:09:03 End time: 2018-03-08 15:09:03.038917336 -0600 CST m=+36.314517198 
