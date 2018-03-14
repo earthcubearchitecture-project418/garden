@@ -4,3 +4,4 @@ https://www.bco-dmo.org/sitemap.xml?page=1
 https://www.bco-dmo.org/sitemap.xml?page=2
 http://data.neotomadb.org/sitemap.xml
 http://wiki.linked.earth/sitemap.xml
+http://opentopography.org/sitemap.xml

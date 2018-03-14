@@ -5,7 +5,6 @@ import (
 	"log"
 	"time"
 
-	"earthcube.org/Project418/garden/millers/millerbleve"
 	"earthcube.org/Project418/garden/millers/millersgraph"
 	"github.com/minio/minio-go"
 )
@@ -17,24 +16,26 @@ func main() {
 
 	mc := miniConnection() // minio connection
 
-	buckets, err := listBuckets(mc)
-	if err != nil {
-		log.Println(err)
-	}
+	// buckets, err := listBuckets(mc)
+	// if err != nil {
+	// 	log.Println(err)
+	// }
 
-	fmt.Println("Bucket list...")
-	for _, bucket := range buckets {
-		fmt.Println(bucket.Name)
-		// processBucketObjects(mc, bucket.Name)
-	}
+	// fmt.Println("Bucket list...")
+	// for _, bucket := range buckets {
+	// 	fmt.Println(bucket.Name)
+	// }
 
 	// ----- MOCK call  (template )
 	// millersmock.MockObjects(mc, "getiedadataorg")
 
 	// ----- GRAPH calls (stores to file for each domain)
-	// millersgraph.GraphMillObjects(mc, "getiedadataorg")
-	millersgraph.GraphMillObjects(mc, "opentopographyorg")
+	// millersgraph.GraphMillObjects(mc, "opentopographyorg")
 	// millersgraph.GraphMillObjects(mc, "dataneotomadborg")
+	millersgraph.GraphMillObjects(mc, "getiedadataorg")
+	// millersgraph.GraphMillObjects(mc, "opencoredataorg")
+	// millersgraph.GraphMillObjects(mc, "wwwbco-dmoorg")
+	// millersgraph.GraphMillObjects(mc, "wikilinkedearth")
 
 	// ----- SPATIAL calls (stores to tile38)
 	// millerspatial.ProcessBucketObjects(mc, "opentopographyorg")
@@ -42,9 +43,15 @@ func main() {
 	// millerspatial.ProcessBucketObjects(mc, "getiedadataorg")
 	// millerspatial.ProcessBucketObjects(mc, "opencoredataorg")
 	// millerspatial.ProcessBucketObjects(mc, "wwwbco-dmoorg")
+	// millerspatial.ProcessBucketObjects(mc, "wikilinkedearth")
 
 	// ----- ORGANIC index calls
-	millerbleve.GetObjects(mc, "opentopographyorg")
+	// millerbleve.GetObjects(mc, "opentopographyorg")
+	// millerbleve.GetObjects(mc, "dataneotomadborg")
+	// millerbleve.GetObjects(mc, "getiedadataorg")
+	// millerbleve.GetObjects(mc, "opencoredataorg")
+	// millerbleve.GetObjects(mc, "wwwbco-dmoorg")
+	// millerbleve.GetObjects(mc, "wikilinkedearth")
 
 	et := time.Now()
 	diff := et.Sub(st)

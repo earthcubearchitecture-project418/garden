@@ -1,1 +1,1 @@
-http://opentopography.org/sitemap.xml
+http://get.iedadata.org/doi/xml-sitemap.php
