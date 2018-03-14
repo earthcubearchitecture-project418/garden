@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"earthcube.org/Project418/garden/millers/millerspatial"
-
+	"earthcube.org/Project418/garden/millers/millerbleve"
+	"earthcube.org/Project418/garden/millers/millersgraph"
 	"github.com/minio/minio-go"
 )
 
@@ -28,20 +28,23 @@ func main() {
 		// processBucketObjects(mc, bucket.Name)
 	}
 
-	// MOCK call
+	// ----- MOCK call  (template )
 	// millersmock.MockObjects(mc, "getiedadataorg")
 
-	// GRAPH calls
+	// ----- GRAPH calls (stores to file for each domain)
 	// millersgraph.GraphMillObjects(mc, "getiedadataorg")
-	// millersgraph.GraphMillObjects(mc, "opentopographyorg")
+	millersgraph.GraphMillObjects(mc, "opentopographyorg")
 	// millersgraph.GraphMillObjects(mc, "dataneotomadborg")
 
-	// SPATIAL calls
-	millerspatial.ProcessBucketObjects(mc, "opentopographyorg")
-	// processBucketObjects(mc, "dataneotomadborg")
-	// processBucketObjects(mc, "getiedadataorg")
-	// processBucketObjects(mc, "opencoredataorg")
-	// processBucketObjects(mc, "wwwbco-dmoorg")
+	// ----- SPATIAL calls (stores to tile38)
+	// millerspatial.ProcessBucketObjects(mc, "opentopographyorg")
+	// millerspatial.ProcessBucketObjects(mc, "dataneotomadborg")
+	// millerspatial.ProcessBucketObjects(mc, "getiedadataorg")
+	// millerspatial.ProcessBucketObjects(mc, "opencoredataorg")
+	// millerspatial.ProcessBucketObjects(mc, "wwwbco-dmoorg")
+
+	// ----- ORGANIC index calls
+	millerbleve.GetObjects(mc, "opentopographyorg")
 
 	et := time.Now()
 	diff := et.Sub(st)

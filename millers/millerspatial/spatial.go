@@ -16,19 +16,15 @@ import (
 	"github.com/coyove/jsonbuilder"
 	minio "github.com/minio/minio-go"
 
-	"earthcube.org/Project418/garden/millers/millersmock"
 	"earthcube.org/Project418/garden/millers/utils"
 )
 
 func ProcessBucketObjects(mc *minio.Client, bucketname string) {
-
 	entries := utils.GetMillObjects(mc, bucketname)
-
 	spatialMultiCall(entries)
-
 }
 
-func spatialMultiCall(e []millersmock.Entry) {
+func spatialMultiCall(e []utils.Entry) {
 	// Set up the the semaphore and conccurancey
 	semaphoreChan := make(chan struct{}, 20) // a blocking channel to keep concurrency under control
 	defer close(semaphoreChan)

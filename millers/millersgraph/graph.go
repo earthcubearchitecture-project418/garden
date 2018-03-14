@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"earthcube.org/Project418/garden/millers/millersmock"
+	"earthcube.org/Project418/garden/millers/utils"
 	minio "github.com/minio/minio-go"
 	"github.com/piprate/json-gold/ld"
 	"github.com/rs/xid"
@@ -18,55 +18,17 @@ import (
 
 // GraphMillObjects test a concurrent version of calling mock
 func GraphMillObjects(mc *minio.Client, bucketname string) {
-	doneCh := make(chan struct{}) // Create a done channel to control 'ListObjectsV2' go routine.
-	defer close(doneCh)           // Indicate to our routine to exit cleanly upon return.
-	isRecursive := true
-	objectCh := mc.ListObjectsV2(bucketname, "", isRecursive, doneCh)
-
-	var entries []millersmock.Entry
-
-	for object := range objectCh {
-		if object.Err != nil {
-			fmt.Println(object.Err)
-			return
-		}
-
-		fo, err := mc.GetObject(bucketname, object.Key, minio.GetObjectOptions{})
-		if err != nil {
-			fmt.Println(err)
-			return
-		}
-
-		oi, err := fo.Stat()
-		if err != nil {
-			log.Println("Issue with reading an object..  should I just fatal on this to make sure?")
-		}
-		urlval := oi.Metadata["X-Amz-Meta-Url"][0] // also have  X-Amz-Meta-Sha1
-		sha1val := oi.Metadata["X-Amz-Meta-Sha1"][0]
-		buf := new(bytes.Buffer)
-		buf.ReadFrom(fo)
-		jld := buf.String() // Does a complete copy of the bytes in the buffer.
-
-		// Mock call for some validation (and a template for other millers)
-		// Mock(bucketname, object.Key, urlval, sha1val, jld)
-		entry := millersmock.Entry{Bucketname: bucketname, Key: object.Key, Urlval: urlval, Sha1val: sha1val, Jld: jld}
-		entries = append(entries, entry)
-
-	}
-
-	fmt.Println(len(entries))
-	multiCall(entries)
-
+	entries := utils.GetMillObjects(mc, bucketname)
+	multiCall(entries, bucketname)
 }
 
-func multiCall(e []millersmock.Entry) {
-
+func multiCall(e []utils.Entry, bucketname string) {
 	// Set up the the semaphore and conccurancey
 	semaphoreChan := make(chan struct{}, 20) // a blocking channel to keep concurrency under control
 	defer close(semaphoreChan)
 	wg := sync.WaitGroup{} // a wait group enables the main process a wait for goroutines to finish
 
-	var gb Buffer
+	var gb utils.Buffer
 
 	for k := range e {
 		wg.Add(1)
@@ -83,7 +45,7 @@ func multiCall(e []millersmock.Entry) {
 	wg.Wait()
 
 	fmt.Println(gb.Len())
-	fl, err := writeRDF(gb.String())
+	fl, err := writeRDF(gb.String(), bucketname)
 	if err != nil {
 		log.Println("RDF file could not be written")
 	} else {
@@ -92,11 +54,10 @@ func multiCall(e []millersmock.Entry) {
 
 }
 
-func writeRDF(rdf string) (int, error) {
-
+func writeRDF(rdf string, bucketname string) (int, error) {
 	// for now just append to a file..   later I will send to a triple store
 	// If the file doesn't exist, create it, or append to the file
-	f, err := os.OpenFile("./nquads.nq", os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	f, err := os.OpenFile(fmt.Sprintf("./output/graphs/%s.nq", bucketname), os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -114,7 +75,7 @@ func writeRDF(rdf string) (int, error) {
 }
 
 // Mock is a simple function to use as a stub for talking about millers
-func jsl2graph(bucketname, key, urlval, sha1val, jsonld string, gb *Buffer) int {
+func jsl2graph(bucketname, key, urlval, sha1val, jsonld string, gb *utils.Buffer) int {
 	fmt.Printf("%s:  %s %s   %s =? %s \n", bucketname, key, urlval, sha1val, "foo")
 
 	nq, _ := jsonLDToNQ(jsonld) // TODO replace with NQ from isValid function..  saving time..

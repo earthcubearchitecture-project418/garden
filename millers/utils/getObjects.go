@@ -5,18 +5,26 @@ import (
 	"fmt"
 	"log"
 
-	"earthcube.org/Project418/garden/millers/millersmock"
 	minio "github.com/minio/minio-go"
 )
 
+// Entry is a struct holding the json-ld metadata and data (the text)
+type Entry struct {
+	Bucketname string
+	Key        string
+	Urlval     string
+	Sha1val    string
+	Jld        string
+}
+
 // GetMillObjects
-func GetMillObjects(mc *minio.Client, bucketname string) []millersmock.Entry {
+func GetMillObjects(mc *minio.Client, bucketname string) []Entry {
 	doneCh := make(chan struct{}) // Create a done channel to control 'ListObjectsV2' go routine.
 	defer close(doneCh)           // Indicate to our routine to exit cleanly upon return.
 	isRecursive := true
 	objectCh := mc.ListObjectsV2(bucketname, "", isRecursive, doneCh)
 
-	var entries []millersmock.Entry
+	var entries []Entry
 
 	for object := range objectCh {
 		if object.Err != nil {
@@ -42,7 +50,7 @@ func GetMillObjects(mc *minio.Client, bucketname string) []millersmock.Entry {
 
 		// Mock call for some validation (and a template for other millers)
 		// Mock(bucketname, object.Key, urlval, sha1val, jld)
-		entry := millersmock.Entry{Bucketname: bucketname, Key: object.Key, Urlval: urlval, Sha1val: sha1val, Jld: jld}
+		entry := Entry{Bucketname: bucketname, Key: object.Key, Urlval: urlval, Sha1val: sha1val, Jld: jld}
 		entries = append(entries, entry)
 
 	}
