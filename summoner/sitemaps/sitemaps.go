@@ -1,9 +1,11 @@
 package sitemaps
 
 import (
+	"bufio"
 	"encoding/xml"
 	"io/ioutil"
 	"log"
+	"strings"
 	"net/http"
 )
 
@@ -24,13 +26,37 @@ type URLNode struct {
 // IngestSitemapXML validates the XMl format of the sitemap and
 // reads each entry into a struct array that is sent back
 func IngestSitemapXML(url string) URLSet {
-	// read the sitemap into a []SiteMapEntry
+	bodyBytes, _ := getBody(url) // TODO handle this error
+	var sitemap URLSet
 
+	xml.Unmarshal(bodyBytes, &sitemap)
+
+	return sitemap
+}
+
+func IngestSiteMapText(url string) URLSet {
+	bodyBytes, _ := getBody(url) // TODO handle this error
+	var sitemap URLSet
+
+	sc := bufio.NewScanner(strings.NewReader(string(bodyBytes)))
+	for sc.Scan() {
+		u := sc.Text()
+		un := URLNode{Loc: u}
+		sitemap.URL = append(sitemap.URL, un)
+	}
+	if err := sc.Err(); err != nil {
+		log.Fatalf("scan file error: %v", err)
+	}
+
+	return sitemap
+}
+
+func getBody(url string) ([]byte, error) {
 	var client http.Client
-
 	req, err := http.NewRequest("GET", url, nil)
 	if err != nil {
 		log.Print(err) // not even being able to make a req instance..  might be a fatal thing?
+		return nil, err
 	}
 
 	req.Header.Set("User-Agent", "EarthCube_DataBot/1.0")
@@ -38,6 +64,7 @@ func IngestSitemapXML(url string) URLSet {
 	resp, err := client.Do(req)
 	if err != nil {
 		log.Printf("Error reading sitemap: %s", err)
+		return nil, err
 	}
 	defer resp.Body.Close()
 
@@ -47,13 +74,9 @@ func IngestSitemapXML(url string) URLSet {
 		bodyBytes, err = ioutil.ReadAll(resp.Body)
 		if err != nil {
 			log.Print(err)
+			return nil, err
 		}
-		// bodyString = string(bodyBytes)
 	}
 
-	// Process XML into a struct
-	var sitemap URLSet
-	xml.Unmarshal(bodyBytes, &sitemap)
-
-	return sitemap
+	return bodyBytes, err
 }

@@ -1,0 +1,359 @@
+{
+ "AttrXsiSpaceSchemaLocation": "http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd",
+ "AttrXmlns": "http://datacite.org/schema/kernel-4",
+ "AttrXmlnsXsi": "http://www.w3.org/2001/XMLSchema-instance",
+ "alternateIdentifiers": {
+  "alternateIdentifier": {
+   "AttrAlternateIdentifierType": "URL",
+   "Text": "http://schema.datacite.org/schema/meta/kernel-3.1/example/datacite-example-full-v3.1.xml",
+   "alternateIdentifier": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "alternateIdentifier"
+   }
+  },
+  "alternateIdentifiers": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "alternateIdentifiers"
+  }
+ },
+ "contributors": {
+  "contributor": {
+   "AttrContributorType": "ProjectLeader",
+   "affiliation": {
+    "Text": "California Digital Library",
+    "affiliation": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "affiliation"
+    }
+   },
+   "contributorName": {
+    "Text": "Starr, Joan",
+    "contributorName": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "contributorName"
+    }
+   },
+   "nameIdentifier": {
+    "AttrNameIdentifierScheme": "ORCID",
+    "AttrSchemeURI": "http://orcid.org/",
+    "Text": "0000-0002-7285-027X",
+    "nameIdentifier": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "nameIdentifier"
+    }
+   },
+   "contributor": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "contributor"
+   }
+  },
+  "contributors": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "contributors"
+  }
+ },
+ "creators": {
+  "creator": {
+   "affiliation": {
+    "Text": "DataCite",
+    "affiliation": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "affiliation"
+    }
+   },
+   "creatorName": {
+    "Text": "Miller, Elizabeth",
+    "creatorName": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "creatorName"
+    }
+   },
+   "familyName": {
+    "Text": "Miller",
+    "familyName": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "familyName"
+    }
+   },
+   "givenName": {
+    "Text": "Elizabeth",
+    "givenName": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "givenName"
+    }
+   },
+   "nameIdentifier": {
+    "AttrNameIdentifierScheme": "ORCID",
+    "AttrSchemeURI": "http://orcid.org/",
+    "Text": "0000-0001-5000-0007",
+    "nameIdentifier": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "nameIdentifier"
+    }
+   },
+   "creator": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "creator"
+   }
+  },
+  "creators": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "creators"
+  }
+ },
+ "dates": {
+  "date": {
+   "AttrDateType": "Updated",
+   "Text": "2014-10-17",
+   "date": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "date"
+   }
+  },
+  "dates": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "dates"
+  }
+ },
+ "descriptions": {
+  "description": {
+   "AttrDescriptionType": "Abstract",
+   "Text": "\n      XML example of all DataCite Metadata Schema v4.0 properties.\n    ",
+   "description": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "description"
+   }
+  },
+  "descriptions": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "descriptions"
+  }
+ },
+ "formats": {
+  "format": {
+   "Text": "application/xml",
+   "format": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "format"
+   }
+  },
+  "formats": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "formats"
+  }
+ },
+ "geoLocations": {
+  "geoLocation": {
+   "geoLocationBox": {
+    "eastBoundLongitude": {
+     "Text": "-68.211",
+     "eastBoundLongitude": {
+      "Space": "http://datacite.org/schema/kernel-4",
+      "Local": "eastBoundLongitude"
+     }
+    },
+    "northBoundLatitude": {
+     "Text": "42.893",
+     "northBoundLatitude": {
+      "Space": "http://datacite.org/schema/kernel-4",
+      "Local": "northBoundLatitude"
+     }
+    },
+    "southBoundLatitude": {
+     "Text": "41.090",
+     "southBoundLatitude": {
+      "Space": "http://datacite.org/schema/kernel-4",
+      "Local": "southBoundLatitude"
+     }
+    },
+    "westBoundLongitude": {
+     "Text": "-71.032",
+     "westBoundLongitude": {
+      "Space": "http://datacite.org/schema/kernel-4",
+      "Local": "westBoundLongitude"
+     }
+    },
+    "geoLocationBox": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "geoLocationBox"
+    }
+   },
+   "geoLocationPlace": {
+    "Text": "Atlantic Ocean",
+    "geoLocationPlace": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "geoLocationPlace"
+    }
+   },
+   "geoLocationPoint": {
+    "pointLatitude": {
+     "Text": "31.233",
+     "pointLatitude": {
+      "Space": "http://datacite.org/schema/kernel-4",
+      "Local": "pointLatitude"
+     }
+    },
+    "pointLongitude": {
+     "Text": "-67.302",
+     "pointLongitude": {
+      "Space": "http://datacite.org/schema/kernel-4",
+      "Local": "pointLongitude"
+     }
+    },
+    "geoLocationPoint": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "geoLocationPoint"
+    }
+   },
+   "geoLocation": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "geoLocation"
+   }
+  },
+  "geoLocations": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "geoLocations"
+  }
+ },
+ "identifier": {
+  "AttrIdentifierType": "DOI",
+  "Text": "10.5072/example-full",
+  "identifier": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "identifier"
+  }
+ },
+ "language": {
+  "Text": "en-us",
+  "language": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "language"
+  }
+ },
+ "publicationYear": {
+  "Text": "2014",
+  "publicationYear": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "publicationYear"
+  }
+ },
+ "publisher": {
+  "Text": "DataCite",
+  "publisher": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "publisher"
+  }
+ },
+ "relatedIdentifiers": {
+  "relatedIdentifier": [
+   {
+    "AttrRelatedIdentifierType": "URL",
+    "AttrRelatedMetadataScheme": "citeproc+json",
+    "AttrRelationType": "HasMetadata",
+    "AttrSchemeURI": "https://github.com/citation-style-language/schema/raw/master/csl-data.json",
+    "Text": "http://data.datacite.org/application/citeproc+json/10.5072/example-full",
+    "relatedIdentifier": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "relatedIdentifier"
+    }
+   },
+   {
+    "AttrRelatedIdentifierType": "arXiv",
+    "AttrRelationType": "IsReviewedBy",
+    "Text": "arXiv:0706.0001",
+    "relatedIdentifier": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "relatedIdentifier"
+    }
+   }
+  ],
+  "relatedIdentifiers": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "relatedIdentifiers"
+  }
+ },
+ "resourceType": {
+  "AttrResourceTypeGeneral": "Software",
+  "Text": "XML",
+  "resourceType": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "resourceType"
+  }
+ },
+ "rightsList": {
+  "rights": {
+   "AttrRightsURI": "http://creativecommons.org/publicdomain/zero/1.0/",
+   "Text": "CC0 1.0 Universal",
+   "rights": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "rights"
+   }
+  },
+  "rightsList": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "rightsList"
+  }
+ },
+ "sizes": {
+  "size": {
+   "Text": "3KB",
+   "size": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "size"
+   }
+  },
+  "sizes": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "sizes"
+  }
+ },
+ "subjects": {
+  "subject": {
+   "AttrSchemeURI": "http://dewey.info/",
+   "AttrSubjectScheme": "dewey",
+   "Text": "000 computer science",
+   "subject": {
+    "Space": "http://datacite.org/schema/kernel-4",
+    "Local": "subject"
+   }
+  },
+  "subjects": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "subjects"
+  }
+ },
+ "titles": {
+  "title": [
+   {
+    "Text": "Full DataCite XML Example",
+    "title": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "title"
+    }
+   },
+   {
+    "AttrTitleType": "Subtitle",
+    "Text": "Demonstration of DataCite Properties.",
+    "title": {
+     "Space": "http://datacite.org/schema/kernel-4",
+     "Local": "title"
+    }
+   }
+  ],
+  "titles": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "titles"
+  }
+ },
+ "version": {
+  "Text": "3.1",
+  "version": {
+   "Space": "http://datacite.org/schema/kernel-4",
+   "Local": "version"
+  }
+ },
+ "resource": {
+  "Space": "http://datacite.org/schema/kernel-4",
+  "Local": "resource"
+ }
+}

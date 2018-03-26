@@ -23,17 +23,29 @@ func main() {
 
 	log.Printf("Start time: %s \n", time.Now()) // Log start time
 
-	cfgFileLoc := flag.String("config", "", "JSON configure file")
+	cfgFileLoc := flag.String("config", "config.json", "JSON configure file")
 	flag.Parse()
 
 	cs := loadConfiguration(cfgFileLoc)
 
-	domains, err := acquire.DomainList(cs.Source)
+	domains, headlessdomains, err := acquire.DomainListJSON(cs.Source)
 	if err != nil {
 		log.Printf("Error reading list of domains %v\n", err)
 	}
-	ru := acquire.ResourceURLs(domains) // map by domain name and []string of landing page URLs
-	acquire.ResRetrieve(ru, cs)
+
+	fmt.Println(domains)
+	fmt.Println(headlessdomains)
+
+	// TODO  the following two loops could be donen concurrently
+	ru := acquire.ResourceURLsJSON(domains) // map by domain name and []string of landing page URLs
+	if len(ru) > 0 {
+		acquire.ResRetrieve(ru, cs)
+	}
+
+	hru := acquire.ResourceURLsJSON(headlessdomains) // map by domain name and []string of landing page URLs
+	if len(hru) > 0 {
+		acquire.Headless(hru, cs)
+	}
 
 	log.Printf("End time: %s \n", time.Now()) // Log end time
 }

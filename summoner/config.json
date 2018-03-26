@@ -4,5 +4,5 @@
         "accessKeyID": "AKIAIOSFODNN7EXAMPLE",
         "secretAccessKey": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
  },
-    "source": "./sources.txt"
+    "source": "./sources.json"
 }
