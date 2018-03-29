@@ -1,0 +1,47 @@
+{
+    "@context": {
+        "@vocab": "http://schema.org/",
+        "datacite": "http://purl.org/spar/datacite/",
+        "geolink": "http://schema.geolink.org/1.0/base/main#",
+        "geo-upper": "http://www.geoscienceontology.org/geo-upper#",
+        "prov": "http://www.w3.org/ns/prov#"
+    },
+    "@type": "Dataset",
+    "prov:has_anchor": "http://geodex.org/datapackages/p418graph.zip",
+    "prov:has_provenance": "http://provohash.xyz/id/hash/adbef8ab-04c6-4cb9-b11b-003124c40004",
+    "prov:pingback": "http://provisium.io/pingback",
+    "prov:has_query_service": "http://provisium.io/provenance-query-service",
+    "additionalType": ["http://schema.geolink.org/1.0/base/main#Dataset", "http://vivoweb.org/ontology/core#Dataset"],
+    "name": "100yr flood every 3 years",
+    "description": "First run of our Coupled RipCAS-DFLOW (CoRD) model with the vegetation maps. We were not generating input and shear maps archives yet, so there are only the vegetation maps.",
+    "url": "https://dev-hs-2.cuahsi.org/resource/da7973a47a0849798be5ae5a1110c1c0/",
+    "version": "2013-11-21",
+    "keywords": "Jemez Rivers",
+    "license": "CC0-1.0",
+    "_comment_1": "##SCHEMA RELATIONS ABOUT PROV",
+    "author": {
+        "@type": "Person",
+        "name": "Daniel"
+    },
+    "contributor": {
+        "@type": "Person",
+        "name": "Daniel"
+    },
+    "creator": {
+        "@type": "Person",
+        "name": "Daniel"
+    },
+    "dateCreated": "2013-11-21",
+    "dateModified": "2013-11-21",
+    "expires": "2020-11-21",
+    "_commen_2": " ##REGULAR PROV STUFF",
+    "prov:wasAttributedTo": {
+        "@type": "prov:Person",
+        "name": "Daniel"
+    },
+    "prov:generatedAtTime": "2013-11-21",
+    "prov:wasGeneratedBy": {
+        "@type": "prov:Activity",
+        "prov:used": "http://example.org/InputDataset"
+    }
+}

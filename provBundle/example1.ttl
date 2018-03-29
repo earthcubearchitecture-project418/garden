@@ -23,6 +23,7 @@
 :ocd
     a prov:Agent, prov:Organization ;
     rdfs:label "Open Core Data"^^xsd:string ;
+    re3data:foo <http://www.re3data.org/repository/r3d100012071> ;
     foaf:givenName "OCD" ;
     foaf:mbox <mailto:info@opencoredata.org> .
 
@@ -60,7 +61,6 @@
     a eos:product, prov:Entity ;
     rdfs:label "JSON-LD from some input landing page"^^xsd:string ;
     prov:wasAttributedTo :esso .
-
 
 :pagecollection 
 rdfs:label "URIs submitted to the pingback service"^^xsd:string; 
