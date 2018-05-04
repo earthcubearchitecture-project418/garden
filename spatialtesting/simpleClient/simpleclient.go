@@ -18,7 +18,6 @@ func main() {
 	fmt.Println("this is a simple spatial test")
 
 	SpatialCall(testgeom(), "")
-
 }
 
 func testgeom() string {
@@ -90,8 +89,8 @@ func SpatialCall(geowithin, filter string) {
 	var value2 []interface{}
 	// TODO  fix the 50K request limit, put in cursor pattern
 	reply, err := redis.Values(c.Do("INTERSECTS", "p418", "CURSOR", "0", "LIMIT", "50000", "OBJECT", geowithin))
-	// reply, err := redis.Values(c.Do("WITHIN", "p418", "CURSOR", "0", "LIMIT", "50000", "OBJECT", geowithin))
-	//WITHIN p418 BOUNDS -90 -40 17 50
+	//reply, err := redis.Values(c.Do("WITHIN", "p418", "CURSOR", "0", "LIMIT", "50000", "OBJECT", geowithin))
+	//  in cli, you might do something like WITHIN p418 BOUNDS -90 -40 17 50
 	// reply, err := redis.Values(c.Do("WITHIN", "p418", "BOUNDS", -90, -40, 17, 50))
 	// reply, err := redis.Values(c.Do("SCAN", "p418"))  // an early test call just to get everything
 	if err != nil {
@@ -110,53 +109,6 @@ func SpatialCall(geowithin, filter string) {
 		return
 	}
 	fmt.Println(results)
-}
-
-func redisStringToGeoJSON(m map[string]string) (string, error) {
-
-	fc := geojson.NewFeatureCollection()
-
-	for k, v := range m {
-		fmt.Println("k:", k, "v:", v)
-
-		rawGeometryJSON := []byte(v)
-		ID := k
-
-		g, err := geojson.UnmarshalGeometry(rawGeometryJSON)
-		if err != nil {
-			log.Printf("Unmarshal geom error for %s with %s\n", rawGeometryJSON, err)
-		}
-
-		switch {
-		case g.IsPoint():
-			nf := geojson.NewFeature(g)
-			nf.SetProperty("URL", ID)
-			fc.AddFeature(nf)
-		case g.IsPolygon():
-			nf := geojson.NewFeature(g)
-			nf.SetProperty("URL", ID)
-			fc.AddFeature(nf)
-		default:
-			log.Println(g.Type)
-		}
-
-		if g.Type == "Feature" {
-			f, err := geojson.UnmarshalFeature(rawGeometryJSON)
-			if err != nil {
-				log.Printf("Unmarshal feature error for %s with %s\n", ID, err)
-			}
-			f.SetProperty("URL", ID)
-			fc.AddFeature(f)
-		}
-
-	}
-
-	rawJSON, err := fc.MarshalJSON()
-	if err != nil {
-		return "", err
-	}
-
-	return string(rawJSON), nil
 }
 
 func redisToGeoJSON(results []interface{}, filter string) (string, error) {
@@ -202,6 +154,15 @@ func redisToGeoJSON(results []interface{}, filter string) (string, error) {
 				break
 
 			case "Point":
+				g, err := geojson.UnmarshalGeometry(rawGeometryJSON)
+				if err != nil {
+					log.Printf("Unmarshal feature error for %s with %s\n", val0, err)
+				}
+				f := geojson.NewFeature(g)
+				f.SetProperty("URL", val0)
+				fc.AddFeature(f)
+				break
+
 			case "Poly":
 				g, err := geojson.UnmarshalGeometry(rawGeometryJSON)
 				if err != nil {
