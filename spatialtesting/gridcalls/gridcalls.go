@@ -73,6 +73,7 @@ func countCall(feature string) (int, error) {
 	resp, err := resty.R().
 		SetQueryParams(map[string]string{
 			"geowithin": feature,
+			"remove":    "iedadata.org",
 		}).
 		Get("http://geodex.org/api/v1/spatial/search/object")
 	if err != nil {
