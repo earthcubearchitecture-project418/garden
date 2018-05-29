@@ -7,9 +7,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix : <http://provisium.io#> .
 
-
 # Will need to honor and deference this URI to a landing page for this prov data
-<http://geodex.org/id/prov/UUID>
+<http://geodex.org/id/prov/UUID/ORG_INDEXED>
     a prov:Bundle, prov:Entity ;
     rdfs:label "A collection of provenance related to the creation of a P418 index"^^xsd:string ;
     prov:generatedAtTime "2018-02-14T00:00:00Z"^^xsd:dateTime ;
@@ -22,6 +21,7 @@
     # need URL
     foaf:mbox <mailto:info@earthcube.org> .
 
+# unique for each provider
 :ocd
     a prov:Agent, prov:Organization ;
     rdfs:label "Open Core Data"^^xsd:string ;
@@ -39,7 +39,7 @@
     a eos:product, prov:Entity ;
     rdfs:label "Dataset included spatial, text and graph results from the activity"^^xsd:string ;
     prov:wasAttributedTo :esso ;
-    prov:wasDerivedFrom :pagecollection ;  # what goes here?  the collection?
+    # prov:wasDerivedFrom :page1 ;  # what goes here?  the collection?
     prov:wasGeneratedBy :processingActivity1 .
 
 :processingActivity1
@@ -47,28 +47,7 @@
     rdfs:label "Generation of indexes (spatial, text, graph) from the processed pages"^^xsd:string ;
     prov:endedAtTime "2011-07-14T02:02:02Z"^^xsd:dateTime ;
     prov:startedAtTime "2011-07-14T01:01:01Z"^^xsd:dateTime ;
-    prov:used :processingCode, :page1 ;  # not needed if use collection
-    prov:used :processingCode, :page2 ;  # not needed if use collection
-    prov:used :processingCode, :pagecollection ;
+    prov:used :processingCode ;  
+    # prov:used :page1 ;  
     prov:wasAssociatedWith :esso .
 
-# one of my landing page with schema.org
-:page1
-    a eos:product, prov:Entity ;
-    dcat:url  "<http://sdsdsdsdsd>"
-    rdfs:label "JSON-LD from input landing page"^^xsd:string ;
-    prov:wasAttributedTo :esso .
-
-:page2
-    a eos:product, prov:Entity ;
-    dcat:url  "<http://sdsdsdsdsd>"
-    rdfs:label "JSON-LD from input landing page"^^xsd:string ;
-    prov:wasAttributedTo :esso .
-
-:pagecollection 
-rdfs:label "URIs submitted to the pingback service"^^xsd:string; 
-prov:wasAttributedTo :ocd ;
-a prov:Collection;   # I removed , eos:PingBackCollection   (corect to do so?)
-prov:hadMember <http://provisium.io#Dataset001>, <http://provisium.io#Dataset002>, 
-<http://provisium.io#Dataset003>, <http://provisium.io#Dataset004>, <http://provisium.io#Dataset005>, <http://provisium.io#Dataset006>,
- <http://provisium.io#Dataset007>, <http://provisium.io#Dataset008>, <http://provisium.io#Dataset009> .

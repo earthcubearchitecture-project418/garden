@@ -1,0 +1,53 @@
+<http://provisium.io#lpref0> <rdf:type> <eos:product> .
+<http://provisium.io#dataset> <prov:wasDerivedFrom> <http://provisium.io#lpref2> .
+<http://provisium.io#lpref2> <rdf:type> <eos:product> .
+<http://provisium.io#lpref2> <rdfs:label> "JSON-LD from landing page" .
+<http://geodex.org/id/prov/UUID/ORG_INDEXED> <http://www.w3.org/ns/prov#generatedAtTime> "2018-02-14T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://provisium.io#processingCode> <http://www.w3.org/2000/01/rdf-schema#label> "EarthCube Project 418 Indexer"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://provisium.io#dataset> <http://www.w3.org/ns/prov#wasAttributedTo> <http://provisium.io#esso> .
+<http://provisium.io#processingActivity1> <prov:used> <http://provisium.io#lpref0> .
+<http://provisium.io#lpref1> <dcat:url> "URL there as a CDATA" .
+<http://provisium.io#processingActivity1> <prov:used> <http://provisium.io#lpref2> .
+<http://provisium.io#esso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<http://provisium.io#dataset> <http://www.w3.org/2000/01/rdf-schema#label> "Dataset included spatial, text and graph results from the activity"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://provisium.io#dataset> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://provisium.io#processingActivity1> .
+<http://provisium.io#dataset> <prov:wasDerivedFrom> <http://provisium.io#lpref0> .
+<http://provisium.io#lpref0> <dcat:url> "URL there as a CDATA" .
+<http://provisium.io#processingActivity1> <prov:used> <http://provisium.io#lpref1> .
+<http://provisium.io#lpref1> <prov:wasAttributedTo> <http://provisium#esso> .
+<http://provisium.io#lpref2> <dcat:url> "URL there as a CDATA" .
+<http://geodex.org/id/prov/UUID/ORG_INDEXED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://provisium.io#esso> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@earthcube.org> .
+<http://provisium.io#processingCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://esipfed.org/prov/eos#software> .
+<http://provisium.io#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://esipfed.org/prov/eos#product> .
+<http://provisium.io#processingActivity1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://esipfed.org/prov/eos#processStep> .
+<http://provisium.io#ocd> <http://xmlns.com/foaf/0.1/givenName> "Open Core Data" .
+<http://provisium.io#lpref0> <prov:wasAttributedTo> <http://provisium#esso> .
+<http://provisium.io#lpref2> <prov:wasAttributedTo> <http://provisium#esso> .
+<http://provisium.io#esso> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Organization> .
+<http://provisium.io#esso> <http://xmlns.com/foaf/0.1/givenName> "USGS" .
+<http://provisium.io#processingCode> <http://www.w3.org/ns/prov#wasAttributedTo> <http://provisium.io#esso> .
+<http://provisium.io#processingCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://provisium.io#lpref0> <rdfs:label> "JSON-LD from landing page" .
+<http://provisium.io#lpref1> <rdf:type> <eos:product> .
+<http://provisium.io#processingActivity1> <http://www.w3.org/ns/prov#endedAtTime> "2011-07-14T02:02:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://provisium.io#processingActivity1> <http://www.w3.org/ns/prov#wasAssociatedWith> <http://provisium.io#esso> .
+<http://provisium.io#ocd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Organization> .
+<http://provisium.io#ocd> <http://www.w3.org/2000/01/rdf-schema#label> "Open Core Data"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://provisium.io#ocd> <http://xmlns.com/foaf/0.1/mbox> <mailto:info@opencore.org> .
+<http://geodex.org/id/prov/UUID/ORG_INDEXED> <http://www.w3.org/ns/prov#wasAttributedTo> <http://provisium.io#processingActivity1> .
+<http://provisium.io#esso> <http://www.w3.org/2000/01/rdf-schema#label> "EarthCube Science Support Office"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://provisium.io#dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://provisium.io#lpref0> <rdf:type> <prov:Entity> .
+<http://provisium.io#lpref1> <rdf:type> <prov:Entity> .
+<http://provisium.io#lpref1> <rdfs:label> "JSON-LD from landing page" .
+<http://geodex.org/id/prov/UUID/ORG_INDEXED> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Bundle> .
+<http://provisium.io#processingActivity1> <http://www.w3.org/2000/01/rdf-schema#label> "Generation of indexes (spatial, text, graph) from the processed pages"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://provisium.io#processingActivity1> <http://www.w3.org/ns/prov#startedAtTime> "2011-07-14T01:01:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://provisium.io#ocd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Agent> .
+<http://provisium.io#dataset> <prov:wasDerivedFrom> <http://provisium.io#lpref1> .
+<http://provisium.io#lpref2> <rdf:type> <prov:Entity> .
+<http://geodex.org/id/prov/UUID/ORG_INDEXED> <http://www.w3.org/2000/01/rdf-schema#label> "A collection of provenance related to the creation of a P418 index"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://provisium.io#processingActivity1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Activity> .
+<http://provisium.io#processingActivity1> <http://www.w3.org/ns/prov#used> <http://provisium.io#processingCode> .
+
