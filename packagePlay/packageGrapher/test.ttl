@@ -1,0 +1,85 @@
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/description> "A CSDCO data package for  project CAHO (CAHO)" .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/distribution> _:bbc6uu7qu6s7479c763p0 .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/keywords> "CSDCO, Continental Scientific Drilling" .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/license> "https://creativecommons.org/publicdomain/zero/1.0/" .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/name> "c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a.zip" .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/publisher> _:bbc6uu7qu6s7479c763pg .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/spatialCoverage> _:bbc6uu7qu6s7479c763q0 .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://schema.org/url> "http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a" .
+<http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:bbc6uu7qu6s7479c763p0 <http://schema.org/contentUrl> "http://opencoredata.org/pkg/id/c6b45e0a565900d22812f04e96b8dcc1fcdc3229d5037b69fc212cfd8d62013a.zip" .
+_:bbc6uu7qu6s7479c763p0 <http://schema.org/fileFormat> "application/vnd.datapackage+json" .
+_:bbc6uu7qu6s7479c763p0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataDownload> .
+_:bbc6uu7qu6s7479c763pg <http://schema.org/description> "Continental Scientific Drilling Coordination Office" .
+_:bbc6uu7qu6s7479c763pg <http://schema.org/name> "CSDCO" .
+_:bbc6uu7qu6s7479c763pg <http://schema.org/url> "https://csdco.umn.edu/" .
+_:bbc6uu7qu6s7479c763pg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:bbc6uu7qu6s7479c763q0 <http://schema.org/geo> _:bbc6uu7qu6s7479c763qg .
+_:bbc6uu7qu6s7479c763q0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+_:bbc6uu7qu6s7479c763qg <http://schema.org/latitude> "0.0" .
+_:bbc6uu7qu6s7479c763qg <http://schema.org/longitude> "0.0" .
+_:bbc6uu7qu6s7479c763qg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GeoCoordinates> .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/description> "A CSDCO data package for  project GLAD7 (GLAD7 (Malawi))" .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/distribution> _:bbc6uu7qu6s7479c763r0 .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/keywords> "CSDCO, Continental Scientific Drilling" .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/license> "https://creativecommons.org/publicdomain/zero/1.0/" .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/name> "ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625.zip" .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/publisher> _:bbc6uu7qu6s7479c763rg .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/spatialCoverage> _:bbc6uu7qu6s7479c763s0 .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://schema.org/url> "http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625" .
+<http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:bbc6uu7qu6s7479c763r0 <http://schema.org/contentUrl> "http://opencoredata.org/pkg/id/ec07e1bcd334cb62cd5aec6b5fcbc92cea862051a793a2bcb57d141b08517625.zip" .
+_:bbc6uu7qu6s7479c763r0 <http://schema.org/fileFormat> "application/vnd.datapackage+json" .
+_:bbc6uu7qu6s7479c763r0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataDownload> .
+_:bbc6uu7qu6s7479c763rg <http://schema.org/description> "Continental Scientific Drilling Coordination Office" .
+_:bbc6uu7qu6s7479c763rg <http://schema.org/name> "CSDCO" .
+_:bbc6uu7qu6s7479c763rg <http://schema.org/url> "https://csdco.umn.edu/" .
+_:bbc6uu7qu6s7479c763rg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:bbc6uu7qu6s7479c763s0 <http://schema.org/geo> _:bbc6uu7qu6s7479c763sg .
+_:bbc6uu7qu6s7479c763s0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+_:bbc6uu7qu6s7479c763sg <http://schema.org/latitude> "0.0" .
+_:bbc6uu7qu6s7479c763sg <http://schema.org/longitude> "0.0" .
+_:bbc6uu7qu6s7479c763sg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GeoCoordinates> .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/description> "A CSDCO data package for  project NAPALM (NAPALM (Walker))" .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/distribution> _:bbc6uu7qu6s7479c763t0 .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/keywords> "CSDCO, Continental Scientific Drilling" .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/license> "https://creativecommons.org/publicdomain/zero/1.0/" .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/name> "efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36.zip" .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/publisher> _:bbc6uu7qu6s7479c763tg .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/spatialCoverage> _:bbc6uu7qu6s7479c763u0 .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://schema.org/url> "http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36" .
+<http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:bbc6uu7qu6s7479c763t0 <http://schema.org/contentUrl> "http://opencoredata.org/pkg/id/efcb5d254dfaddf24ddcaa6ea75b94dd66ffef8b3462c40b42d80ce4c35b9b36.zip" .
+_:bbc6uu7qu6s7479c763t0 <http://schema.org/fileFormat> "application/vnd.datapackage+json" .
+_:bbc6uu7qu6s7479c763t0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataDownload> .
+_:bbc6uu7qu6s7479c763tg <http://schema.org/description> "Continental Scientific Drilling Coordination Office" .
+_:bbc6uu7qu6s7479c763tg <http://schema.org/name> "CSDCO" .
+_:bbc6uu7qu6s7479c763tg <http://schema.org/url> "https://csdco.umn.edu/" .
+_:bbc6uu7qu6s7479c763tg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:bbc6uu7qu6s7479c763u0 <http://schema.org/geo> _:bbc6uu7qu6s7479c763ug .
+_:bbc6uu7qu6s7479c763u0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+_:bbc6uu7qu6s7479c763ug <http://schema.org/latitude> "0.0" .
+_:bbc6uu7qu6s7479c763ug <http://schema.org/longitude> "0.0" .
+_:bbc6uu7qu6s7479c763ug <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GeoCoordinates> .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/description> "A CSDCO data package for  project WILL08 (WILL08 (Kirchner-JWilliams))" .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/distribution> _:bbc6uu7qu6s7479c763v0 .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/keywords> "CSDCO, Continental Scientific Drilling" .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/license> "https://creativecommons.org/publicdomain/zero/1.0/" .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/name> "f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2.zip" .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/publisher> _:bbc6uu7qu6s7479c763vg .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/spatialCoverage> _:bbc6uu7qu6s7479c76400 .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://schema.org/url> "http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2" .
+<http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+_:bbc6uu7qu6s7479c763v0 <http://schema.org/contentUrl> "http://opencoredata.org/pkg/id/f1728c141dd0b55d0b9f13cc55d833f5f131224c3033c55c03c03987f7ebdff2.zip" .
+_:bbc6uu7qu6s7479c763v0 <http://schema.org/fileFormat> "application/vnd.datapackage+json" .
+_:bbc6uu7qu6s7479c763v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/DataDownload> .
+_:bbc6uu7qu6s7479c763vg <http://schema.org/description> "Continental Scientific Drilling Coordination Office" .
+_:bbc6uu7qu6s7479c763vg <http://schema.org/name> "CSDCO" .
+_:bbc6uu7qu6s7479c763vg <http://schema.org/url> "https://csdco.umn.edu/" .
+_:bbc6uu7qu6s7479c763vg <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Organization> .
+_:bbc6uu7qu6s7479c76400 <http://schema.org/geo> _:bbc6uu7qu6s7479c7640g .
+_:bbc6uu7qu6s7479c76400 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Place> .
+_:bbc6uu7qu6s7479c7640g <http://schema.org/latitude> "0.0" .
+_:bbc6uu7qu6s7479c7640g <http://schema.org/longitude> "0.0" .
+_:bbc6uu7qu6s7479c7640g <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/GeoCoordinates> .
+

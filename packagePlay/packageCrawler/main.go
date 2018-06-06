@@ -28,31 +28,29 @@ func main() {
 	// iterate and pull each individual file in the packages and read []byte length for now (and time this whole function)
 
 	id := "8448c71edc22a06a26501a967223e5502dd4678be06c5761440167229ec9b715"
-	ru := fmt.Sprintf("http://opencoredata.org/pkg/id/%s/resource", id)
+	ru := fmt.Sprintf("http://opencoredata.org/pkg/id/%s", id)
 
-	m := readManifest(ru, "datapackage.json")
-	fmt.Println(m)
+	_, m := getBytes(ru, "datapackage.json")
+	fmt.Println(string(m))
 
-	ms := parsePackage(m)
+	ms := parsePackage(string(m))
 	for _, v := range ms.Resources {
 		// fmt.Println(v.Path)
 		// fmt.Println(v.Name)
-		l := getBytes(ru, v.Path)
-		fmt.Printf("%d bytes from %s?key=%s \n", l, ru, v.Path)
+		s, b := getBytes(ru, v.Path)
+		l := len(b)
+		fmt.Printf("Code %d :  %d bytes from %s?key=%s \n", s, l, ru, v.Path)
 	}
 
 }
 
-func getBytes(url, key string) int {
-	resp, err := resty.R().
-		SetQueryParams(map[string]string{
-			"key": key,
-		}).
-		Get(url)
+func getBytes(url, key string) (int, []byte) {
+	resurl := fmt.Sprintf("%s/%s", url, key)
+	resp, err := resty.R().Head(resurl) // .Get(resurl)  // HEAD?
 	if err != nil {
 		log.Println(err)
 	}
-	return len(resp.Body())
+	return resp.StatusCode(), resp.Body()
 }
 
 func parsePackage(j string) Manifest {
@@ -61,15 +59,12 @@ func parsePackage(j string) Manifest {
 	return m
 }
 
-func readManifest(url, key string) string {
-	resp, err := resty.R().
-		SetQueryParams(map[string]string{
-			"key": key,
-		}).
-		Get(url)
-	if err != nil {
-		log.Println(err)
-	}
+// func readManifest(url, key string) string {
+// 	resurl := fmt.Sprintf("%s/%s", url, key)
+// 	resp, err := resty.R().Get(resurl)
+// 	if err != nil {
+// 		log.Println(err)
+// 	}
 
-	return resp.String()
-}
+// 	return resp.Body()
+// }

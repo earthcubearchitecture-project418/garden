@@ -1,0 +1,48 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://provisium.io/id//7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280pagecollection>
+    <prov:hadMember> <http://foo.org/1>, <http://foo.org/2>, <http://foo.org/3> .
+
+<http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/datafacility>
+    a <http://www.w3.org/ns/prov#Agent>, <http://www.w3.org/ns/prov#Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Open Core Data"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    <http://xmlns.com/foaf/0.1/givenName> "Open Core Data" ;
+    <http://xmlns.com/foaf/0.1/mbox> <mailto:info@opencore.org> .
+
+<http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/dataset>
+    a <http://esipfed.org/prov/eos#product>, <http://www.w3.org/ns/prov#Entity> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dataset included spatial, text and graph results from the activity"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/esso> ;
+    <http://www.w3.org/ns/prov#wasDerivedFrom> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/pagecollection> ;
+    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/processingActivity1> .
+
+<http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/esso>
+    a <http://www.w3.org/ns/prov#Agent>, <http://www.w3.org/ns/prov#Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "EarthCube Science Support Office"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    <http://xmlns.com/foaf/0.1/givenName> "USGS" ;
+    <http://xmlns.com/foaf/0.1/mbox> <mailto:info@earthcube.org> .
+
+<http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/pagecollection>
+    a <http://www.w3.org/ns/prov#Collection> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "URIs submitted to the pingback service"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/datafacility> .
+
+<http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/processingActivity1>
+    a <http://esipfed.org/prov/eos#processStep>, <http://www.w3.org/ns/prov#Activity> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Generation of indexes (spatial, text, graph) from the processed pages"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    <http://www.w3.org/ns/prov#endedAtTime> "2011-07-14T02:02:02Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://www.w3.org/ns/prov#startedAtTime> "2011-07-14T01:01:01Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://www.w3.org/ns/prov#used> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/pagecollection>, <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/processingCode> ;
+    <http://www.w3.org/ns/prov#wasAssociatedWith> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/esso> .
+
+<http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/processingCode>
+    a <http://esipfed.org/prov/eos#software>, <http://www.w3.org/ns/prov#Entity> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "EarthCube Project 418 Indexer"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/esso> .
+
+<https://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280>
+    a <http://www.w3.org/ns/prov#Bundle>, <http://www.w3.org/ns/prov#Entity> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "A collection of provenance related to the creation of a P418 index"^^<http://www.w3.org/2001/XMLSchema#string> ;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2018-02-14T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://provisium.io/id/7efe5e7d-a559-4cb4-8c8e-5d18d6a2e280/processingActivity1> .
+
