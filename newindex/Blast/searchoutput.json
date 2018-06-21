@@ -1,0 +1,37 @@
+{
+  "search_result": {
+    "status": {
+      "total": 1,
+      "failed": 0,
+      "successful": 1
+    },
+    "request": {
+      "query": {
+        "query": "Conductivity"
+      },
+      "size": 10,
+      "from": 0,
+      "highlight": {
+        "style": "html",
+        "fields": [
+          "name",
+          "description"
+        ]
+      },
+      "fields": [
+        "*"
+      ],
+      "facets": null,
+      "explain": false,
+      "sort": [
+        "-_score"
+      ],
+      "includeLocations": false
+    },
+    "hits": [],
+    "total_hits": 0,
+    "max_score": 0,
+    "took": 85165,
+    "facets": {}
+  }
+}

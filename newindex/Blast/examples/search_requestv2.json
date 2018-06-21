@@ -1,0 +1,23 @@
+{
+  "search_request": {
+    "query": {
+      "query": "Conductivity"
+    },
+    "size": 10,
+    "from": 0,
+    "fields": [
+      "*"
+    ],
+    "sort": [
+      "-_score"
+    ],
+
+    "highlight": {
+      "style": "html",
+      "fields": [
+        "name",
+        "description"
+      ]
+    }
+  }
+}
