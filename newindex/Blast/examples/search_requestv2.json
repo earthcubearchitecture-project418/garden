@@ -1,7 +1,7 @@
 {
   "search_request": {
     "query": {
-      "query": "Conductivity"
+      "query": "sediment transport"
     },
     "size": 10,
     "from": 0,
