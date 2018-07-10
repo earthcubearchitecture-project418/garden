@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+    <style type="text/css">
+      .node circle {
+        cursor: pointer;
+        fill: #fff;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+      }
+
+      .node text {
+        font-size: 11px;
+      }
+
+      path.link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+      }
+      
+      .node.selected circle {
+        fill: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="body">
+      <div id="toolbar">
+        <button onclick="pushTopToBottom(); return false;">Push top to bottom on right</button>
+        <button onclick="addNodes(); return false;">Add Nodes</button>
+        <button onclick="swapLeftRight(); return false;">Swap left and right</button>
+        <button onclick="moveNode('left', 'right'); return false;">Move left to right</button>
+        <button onclick="moveNode('right', 'left'); return false;">Move right to left</button>
+      </div>
+      <svg id="chart"></svg>
+    </div>
+    <script type="text/javascript" src="mindmap.js"></script>
+    <script type="text/javascript">
+      var getDims = function(){
+        var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
+        return {width: x, height: y};
+      };
+      var dims = getDims();
+      var chart = MindMap()
+        .width(dims.width)
+        .height(dims.height-10)
+        .text(function(d){
+          return d.name || d.text;
+        })
+        .click(function(d){
+          console.log(d._id);
+          // Find previously selected, unselect
+          d3.select(".selected").classed("selected", false);
+          // Select current item
+          d3.select(this).classed("selected", true);
+        })
+        ;
+      
+      var loadJSON = function(fileName){
+        d3.json("/data/"+fileName, function(json) {
+          var i=0, l=json.children.length;
+          var root = json;
+          
+          json.left = [];
+          json.right = [];
+          for(; i<l; i++){
+            if(i%2){
+              json.left.push(json.children[i]);
+              json.children[i].position = 'left';
+            }else{
+              json.right.push(json.children[i]);
+              json.children[i].position = 'right';
+            }
+          }
+
+          update(root);
+        });
+      };
+      
+      var loadFreeMind = function(fileName){
+        MindMap.loadFreeMind('data/'+fileName, function(err, data){
+          update(data);
+        });
+      };
+      
+      var update = function(data){
+        window.data = data;
+        d3.select('#chart')
+          .datum(data)
+          .call(chart)
+          ;
+      };
+        
+      var pushTopToBottom = function(){
+        if(data.right[0]){
+          if(data.right[0].children){
+            data.right[0].children.push(data.right[0].children.shift());
+          }else{
+            data.right.push(data.right.shift());
+          }
+        }
+        chart.update();
+      };
+      
+      var addNodes = function(){
+        if(data.right){
+          if(data.right[0]){
+            (data.right[0].children = data.right[0].children || []).push({name: 'test', children: [{name: 'Foo'}, {name: 'Bar'}, {name: 'None'}]});
+          }else{
+            data.right.push({name: 'test', children: [{name: 'Foo'}, {name: 'Bar'}, {name: 'None'}]});
+          }
+        }else{
+          data.right = [{name: 'test', children: [{name: 'Foo'}, {name: 'Bar'}, {name: 'None'}]}];
+        }
+        chart.update();
+      };
+      
+      var swapLeftRight = function(){
+        var tmp = data.left;
+        data.left = data.right;
+        data.right = tmp;
+        chart.update();
+      };
+      
+      var moveNode = function(from, to){
+        var n = data[from].shift();
+        if(n){
+          data[to].push(n);
+        }
+        chart.update();
+      };
+      
+      update({
+        "name": "Root",
+        "children": [
+          {
+            "name": "Branch 1",
+            "children": [
+              {"name": "Leaf 3"},
+              {"name": "Leaf 4"}
+            ]
+          },
+          {"name": "Branch 2"}
+        ]
+      });
+    </script>
+  </body>
+</html>

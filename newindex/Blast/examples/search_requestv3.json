@@ -1,7 +1,7 @@
 {
   "search_request": {
     "query": {
-      "query": "lake sediment transport"
+      "query": "depp lake sediment transport p418bucket:getiedadataorg"
     },
     "size": 10,
     "from": 0,

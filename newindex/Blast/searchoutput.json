@@ -7,7 +7,7 @@
     },
     "request": {
       "query": {
-        "query": "sediment transport"
+        "query": "depp lake sediment transport p418bucket:getiedadataorg"
       },
       "size": 10,
       "from": 0,
@@ -31,377 +31,8 @@
     "hits": [
       {
         "index": "./data/index",
-        "id": "1242c1a14e34b551eba7c4216dab97a265943d6b.jsonld",
-        "score": 0.6127485639990553,
-        "locations": {
-          "description": {
-            "sediment": [
-              {
-                "pos": 35,
-                "start": 228,
-                "end": 236,
-                "array_positions": null
-              },
-              {
-                "pos": 62,
-                "start": 430,
-                "end": 438,
-                "array_positions": null
-              }
-            ],
-            "transport": [
-              {
-                "pos": 36,
-                "start": 237,
-                "end": 246,
-                "array_positions": null
-              }
-            ]
-          }
-        },
-        "fragments": {
-          "description": [
-            "…ny rivers. Pioneer woody riparian seedlings recruit on river bars and alter hydraulics and \u003cmark\u003esediment\u003c/mark\u003e \u003cmark\u003etransport\u003c/mark\u003e, thus changing bar morphology. Explanations of barform morphodynamics have emphasized the …"
-          ],
-          "name": [
-            "Santa Maria River, AZ: Vegetation and channel form"
-          ]
-        },
-        "sort": [
-          "_score"
-        ],
-        "fields": {
-          "@context": "http://schema.org/",
-          "@type": "Dataset",
-          "additionalType": [
-            "geolink:Dataset",
-            "vivo:Dataset"
-          ],
-          "alternateName": "AZ13_BReyes",
-          "citation": "Lidar data acquisition and processing completed by the National Center for Airborne Laser Mapping (NCALM - http://www.ncalm.org). NCALM funding provided by NSF's Division of Earth Sciences, Instrumentation and Facilities Program. EAR-1043051.\u003cbr\u003ehttps://doi.org/10.5069/G9QR4V2S",
-          "contributor.@type": "Organization",
-          "contributor.name": "National Center for Airborne Laser Mapping",
-          "contributor.url": "http://www.ncalm.org",
-          "dateCreated": "2014-08-11T15:09:40Z",
-          "description": "NCALM Seed, PI: Sharon Bywater-Reyes, University of Montana. Riparian vegetation and channel process and form are intimately linked in many rivers. Pioneer woody riparian seedlings recruit on river bars and alter hydraulics and sediment transport, thus changing bar morphology. Explanations of barform morphodynamics have emphasized the role of bar-induced convective accelerations, steering of the flow, and resulting effects on sediment. The influence of vegetation on bar evolution, however, has not been integrated into our current understanding of barform morphodynamics. This ALSM dataset was collected via an NCALM Seed Grant to quantify how vegetation (cottonwood and tamarisk) changes barform morphology, and how vegetation and related topography collectively influences barform morphodynamics. This research has implications for understanding how vegetation influences channel form.",
-          "fileFormat": "Point Cloud Data",
-          "funder.@type": "Organization",
-          "funder.name": "National Science Foundation",
-          "funder.url": "http://nsf.gov",
-          "identifier.@id": "http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26912.2",
-          "identifier.@type": "PropertyValue",
-          "identifier.propertyID": "opentopoID",
-          "identifier.value": "OTLAS.052014.26912.2",
-          "includedInDataCatalog.@type": "DataCatalog",
-          "includedInDataCatalog.identifier.@id": "https://doi.org/10.5069/G9QR4V2S",
-          "includedInDataCatalog.identifier.@type": "PropertyValue",
-          "includedInDataCatalog.identifier.additionalType": [
-            "geolink:Identifier",
-            "datacite:Identifier"
-          ],
-          "includedInDataCatalog.identifier.propertyID": "datacite:doi",
-          "includedInDataCatalog.identifier.url": "https://doi.org/10.5069/G9QR4V2S",
-          "includedInDataCatalog.identifier.value": "10.5069/G9QR4V2S",
-          "includedInDataCatalog.name": "Santa Maria River, AZ: Vegetation and channel form",
-          "includedInDataCatalog.url": "http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.052014.26912.2",
-          "isAccessibleForFree": true,
-          "keywords": "Santa Maria River, Tamarisk, Cottonwood, Riparian Vegetation, Channel Form",
-          "license": "http://www.opentopography.org/usageterms",
-          "locationCreated": "",
-          "name": "Santa Maria River, AZ: Vegetation and channel form",
-          "publisher.@type": "Organization",
-          "publisher.additionalType": "geolink:Organization",
-          "publisher.award": "National Science Foundation under Award Numbers EAR-557484, 1557319 \u0026 1557330",
-          "publisher.email": "info@opentopography.org",
-          "publisher.legalName": "OpenTopography",
-          "publisher.logo": "http://opentopography.org/media",
-          "publisher.url": "http://www.opentopography.org",
-          "spatialCoverage.@type": "Place",
-          "spatialCoverage.additionalProperty.@type": [
-            "PropertyValue",
-            "PropertyValue"
-          ],
-          "spatialCoverage.additionalProperty.additionalType": [
-            "CoordinatesSystem",
-            "CoordinatesSystem"
-          ],
-          "spatialCoverage.additionalProperty.name": [
-            "Horizontal Coordinates",
-            "Vertical Coordinates"
-          ],
-          "spatialCoverage.additionalProperty.value": [
-            "UTM Zone 12N, NAD83 (2011) [EPSG: 26912]",
-            "NAVD88 (GEOID 12a) [EPSG: 5703]"
-          ],
-          "spatialCoverage.geo.@type": "GeoShape",
-          "spatialCoverage.geo.box": "34.2796676481974,-113.53205078193 34.3244266829409,-113.329215509059",
-          "temporalCoverage": "2013-07-31/2013-07-31",
-          "url": "http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.052014.26912.2",
-          "variableMeasured.@type": [
-            "PropertyValue",
-            "PropertyValue",
-            "PropertyValue",
-            "PropertyValue"
-          ],
-          "variableMeasured.name": [
-            "Area",
-            "Unit",
-            "LidarReturns",
-            "PointDensity"
-          ],
-          "variableMeasured.value": [
-            "51.00 km2",
-            "meter",
-            "392002733 points",
-            "7.69 points/m"
-          ]
-        }
-      },
-      {
-        "index": "./data/index",
-        "id": "e1367b5de5d607fd6ee6bf8f2534c7fd9e678111.jsonld",
-        "score": 0.5874248303831395,
-        "locations": {
-          "description": {
-            "sediment": [
-              {
-                "pos": 34,
-                "start": 220,
-                "end": 228,
-                "array_positions": null
-              }
-            ],
-            "transport": [
-              {
-                "pos": 35,
-                "start": 229,
-                "end": 238,
-                "array_positions": null
-              }
-            ]
-          }
-        },
-        "fragments": {
-          "description": [
-            "…re kilometers along the Owyhee River in southeastern Oregon. The data were collected to study the geomorphic, hydraulic, and \u003cmark\u003esediment\u003c/mark\u003e \u003cmark\u003etransport\u003c/mark\u003e effects of landslide dams and dam-breach floods on the O…"
-          ],
-          "name": [
-            "Geomorphic Effects of Landslide Dams on the Owyhee River, Oregon"
-          ]
-        },
-        "sort": [
-          "_score"
-        ],
-        "fields": {
-          "@context": "http://schema.org/",
-          "@type": "Dataset",
-          "additionalType": [
-            "geolink:Dataset",
-            "vivo:Dataset"
-          ],
-          "alternateName": "OR08_Wallick",
-          "citation": "LiDAR data acquisition and processing completed by the National Center for Airborne Laser Mapping (NCALM - http://www.ncalm.org). NCALM funding provided by NSF's Division of Earth Sciences, Instrumentation and Facilities Program. EAR-1043051.\u003cbr\u003ehttps://doi.org/10.5069/G98913SF",
-          "contributor.@type": "Organization",
-          "contributor.name": "National Center for Airborne Laser Mapping",
-          "contributor.url": "http://www.ncalm.org",
-          "dateCreated": "2017-07-21T14:58:56Z",
-          "description": "NCALM. PI: Jennifer Rose Wallick, Oregon State University. The area of interest covers 279 square kilometers along the Owyhee River in southeastern Oregon. The data were collected to study the geomorphic, hydraulic, and sediment transport effects of landslide dams and dam-breach floods on the Owyhee River. Data were collected from October 1-3, 2008.",
-          "fileFormat": "Raster",
-          "funder.@type": "Organization",
-          "funder.name": "National Science Foundation",
-          "funder.url": "http://nsf.gov",
-          "identifier.@id": "http://opentopo.sdsc.edu/raster?opentopoID=OTSDEM.062012.26911.1",
-          "identifier.@type": "PropertyValue",
-          "identifier.propertyID": "opentopoID",
-          "identifier.value": "OTSDEM.062012.26911.1",
-          "includedInDataCatalog.@type": "DataCatalog",
-          "includedInDataCatalog.identifier.@id": "https://doi.org/10.5069/G98913SF",
-          "includedInDataCatalog.identifier.@type": "PropertyValue",
-          "includedInDataCatalog.identifier.additionalType": [
-            "geolink:Identifier",
-            "datacite:Identifier"
-          ],
-          "includedInDataCatalog.identifier.propertyID": "datacite:doi",
-          "includedInDataCatalog.identifier.url": "https://doi.org/10.5069/G98913SF",
-          "includedInDataCatalog.identifier.value": "10.5069/G98913SF",
-          "includedInDataCatalog.name": "Geomorphic Effects of Landslide Dams on the Owyhee River, Oregon",
-          "includedInDataCatalog.url": "http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.062012.26911.1",
-          "isAccessibleForFree": true,
-          "keywords": "null",
-          "license": "http://www.opentopography.org/usageterms",
-          "locationCreated": "",
-          "name": "Geomorphic Effects of Landslide Dams on the Owyhee River, Oregon",
-          "publisher.@type": "Organization",
-          "publisher.additionalType": "geolink:Organization",
-          "publisher.award": "National Science Foundation under Award Numbers EAR-557484, 1557319 \u0026 1557330",
-          "publisher.email": "info@opentopography.org",
-          "publisher.legalName": "OpenTopography",
-          "publisher.logo": "http://opentopography.org/media",
-          "publisher.url": "http://www.opentopography.org",
-          "spatialCoverage.@type": "Place",
-          "spatialCoverage.additionalProperty.@type": [
-            "PropertyValue",
-            "PropertyValue"
-          ],
-          "spatialCoverage.additionalProperty.additionalType": [
-            "CoordinatesSystem",
-            "CoordinatesSystem"
-          ],
-          "spatialCoverage.additionalProperty.name": [
-            "Horizontal Coordinates",
-            "Vertical Coordinates"
-          ],
-          "spatialCoverage.additionalProperty.value": [
-            "UTM z11 N NAD83 (CORS96) [EPSG: 26911]",
-            "NAVD88 (GEOID03) [EPSG: 5703]"
-          ],
-          "spatialCoverage.geo.@type": "GeoShape",
-          "spatialCoverage.geo.box": "42.936294248926,-117.748359290137 43.2527957395283,-117.455634864392",
-          "temporalCoverage": "2008-10-01/2008-10-03",
-          "url": "http://opentopo.sdsc.edu/raster?opentopoID=OTSDEM.062012.26911.1",
-          "variableMeasured.@type": [
-            "PropertyValue",
-            "PropertyValue",
-            "PropertyValue"
-          ],
-          "variableMeasured.name": [
-            "Area",
-            "Unit",
-            "RasterResolution"
-          ],
-          "variableMeasured.value": [
-            "279.00 km2",
-            "meter",
-            "1 meter"
-          ]
-        }
-      },
-      {
-        "index": "./data/index",
-        "id": "9506260d07c6e99031edc3258e5ef78fc3d3a73f.jsonld",
-        "score": 0.5784559858315512,
-        "locations": {
-          "description": {
-            "sediment": [
-              {
-                "pos": 34,
-                "start": 220,
-                "end": 228,
-                "array_positions": null
-              }
-            ],
-            "transport": [
-              {
-                "pos": 35,
-                "start": 229,
-                "end": 238,
-                "array_positions": null
-              }
-            ]
-          }
-        },
-        "fragments": {
-          "description": [
-            "…re kilometers along the Owyhee River in southeastern Oregon. The data were collected to study the geomorphic, hydraulic, and \u003cmark\u003esediment\u003c/mark\u003e \u003cmark\u003etransport\u003c/mark\u003e effects of landslide dams and dam-breach floods on the O…"
-          ],
-          "name": [
-            "Geomorphic Effects of Landslide Dams on the Owyhee River, Oregon"
-          ]
-        },
-        "sort": [
-          "_score"
-        ],
-        "fields": {
-          "@context": "http://schema.org/",
-          "@type": "Dataset",
-          "additionalType": [
-            "geolink:Dataset",
-            "vivo:Dataset"
-          ],
-          "alternateName": "OR08_Wallick",
-          "citation": "Lidar data acquisition and processing completed by the National Center for Airborne Laser Mapping (NCALM - http://www.ncalm.org). NCALM funding provided by NSF's Division of Earth Sciences, Instrumentation and Facilities Program. EAR-1043051.\u003cbr\u003ehttps://doi.org/10.5069/G98913SF",
-          "contributor.@type": "Organization",
-          "contributor.name": "National Center for Airborne Laser Mapping",
-          "contributor.url": "http://www.ncalm.org",
-          "dateCreated": "2012-06-26T13:31:13Z",
-          "description": "NCALM. PI: Jennifer Rose Wallick, Oregon State University. The area of interest covers 279 square kilometers along the Owyhee River in southeastern Oregon. The data were collected to study the geomorphic, hydraulic, and sediment transport effects of landslide dams and dam-breach floods on the Owyhee River. Data were collected from October 1-3, 2008.",
-          "fileFormat": "Point Cloud Data",
-          "funder.@type": "Organization",
-          "funder.name": "National Science Foundation",
-          "funder.url": "http://nsf.gov",
-          "identifier.@id": "http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26911.1",
-          "identifier.@type": "PropertyValue",
-          "identifier.propertyID": "opentopoID",
-          "identifier.value": "OTLAS.062012.26911.1",
-          "includedInDataCatalog.@type": "DataCatalog",
-          "includedInDataCatalog.identifier.@id": "https://doi.org/10.5069/G98913SF",
-          "includedInDataCatalog.identifier.@type": "PropertyValue",
-          "includedInDataCatalog.identifier.additionalType": [
-            "geolink:Identifier",
-            "datacite:Identifier"
-          ],
-          "includedInDataCatalog.identifier.propertyID": "datacite:doi",
-          "includedInDataCatalog.identifier.url": "https://doi.org/10.5069/G98913SF",
-          "includedInDataCatalog.identifier.value": "10.5069/G98913SF",
-          "includedInDataCatalog.name": "Geomorphic Effects of Landslide Dams on the Owyhee River, Oregon",
-          "includedInDataCatalog.url": "http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.062012.26911.1",
-          "isAccessibleForFree": true,
-          "keywords": "Oregon",
-          "license": "http://www.opentopography.org/usageterms",
-          "locationCreated": "",
-          "name": "Geomorphic Effects of Landslide Dams on the Owyhee River, Oregon",
-          "publisher.@type": "Organization",
-          "publisher.additionalType": "geolink:Organization",
-          "publisher.award": "National Science Foundation under Award Numbers EAR-557484, 1557319 \u0026 1557330",
-          "publisher.email": "info@opentopography.org",
-          "publisher.legalName": "OpenTopography",
-          "publisher.logo": "http://opentopography.org/media",
-          "publisher.url": "http://www.opentopography.org",
-          "spatialCoverage.@type": "Place",
-          "spatialCoverage.additionalProperty.@type": [
-            "PropertyValue",
-            "PropertyValue"
-          ],
-          "spatialCoverage.additionalProperty.additionalType": [
-            "CoordinatesSystem",
-            "CoordinatesSystem"
-          ],
-          "spatialCoverage.additionalProperty.name": [
-            "Horizontal Coordinates",
-            "Vertical Coordinates"
-          ],
-          "spatialCoverage.additionalProperty.value": [
-            "UTM z11 N NAD83 (CORS96) [EPSG: 26911]",
-            "NAVD88 (GEOID03) [EPSG: 5703]"
-          ],
-          "spatialCoverage.geo.@type": "GeoShape",
-          "spatialCoverage.geo.box": "42.936294248926,-117.748359290137 43.2527957395283,-117.455634864392",
-          "temporalCoverage": "2008-10-01/2008-10-03",
-          "url": "http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.062012.26911.1",
-          "variableMeasured.@type": [
-            "PropertyValue",
-            "PropertyValue",
-            "PropertyValue",
-            "PropertyValue"
-          ],
-          "variableMeasured.name": [
-            "Area",
-            "Unit",
-            "LidarReturns",
-            "PointDensity"
-          ],
-          "variableMeasured.value": [
-            "279.00 km2",
-            "meter",
-            "1539971860 points",
-            "5.52 points/m"
-          ]
-        }
-      },
-      {
-        "index": "./data/index",
         "id": "fc531c2de9632f5a14d6985ff94ce9fa90089b78.jsonld",
-        "score": 0.3682467224459847,
+        "score": 0.337230881563335,
         "locations": {
           "description": {
             "sediment": [
@@ -417,6 +48,16 @@
                 "pos": 220,
                 "start": 1377,
                 "end": 1386,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
                 "array_positions": null
               }
             ]
@@ -507,6 +148,8 @@
           "keywords": "Seismic:Navigation",
           "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
           "name": "Seismic Navigation Data (P2 format) from the Eastern North American Margin acquired during the Marcus G. Langseth expedition MGL1407 (2014)",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/321719",
           "provider.@id": "https://www.iedadata.org/",
           "provider.@type": "Organization",
           "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
@@ -561,7 +204,7 @@
       {
         "index": "./data/index",
         "id": "3ea586c7128000c24a17c912d115833bce952691.jsonld",
-        "score": 0.3653734969145571,
+        "score": 0.33619828323347933,
         "locations": {
           "description": {
             "sediment": [
@@ -577,6 +220,16 @@
                 "pos": 228,
                 "start": 1423,
                 "end": 1432,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
                 "array_positions": null
               }
             ]
@@ -667,6 +320,8 @@
           "keywords": "Seismic:Navigation",
           "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
           "name": "Raw Seismic Navigation Data (P1 format) from the Eastern North American Margin, acquired during R/V Marcus G. Langseth expedition MGL1407 (2014)",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/321717",
           "provider.@id": "https://www.iedadata.org/",
           "provider.@type": "Organization",
           "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
@@ -721,7 +376,7 @@
       {
         "index": "./data/index",
         "id": "4f3914181ba4b776943dcab0c4be16e863e8cba5.jsonld",
-        "score": 0.3653734969145571,
+        "score": 0.33619828323347933,
         "locations": {
           "description": {
             "sediment": [
@@ -737,6 +392,16 @@
                 "pos": 229,
                 "start": 1436,
                 "end": 1445,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
                 "array_positions": null
               }
             ]
@@ -827,6 +492,8 @@
           "keywords": "Seismic:Navigation",
           "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
           "name": "Seismic Navigation Data (P1 format) from the Eastern North American Margin, acquired during R/V Marcus G. Langseth expedition MGL1407 (2014)",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/321727",
           "provider.@id": "https://www.iedadata.org/",
           "provider.@type": "Organization",
           "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
@@ -881,7 +548,7 @@
       {
         "index": "./data/index",
         "id": "d8dac73e1e34c3a5e1b7b79cf5d808f3cbfd1381.jsonld",
-        "score": 0.3653734969145571,
+        "score": 0.33619828323347933,
         "locations": {
           "description": {
             "sediment": [
@@ -897,6 +564,16 @@
                 "pos": 226,
                 "start": 1420,
                 "end": 1429,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
                 "array_positions": null
               }
             ]
@@ -987,6 +664,8 @@
           "keywords": "Seismic:WideAngle",
           "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
           "name": "Raw Wide-Angle Shot Data (Sonobuoy) from the Eastern North American margin acquired during the R/V Marcus G. Langseth expedition MGL1407 (2014)",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/321809",
           "provider.@id": "https://www.iedadata.org/",
           "provider.@type": "Organization",
           "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
@@ -1041,7 +720,7 @@
       {
         "index": "./data/index",
         "id": "a93b2dda3f01dd692e14c5550a75ecb653a8d488.jsonld",
-        "score": 0.365058390928511,
+        "score": 0.3360850234356068,
         "locations": {
           "description": {
             "sediment": [
@@ -1057,6 +736,16 @@
                 "pos": 229,
                 "start": 1430,
                 "end": 1439,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
                 "array_positions": null
               }
             ]
@@ -1147,6 +836,8 @@
           "keywords": "Seismic:Reflection:MCS",
           "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
           "name": "Multi-Channel Seismic Shot Data from the Eastern North American Margin acquired during the R/V Marcus G. Langseth expedition MGL1407 (2014)",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/321716",
           "provider.@id": "https://www.iedadata.org/",
           "provider.@type": "Organization",
           "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
@@ -1201,7 +892,7 @@
       {
         "index": "./data/index",
         "id": "9fcfb1e5e016fd0710a81e1efe1f1d84a8a84704.jsonld",
-        "score": 0.3622585623947686,
+        "score": 0.3350785876659252,
         "locations": {
           "description": {
             "sediment": [
@@ -1217,6 +908,16 @@
                 "pos": 238,
                 "start": 1493,
                 "end": 1502,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
                 "array_positions": null
               }
             ]
@@ -1307,6 +1008,8 @@
           "keywords": "Seismic:WideAngle",
           "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
           "name": "Raw Wide-Angle Shot Data (Sonobuoy) from the Eastern North American margin acquired during the R/V Marcus G. Langseth expedition MGL1407 (2014)",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/321811",
           "provider.@id": "https://www.iedadata.org/",
           "provider.@type": "Organization",
           "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
@@ -1360,35 +1063,320 @@
       },
       {
         "index": "./data/index",
-        "id": "4699d4fe8aff8ab3c816dcfd169502d2d2a6f913.jsonld",
-        "score": 0.2950281058858668,
+        "id": "b3a7a901470e1415bf4ec8ec209e5927fc5f32c0.jsonld",
+        "score": 0.30107565561987637,
         "locations": {
-          "description": {
-            "transport": [
+          "citation": {
+            "lake": [
               {
-                "pos": 42,
-                "start": 248,
-                "end": 257,
+                "pos": 14,
+                "start": 78,
+                "end": 82,
                 "array_positions": null
               }
             ]
           },
-          "includedInDataCatalog.name": {
-            "transport": [
+          "description": {
+            "lake": [
               {
-                "pos": 9,
-                "start": 48,
-                "end": 57,
+                "pos": 10,
+                "start": 69,
+                "end": 73,
                 "array_positions": null
+              },
+              {
+                "pos": 40,
+                "start": 263,
+                "end": 267,
+                "array_positions": null
+              }
+            ],
+            "sediment": [
+              {
+                "pos": 12,
+                "start": 83,
+                "end": 91,
+                "array_positions": null
+              }
+            ]
+          },
+          "keywords": {
+            "lake": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 4,
+                "array_positions": [
+                  7
+                ]
               }
             ]
           },
           "name": {
+            "lake": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 4,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
+                "array_positions": null
+              }
+            ]
+          },
+          "spatialCoverage.name": {
+            "lake": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 4,
+                "array_positions": [
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        "fragments": {
+          "description": [
+            "… \u003cmark\u003eLake\u003c/mark\u003e Superior \u003cmark\u003esediment\u003c/mark\u003e core sediments. Localities include off of Isle Royale and the Keweenaw Bay. This analysis was performed to test whether these shards could be identified as Mazama (Crater \u003cmark\u003eLake\u003c/mark\u003e)…"
+          ],
+          "name": [
+            "\u003cmark\u003eLake\u003c/mark\u003e Superior Cryptotephra Electron Microprobe Results"
+          ]
+        },
+        "sort": [
+          "_score"
+        ],
+        "fields": {
+          "@context.@vocab": "http://schema.org/",
+          "@context.datacite": "http://purl.org/spar/datacite/",
+          "@context.dcat": "http://www.w3.org/ns/dcat#",
+          "@context.earthcollab": "https://library.ucar.edu/earthcollab/schema#",
+          "@context.geolink": "http://schema.geolink.org/1.0/base/main#",
+          "@context.vivo": "http://vivoweb.org/ontology/core#",
+          "@id": "DOI:10.1594/IEDA/100710",
+          "@type": "Dataset",
+          "additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Dataset",
+            "http://vivoweb.org/ontology/core#Dataset"
+          ],
+          "citation": "Nicholas G Spano, Sarah W Francis, Thomas C Johnson, Christine S Lane (2017), Lake Superior Cryptotephra Electron Microprobe Results. Interdisciplinary Earth Data Alliance (IEDA). doi:10.1594/IEDA/100710",
+          "creator.@type": [
+            "Person",
+            "Person",
+            "Person",
+            "Person"
+          ],
+          "creator.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Person",
+            "http://schema.geolink.org/1.0/base/main#Person",
+            "http://schema.geolink.org/1.0/base/main#Person",
+            "http://schema.geolink.org/1.0/base/main#Person"
+          ],
+          "creator.familyName": [
+            "Spano",
+            "Francis",
+            "Johnson",
+            "Lane"
+          ],
+          "creator.givenName": [
+            "Nicholas",
+            "Sarah",
+            "Thomas",
+            "Christine"
+          ],
+          "creator.name": [
+            "Nicholas G Spano",
+            "Sarah W Francis",
+            "Thomas C Johnson",
+            "Christine S Lane"
+          ],
+          "dateCreated": "2017-08-16T00:00:00Z",
+          "datePublished": "2017",
+          "description": "Abstract: Electron microprobe analysis of volcanic glass shards from Lake Superior sediment core sediments. Localities include off of Isle Royale and the Keweenaw Bay. This analysis was performed to test whether these shards could be identified as Mazama (Crater Lake) in origin.",
+          "distribution.@type": [
+            "DataDownload",
+            "DataDownload"
+          ],
+          "distribution.additionalType": [
+            "http://www.w3.org/ns/dcat#distribution",
+            "http://www.w3.org/ns/dcat#distribution"
+          ],
+          "distribution.encodingFormat": [
+            "application/vnd.ms-excel",
+            "application/vnd.ms-excel"
+          ],
+          "distribution.http://www.w3.org/ns/dcat#accessURL": [
+            "http://dx.doi.org/10.1594/IEDA/100710",
+            "http://www.earthchem.org/library/browse/view?id=1094"
+          ],
+          "distribution.name": [
+            "DOI landing page",
+            "URL"
+          ],
+          "distribution.url": [
+            "http://dx.doi.org/10.1594/IEDA/100710",
+            "http://www.earthchem.org/library/browse/view?id=1094"
+          ],
+          "hasPart.@type": [
+            "CreativeWork",
+            "CreativeWork"
+          ],
+          "hasPart.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample"
+          ],
+          "hasPart.identifier.@type": [
+            "PropertyValue",
+            "PropertyValue"
+          ],
+          "hasPart.identifier.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier"
+          ],
+          "hasPart.identifier.propertyID": [
+            "IGSN",
+            "IGSN"
+          ],
+          "hasPart.identifier.url": [
+            "http://igsn.org/IESUP000U",
+            "http://igsn.org/IESUP001G"
+          ],
+          "hasPart.identifier.value": [
+            "IESUP000U",
+            "IESUP001G"
+          ],
+          "identifier.@id": "doi:10.1594/IEDA/100710",
+          "identifier.@type": "PropertyValue",
+          "identifier.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier"
+          ],
+          "identifier.propertyID": "http://purl.org/spar/datacite/doi",
+          "identifier.url": "http://dx.doi.org/10.1594/IEDA/100710",
+          "identifier.value": "10.1594/IEDA/100710",
+          "inLanguage": "en",
+          "keywords": [
+            "Regional (Continents, Oceans)",
+            "Chemistry:Sediment",
+            "Geochemistry",
+            "Solid Earth",
+            "cryptotephra",
+            "Mazama",
+            "tephrochronology",
+            "Lake Superior"
+          ],
+          "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "name": "Lake Superior Cryptotephra Electron Microprobe Results",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/100710",
+          "provider.@id": "https://www.iedadata.org/",
+          "provider.@type": "Organization",
+          "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.@id": "https://www.iedadata.org/",
+          "publisher.@type": "Organization",
+          "publisher.contactPoint.@type": "ContactPoint",
+          "publisher.contactPoint.contactType": "Information",
+          "publisher.contactPoint.email": "info@iedadata.org",
+          "publisher.contactPoint.name": "Information Desk",
+          "publisher.contactPoint.url": "https://www.iedadata.org/contact/",
+          "publisher.description": "The IEDA data facility mission is to support, sustain, and advance the geosciences by providing data services for observational geoscience data from the Ocean, Earth, and Polar Sciences. IEDA systems serve as primary community data collections for global geochemistry and marine geoscience research and support the preservation, discovery, retrieval, and analysis of a wide range of observational field and analytical data types. Our tools and services are designed to facilitate data discovery and reuse for focused disciplinary research and to support interdisciplinary research and data integration.",
+          "publisher.funder.@id": "http://dx.doi.org/10.13039/100000085",
+          "publisher.funder.@type": "Organization",
+          "publisher.funder.alternateName": "NSF-GEO",
+          "publisher.funder.legalName": "Directorate for Geosciences",
+          "publisher.funder.parentOrganization.@id": "http://dx.doi.org/10.13039/100000001",
+          "publisher.funder.parentOrganization.@type": "Organization",
+          "publisher.funder.parentOrganization.alternateName": "NSF",
+          "publisher.funder.parentOrganization.legalName": "National Science Foundation",
+          "publisher.funder.parentOrganization.url": "http://www.nsf.gov",
+          "publisher.funder.url": "http://www.nsf.gov",
+          "publisher.logo.@type": "ImageObject",
+          "publisher.logo.url": "http://app.iedadata.org/images/ieda_maplogo.png",
+          "publisher.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.parentOrganization.@id": "https://viaf.org/viaf/142992181/",
+          "publisher.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.address.@type": "PostalAddress",
+          "publisher.parentOrganization.address.addressCountry": "USA",
+          "publisher.parentOrganization.address.addressLocality": "Palisades",
+          "publisher.parentOrganization.address.addressRegion": "NY",
+          "publisher.parentOrganization.address.postalCode": "10964-1000",
+          "publisher.parentOrganization.address.streetAddress": "61 Route 9W",
+          "publisher.parentOrganization.name": "Lamont-Doherty Earth Observatory",
+          "publisher.parentOrganization.parentOrganization.@id": "https://viaf.org/viaf/156836332/",
+          "publisher.parentOrganization.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.parentOrganization.legalName": "Columbia University",
+          "publisher.parentOrganization.parentOrganization.url": "http://www.columbia.edu/",
+          "publisher.parentOrganization.url": "http://www.ldeo.columbia.edu/",
+          "publisher.publishingPrinciples.@id": "http://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.publishingPrinciples.@type": "DigitalDocument",
+          "publisher.publishingPrinciples.additionalType": "gdx:Protocol-License",
+          "publisher.publishingPrinciples.description": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "publisher.publishingPrinciples.name": "Dataset Usage License",
+          "publisher.publishingPrinciples.url": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.url": "https://www.iedadata.org/",
+          "spatialCoverage.@type": [
+            "Place",
+            "Place"
+          ],
+          "spatialCoverage.geo.@type": [
+            "GeoShape",
+            "GeoCoordinates",
+            "GeoCoordinates"
+          ],
+          "spatialCoverage.geo.box": "-88.47, 47.13 -87.82, 47.97",
+          "spatialCoverage.geo.latitude": [
+            "47.13",
+            "47.97"
+          ],
+          "spatialCoverage.geo.longitude": [
+            "-87.82",
+            "-88.47"
+          ],
+          "spatialCoverage.name": "Lake Superior",
+          "version": "1.0"
+        }
+      },
+      {
+        "index": "./data/index",
+        "id": "beb6e4a92c2ffb123c0cb4d76d3cefe0cbd6ad1c.jsonld",
+        "score": 0.28225840585576584,
+        "locations": {
+          "description": {
+            "sediment": [
+              {
+                "pos": 84,
+                "start": 517,
+                "end": 525,
+                "array_positions": null
+              }
+            ],
             "transport": [
               {
-                "pos": 9,
-                "start": 48,
-                "end": 57,
+                "pos": 81,
+                "start": 499,
+                "end": 508,
+                "array_positions": null
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
                 "array_positions": null
               }
             ]
@@ -1396,106 +1384,1328 @@
         },
         "fragments": {
           "description": [
-            "…y. The survey area consists of a rectangular polygon located 50 km west of Idaho Falls, Idaho. The data were collected to study the function of remotely sensed data for modeling eolian soil \u003cmark\u003etransport\u003c/mark\u003e."
+            "…rials are likely to have been deposited in the last few hundred years. The age of last \u003cmark\u003etransport\u003c/mark\u003e of that \u003cmark\u003esediment\u003c/mark\u003e has not been dated, but evidence indicates it to be younger than the time of major cli…"
           ],
           "name": [
-            "Idaho Falls, ID: Lidar for Modeling Eolian Soil \u003cmark\u003eTransport\u003c/mark\u003e"
+            "Sr isotopic ratios of Holocene gypsum and anhydrite salt deposits in Atacama Desert, northern Chile"
           ]
         },
         "sort": [
           "_score"
         ],
         "fields": {
-          "@context": "http://schema.org/",
+          "@context.@vocab": "http://schema.org/",
+          "@context.datacite": "http://purl.org/spar/datacite/",
+          "@context.dcat": "http://www.w3.org/ns/dcat#",
+          "@context.earthcollab": "https://library.ucar.edu/earthcollab/schema#",
+          "@context.geolink": "http://schema.geolink.org/1.0/base/main#",
+          "@context.vivo": "http://vivoweb.org/ontology/core#",
+          "@id": "DOI:10.1594/IEDA/100590",
           "@type": "Dataset",
           "additionalType": [
-            "geolink:Dataset",
-            "vivo:Dataset"
+            "http://schema.geolink.org/1.0/base/main#Dataset",
+            "http://vivoweb.org/ontology/core#Dataset"
           ],
-          "alternateName": "ID07_Sankey",
-          "citation": "Lidar data acquisition and processing completed by the National Center for Airborne Laser Mapping (NCALM - http://www.ncalm.org). NCALM funding provided by NSF's Division of Earth Sciences, Instrumentation and Facilities Program. EAR-1043051.\u003cbr\u003ehttps://doi.org/10.5069/G9KK98PR",
-          "contributor.@type": "Organization",
-          "contributor.name": "National Center for Airborne Laser Mapping",
-          "contributor.url": "http://www.ncalm.org",
-          "dateCreated": "2012-04-04T11:19:16Z",
-          "description": "NCALM Seed Project. PI: Joel Sankey, Idaho State University. The survey area consists of a rectangular polygon located 50 km west of Idaho Falls, Idaho. The data were collected to study the function of remotely sensed data for modeling eolian soil transport.",
-          "fileFormat": "Point Cloud Data",
-          "funder.@type": "Organization",
-          "funder.name": "National Science Foundation",
-          "funder.url": "http://nsf.gov",
-          "identifier.@id": "http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26912.1",
+          "citation": "Teresa E. Jordan, Nicolás J. Cosentino (2016), Sr isotopic ratios of Holocene gypsum and anhydrite salt deposits in Atacama Desert, northern Chile. Interdisciplinary Earth Data Alliance (IEDA). doi:10.1594/IEDA/100590",
+          "creator.@type": [
+            "Person",
+            "Person"
+          ],
+          "creator.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Person",
+            "http://schema.geolink.org/1.0/base/main#Person"
+          ],
+          "creator.familyName": [
+            "Jordan",
+            "Cosentino"
+          ],
+          "creator.givenName": [
+            "Teresa",
+            "Nicolás"
+          ],
+          "creator.name": [
+            "Teresa E. Jordan",
+            "Nicolás J. Cosentino"
+          ],
+          "dateCreated": "2016-05-24T00:00:00Z",
+          "datePublished": "2016",
+          "description": "Abstract: This file provides 87Sr/86Sr data for calcium sulfate salts of Holocene age in the Atacama Desert of northern Chile, where gypsum and anhydrite surficial accumulations are widespread. The purpose of the Sr isotopic study is to differentiate among sources of the ions in these minerals. Gypsum/anhydrite was selected for sampling that occurs as crystals adhering to surfaces whose other sedimentary materials are likely to have been deposited in the last few hundred years. The age of last transport of that sediment has not been dated, but evidence indicates it to be younger than the time of major climate change (from arid to hyperarid) at the close of the Pleistocene, hence Holocene. Samples of 28 Holocene surface salt accumulations for locations between 200-2950 meters above sea level and between approximately 19 degrees 30 minutes S latitude and approximately 21 degrees 30 minutes S latitude quantify a variation in 87Sr/86Sr as a function of site altitude.; Other Description: Cosentino, N. J., Jordan, T. E., Derry, L. A., and Morgan, J. P., (2015), \"87Sr/86Sr in recent accumulations of calcium sulfate on landscapes of hyperarid settings: A bimodal altitudinal dependence for northern Chile (19.5-21.5°S).\" Geophysics, Geochemistry, Geosystems, Volume 16 (12), 4311-4328.",
+          "distribution.@type": [
+            "DataDownload",
+            "DataDownload"
+          ],
+          "distribution.additionalType": [
+            "http://www.w3.org/ns/dcat#distribution",
+            "http://www.w3.org/ns/dcat#distribution"
+          ],
+          "distribution.encodingFormat": [
+            "application/vnd.ms-excel",
+            "application/vnd.ms-excel"
+          ],
+          "distribution.http://www.w3.org/ns/dcat#accessURL": [
+            "http://dx.doi.org/10.1594/IEDA/100590",
+            "http://www.earthchem.org/library/browse/view?id=943"
+          ],
+          "distribution.name": [
+            "DOI landing page",
+            "URL"
+          ],
+          "distribution.url": [
+            "http://dx.doi.org/10.1594/IEDA/100590",
+            "http://www.earthchem.org/library/browse/view?id=943"
+          ],
+          "hasPart.@type": [
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork"
+          ],
+          "hasPart.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample"
+          ],
+          "hasPart.identifier.@type": [
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue"
+          ],
+          "hasPart.identifier.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier"
+          ],
+          "hasPart.identifier.propertyID": [
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN"
+          ],
+          "hasPart.identifier.url": [
+            "http://igsn.org/IETEJ0001",
+            "http://igsn.org/IETEJ0002",
+            "http://igsn.org/IETEJ0003",
+            "http://igsn.org/IETEJ0004",
+            "http://igsn.org/IETEJ0005",
+            "http://igsn.org/IETEJ0006",
+            "http://igsn.org/IETEJ0007",
+            "http://igsn.org/IETEJ0008",
+            "http://igsn.org/IETEJ0009",
+            "http://igsn.org/IETEJ000A",
+            "http://igsn.org/IETEJ000B",
+            "http://igsn.org/IETEJ000C",
+            "http://igsn.org/IETEJ000D",
+            "http://igsn.org/IETEJ000E",
+            "http://igsn.org/IETEJ000F",
+            "http://igsn.org/IETEJ000G",
+            "http://igsn.org/IETEJ000H",
+            "http://igsn.org/IETEJ000I",
+            "http://igsn.org/IETEJ000J",
+            "http://igsn.org/IETEJ000K",
+            "http://igsn.org/IETEJ000L",
+            "http://igsn.org/IETEJ000M",
+            "http://igsn.org/IETEJ000N",
+            "http://igsn.org/IETEJ000O",
+            "http://igsn.org/IETEJ000P",
+            "http://igsn.org/IETEJ000Q",
+            "http://igsn.org/IETEJ000R",
+            "http://igsn.org/IETEJ000S",
+            "http://igsn.org/IETEJ000T",
+            "http://igsn.org/IETEJ000U",
+            "http://igsn.org/IETEJ000V",
+            "http://igsn.org/IETEJ000W",
+            "http://igsn.org/IETEJ000X",
+            "http://igsn.org/IETEJ000Y",
+            "http://igsn.org/IETEJ000Z",
+            "http://igsn.org/IETEJ0010",
+            "http://igsn.org/IETEJ0011",
+            "http://igsn.org/IETEJ0012"
+          ],
+          "hasPart.identifier.value": [
+            "IETEJ0001",
+            "IETEJ0002",
+            "IETEJ0003",
+            "IETEJ0004",
+            "IETEJ0005",
+            "IETEJ0006",
+            "IETEJ0007",
+            "IETEJ0008",
+            "IETEJ0009",
+            "IETEJ000A",
+            "IETEJ000B",
+            "IETEJ000C",
+            "IETEJ000D",
+            "IETEJ000E",
+            "IETEJ000F",
+            "IETEJ000G",
+            "IETEJ000H",
+            "IETEJ000I",
+            "IETEJ000J",
+            "IETEJ000K",
+            "IETEJ000L",
+            "IETEJ000M",
+            "IETEJ000N",
+            "IETEJ000O",
+            "IETEJ000P",
+            "IETEJ000Q",
+            "IETEJ000R",
+            "IETEJ000S",
+            "IETEJ000T",
+            "IETEJ000U",
+            "IETEJ000V",
+            "IETEJ000W",
+            "IETEJ000X",
+            "IETEJ000Y",
+            "IETEJ000Z",
+            "IETEJ0010",
+            "IETEJ0011",
+            "IETEJ0012"
+          ],
+          "identifier.@id": "doi:10.1594/IEDA/100590",
           "identifier.@type": "PropertyValue",
-          "identifier.propertyID": "opentopoID",
-          "identifier.value": "OTLAS.032012.26912.1",
-          "includedInDataCatalog.@type": "DataCatalog",
-          "includedInDataCatalog.identifier.@id": "https://doi.org/10.5069/G9KK98PR",
-          "includedInDataCatalog.identifier.@type": "PropertyValue",
-          "includedInDataCatalog.identifier.additionalType": [
-            "geolink:Identifier",
-            "datacite:Identifier"
+          "identifier.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier"
           ],
-          "includedInDataCatalog.identifier.propertyID": "datacite:doi",
-          "includedInDataCatalog.identifier.url": "https://doi.org/10.5069/G9KK98PR",
-          "includedInDataCatalog.identifier.value": "10.5069/G9KK98PR",
-          "includedInDataCatalog.name": "Idaho Falls, ID: LiDAR for Modeling Eolian Soil Transport",
-          "includedInDataCatalog.url": "http://opentopo.sdsc.edu/datasetMetadata?otCollectionID=OT.032012.26912.1",
-          "isAccessibleForFree": true,
-          "keywords": "",
-          "license": "http://www.opentopography.org/usageterms",
-          "locationCreated": "",
-          "name": "Idaho Falls, ID: Lidar for Modeling Eolian Soil Transport",
+          "identifier.propertyID": "http://purl.org/spar/datacite/doi",
+          "identifier.url": "http://dx.doi.org/10.1594/IEDA/100590",
+          "identifier.value": "10.1594/IEDA/100590",
+          "inLanguage": "en",
+          "isPartOf.@id": "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1049978",
+          "isPartOf.@type": "CreativeWork",
+          "isPartOf.additionalType": "https://library.ucar.edu/earthcollab/schema#Project",
+          "isPartOf.funder.@type": "Organization",
+          "isPartOf.funder.name": "National Science Foundation",
+          "keywords": [
+            "Regional (Continents, Oceans)",
+            "Chemistry:Sediment",
+            "Sample/Collection Description",
+            "Geochemistry",
+            "Solid Earth",
+            "evaporite surface deposits",
+            "fog",
+            "marine aerosol",
+            "modern proxy",
+            "paleoaltimetry",
+            "Andean forearc",
+            "Atacama Desert",
+            "Central Depression",
+            "Chile",
+            "Coastal Cordillera",
+            "South America",
+            "South America, Chile, Atacama Desert, Central Depression, Coastal Cordillera, Andean forearc"
+          ],
+          "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "name": "Sr isotopic ratios of Holocene gypsum and anhydrite salt deposits in Atacama Desert, northern Chile",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/100590",
+          "provider.@id": "https://www.iedadata.org/",
+          "provider.@type": "Organization",
+          "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.@id": "https://www.iedadata.org/",
           "publisher.@type": "Organization",
-          "publisher.additionalType": "geolink:Organization",
-          "publisher.award": "National Science Foundation under Award Numbers EAR-557484, 1557319 \u0026 1557330",
-          "publisher.email": "info@opentopography.org",
-          "publisher.legalName": "OpenTopography",
-          "publisher.logo": "http://opentopography.org/media",
-          "publisher.url": "http://www.opentopography.org",
-          "spatialCoverage.@type": "Place",
-          "spatialCoverage.additionalProperty.@type": [
-            "PropertyValue",
-            "PropertyValue"
+          "publisher.contactPoint.@type": "ContactPoint",
+          "publisher.contactPoint.contactType": "Information",
+          "publisher.contactPoint.email": "info@iedadata.org",
+          "publisher.contactPoint.name": "Information Desk",
+          "publisher.contactPoint.url": "https://www.iedadata.org/contact/",
+          "publisher.description": "The IEDA data facility mission is to support, sustain, and advance the geosciences by providing data services for observational geoscience data from the Ocean, Earth, and Polar Sciences. IEDA systems serve as primary community data collections for global geochemistry and marine geoscience research and support the preservation, discovery, retrieval, and analysis of a wide range of observational field and analytical data types. Our tools and services are designed to facilitate data discovery and reuse for focused disciplinary research and to support interdisciplinary research and data integration.",
+          "publisher.funder.@id": "http://dx.doi.org/10.13039/100000085",
+          "publisher.funder.@type": "Organization",
+          "publisher.funder.alternateName": "NSF-GEO",
+          "publisher.funder.legalName": "Directorate for Geosciences",
+          "publisher.funder.parentOrganization.@id": "http://dx.doi.org/10.13039/100000001",
+          "publisher.funder.parentOrganization.@type": "Organization",
+          "publisher.funder.parentOrganization.alternateName": "NSF",
+          "publisher.funder.parentOrganization.legalName": "National Science Foundation",
+          "publisher.funder.parentOrganization.url": "http://www.nsf.gov",
+          "publisher.funder.url": "http://www.nsf.gov",
+          "publisher.logo.@type": "ImageObject",
+          "publisher.logo.url": "http://app.iedadata.org/images/ieda_maplogo.png",
+          "publisher.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.parentOrganization.@id": "https://viaf.org/viaf/142992181/",
+          "publisher.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.address.@type": "PostalAddress",
+          "publisher.parentOrganization.address.addressCountry": "USA",
+          "publisher.parentOrganization.address.addressLocality": "Palisades",
+          "publisher.parentOrganization.address.addressRegion": "NY",
+          "publisher.parentOrganization.address.postalCode": "10964-1000",
+          "publisher.parentOrganization.address.streetAddress": "61 Route 9W",
+          "publisher.parentOrganization.name": "Lamont-Doherty Earth Observatory",
+          "publisher.parentOrganization.parentOrganization.@id": "https://viaf.org/viaf/156836332/",
+          "publisher.parentOrganization.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.parentOrganization.legalName": "Columbia University",
+          "publisher.parentOrganization.parentOrganization.url": "http://www.columbia.edu/",
+          "publisher.parentOrganization.url": "http://www.ldeo.columbia.edu/",
+          "publisher.publishingPrinciples.@id": "http://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.publishingPrinciples.@type": "DigitalDocument",
+          "publisher.publishingPrinciples.additionalType": "gdx:Protocol-License",
+          "publisher.publishingPrinciples.description": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "publisher.publishingPrinciples.name": "Dataset Usage License",
+          "publisher.publishingPrinciples.url": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.url": "https://www.iedadata.org/",
+          "spatialCoverage.@type": [
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place"
           ],
-          "spatialCoverage.additionalProperty.additionalType": [
-            "CoordinatesSystem",
-            "CoordinatesSystem"
+          "spatialCoverage.geo.@type": [
+            "GeoShape",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates"
           ],
-          "spatialCoverage.additionalProperty.name": [
-            "Horizontal Coordinates",
-            "Vertical Coordinates"
+          "spatialCoverage.geo.box": "-70.12783, -21.410971 -69.23466, -19.435174",
+          "spatialCoverage.geo.latitude": [
+            "-21.410971",
+            "-21.39948",
+            "-21.371954",
+            "-21.084962",
+            "-20.98816",
+            "-20.879879",
+            "-20.879478",
+            "-20.873617",
+            "-20.604019",
+            "-20.364473",
+            "-20.301422",
+            "-20.297832",
+            "-20.297494",
+            "-20.29714",
+            "-20.2967",
+            "-20.274852",
+            "-20.254301",
+            "-19.963163",
+            "-19.953581",
+            "-19.946033",
+            "-19.944188",
+            "-19.885929",
+            "-19.883779",
+            "-19.88315",
+            "-19.88102",
+            "-19.8799",
+            "-19.879668",
+            "-19.815147",
+            "-19.757503",
+            "-19.738796",
+            "-19.622212",
+            "-19.504589",
+            "-19.504127",
+            "-19.483703",
+            "-19.47661",
+            "-19.452307",
+            "-19.443846",
+            "-19.435174"
           ],
-          "spatialCoverage.additionalProperty.value": [
-            "UTM z12N NAD83 (CORS96) [EPSG: 26912]",
-            "NAVD88 (GEOID03) [EPSG: 5703]"
+          "spatialCoverage.geo.longitude": [
+            "-69.291759",
+            "-69.33035",
+            "-69.315534",
+            "-69.341389",
+            "-69.23466",
+            "-69.372285",
+            "-69.266557",
+            "-70.076114",
+            "-69.386734",
+            "-70.109621",
+            "-70.115702",
+            "-70.117207",
+            "-70.112233",
+            "-70.11853",
+            "-70.11736",
+            "-70.048445",
+            "-69.521939",
+            "-69.625195",
+            "-69.963155",
+            "-69.857416",
+            "-70.051842",
+            "-70.117365",
+            "-70.120618",
+            "-70.12228",
+            "-70.12533",
+            "-70.12783",
+            "-70.126399",
+            "-69.414518",
+            "-69.265759",
+            "-69.79017",
+            "-69.533691",
+            "-70.037007",
+            "-69.987345",
+            "-69.879585",
+            "-69.820982",
+            "-69.763254",
+            "-69.695836",
+            "-69.629792"
           ],
-          "spatialCoverage.geo.@type": "GeoShape",
-          "spatialCoverage.geo.box": "43.4620138687161,-112.68267579775 43.5655518021632,-112.571515364628",
-          "temporalCoverage": "2007-09-19/2007-09-19",
-          "url": "http://opentopo.sdsc.edu/lidarDataset?opentopoID=OTLAS.032012.26912.1",
-          "variableMeasured.@type": [
-            "PropertyValue",
-            "PropertyValue",
-            "PropertyValue",
-            "PropertyValue"
+          "spatialCoverage.name": "South America, Chile, Atacama Desert, Central Depression, Coastal Cordillera, Andean forearc",
+          "version": "1.0"
+        }
+      },
+      {
+        "index": "./data/index",
+        "id": "30643b721aaf045e4e5489d90eda391dda02bd1c.jsonld",
+        "score": 0.2760841383639031,
+        "locations": {
+          "hasPart.identifier.url": {
+            "sediment": [
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  0
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  1
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  2
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  3
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  4
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  5
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  6
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  7
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  8
+                ]
+              },
+              {
+                "pos": 4,
+                "start": 26,
+                "end": 34,
+                "array_positions": [
+                  9
+                ]
+              }
+            ]
+          },
+          "hasPart.identifier.value": {
+            "sediment": [
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  0
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  1
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  2
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  3
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  4
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  5
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  6
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  7
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  8
+                ]
+              },
+              {
+                "pos": 2,
+                "start": 10,
+                "end": 18,
+                "array_positions": [
+                  9
+                ]
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
+                "array_positions": null
+              }
+            ]
+          }
+        },
+        "fragments": {
+          "description": [
+            "Abstract: These grain size distribution data and total organic carbon data represent analyses of surface sediments collected on depth transects in the Southern California Bight. Sediments were collect…"
           ],
-          "variableMeasured.name": [
-            "Area",
-            "Unit",
-            "LidarReturns",
-            "PointDensity"
-          ],
-          "variableMeasured.value": [
-            "58.00 km2",
-            "meter",
-            "183124977 points",
-            "3.16 points/m"
+          "name": [
+            "Grain size distribution data of seafloor sediments off Southern California"
           ]
+        },
+        "sort": [
+          "_score"
+        ],
+        "fields": {
+          "@context.@vocab": "http://schema.org/",
+          "@context.datacite": "http://purl.org/spar/datacite/",
+          "@context.dcat": "http://www.w3.org/ns/dcat#",
+          "@context.earthcollab": "https://library.ucar.edu/earthcollab/schema#",
+          "@context.geolink": "http://schema.geolink.org/1.0/base/main#",
+          "@context.vivo": "http://vivoweb.org/ontology/core#",
+          "@id": "DOI:10.1594/IEDA/100556",
+          "@type": "Dataset",
+          "additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Dataset",
+            "http://vivoweb.org/ontology/core#Dataset"
+          ],
+          "citation": "Anthony E. Rathburn, Ryan M. Venturelli, Ashley M. Burkett (2015), Grain size distribution data of seafloor sediments off Southern California. Interdisciplinary Earth Data Alliance (IEDA). doi:10.1594/IEDA/100556",
+          "creator.@type": [
+            "Person",
+            "Person",
+            "Person"
+          ],
+          "creator.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Person",
+            "http://schema.geolink.org/1.0/base/main#Person",
+            "http://schema.geolink.org/1.0/base/main#Person"
+          ],
+          "creator.familyName": [
+            "Rathburn",
+            "Venturelli",
+            "Burkett"
+          ],
+          "creator.givenName": [
+            "Anthony",
+            "Ryan",
+            "Ashley"
+          ],
+          "creator.name": [
+            "Anthony E. Rathburn",
+            "Ryan M. Venturelli",
+            "Ashley M. Burkett"
+          ],
+          "dateCreated": "2015-09-21T00:00:00Z",
+          "datePublished": "2015",
+          "description": "Abstract: These grain size distribution data and total organic carbon data represent analyses of surface sediments collected on depth transects in the Southern California Bight. Sediments were collected using an Ocean Instruments Multicorer on the R/V New Horizon (cruise NH1108). TOC analyses were conducted using a Carlo Erba CNHS analyzer at the University of Florida. Total organic carbon analyses were conducted on a Grain size analyses (0.22 to 2000 µm) were conducted at the LacCore Facility (LacCore: National Lacustrine Core Facility, Department of Earth Sciences, University of Minnesota, 310 Pillsbury Dr SE, 108 Pillsbury Hall, Minneapolis, MN 55455)",
+          "distribution.@type": [
+            "DataDownload",
+            "DataDownload"
+          ],
+          "distribution.additionalType": [
+            "http://www.w3.org/ns/dcat#distribution",
+            "http://www.w3.org/ns/dcat#distribution"
+          ],
+          "distribution.encodingFormat": [
+            "application/vnd.ms-excel",
+            "application/vnd.ms-excel"
+          ],
+          "distribution.http://www.w3.org/ns/dcat#accessURL": [
+            "http://dx.doi.org/10.1594/IEDA/100556",
+            "http://www.earthchem.org/library/browse/view?id=891"
+          ],
+          "distribution.name": [
+            "DOI landing page",
+            "URL"
+          ],
+          "distribution.url": [
+            "http://dx.doi.org/10.1594/IEDA/100556",
+            "http://www.earthchem.org/library/browse/view?id=891"
+          ],
+          "hasPart.@type": [
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork",
+            "CreativeWork"
+          ],
+          "hasPart.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample",
+            "http://schema.geolink.org/1.0/base/main#PhysicalSample"
+          ],
+          "hasPart.identifier.@type": [
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue",
+            "PropertyValue"
+          ],
+          "hasPart.identifier.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier",
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier"
+          ],
+          "hasPart.identifier.propertyID": [
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN",
+            "IGSN"
+          ],
+          "hasPart.identifier.url": [
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment",
+            "http://igsn.org/Multicore sediment"
+          ],
+          "hasPart.identifier.value": [
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment",
+            "Multicore sediment"
+          ],
+          "identifier.@id": "doi:10.1594/IEDA/100556",
+          "identifier.@type": "PropertyValue",
+          "identifier.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier"
+          ],
+          "identifier.propertyID": "http://purl.org/spar/datacite/doi",
+          "identifier.url": "http://dx.doi.org/10.1594/IEDA/100556",
+          "identifier.value": "10.1594/IEDA/100556",
+          "inLanguage": "en",
+          "isPartOf.@id": "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1060992",
+          "isPartOf.@type": "CreativeWork",
+          "isPartOf.additionalType": "https://library.ucar.edu/earthcollab/schema#Project",
+          "isPartOf.funder.@type": "Organization",
+          "isPartOf.funder.name": "National Science Foundation",
+          "keywords": [
+            "Regional (Continents, Oceans)",
+            "Marine Sediments",
+            "Chemistry:Sediment",
+            "Geochemistry",
+            "Marine Geoscience",
+            "Solid Earth",
+            "grain size distribution",
+            "total organic carbon",
+            "Southern California Bight",
+            "R/V New Horizon",
+            "NH1108"
+          ],
+          "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "name": "Grain size distribution data of seafloor sediments off Southern California",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/100556",
+          "provider.@id": "https://www.iedadata.org/",
+          "provider.@type": "Organization",
+          "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.@id": "https://www.iedadata.org/",
+          "publisher.@type": "Organization",
+          "publisher.contactPoint.@type": "ContactPoint",
+          "publisher.contactPoint.contactType": "Information",
+          "publisher.contactPoint.email": "info@iedadata.org",
+          "publisher.contactPoint.name": "Information Desk",
+          "publisher.contactPoint.url": "https://www.iedadata.org/contact/",
+          "publisher.description": "The IEDA data facility mission is to support, sustain, and advance the geosciences by providing data services for observational geoscience data from the Ocean, Earth, and Polar Sciences. IEDA systems serve as primary community data collections for global geochemistry and marine geoscience research and support the preservation, discovery, retrieval, and analysis of a wide range of observational field and analytical data types. Our tools and services are designed to facilitate data discovery and reuse for focused disciplinary research and to support interdisciplinary research and data integration.",
+          "publisher.funder.@id": "http://dx.doi.org/10.13039/100000085",
+          "publisher.funder.@type": "Organization",
+          "publisher.funder.alternateName": "NSF-GEO",
+          "publisher.funder.legalName": "Directorate for Geosciences",
+          "publisher.funder.parentOrganization.@id": "http://dx.doi.org/10.13039/100000001",
+          "publisher.funder.parentOrganization.@type": "Organization",
+          "publisher.funder.parentOrganization.alternateName": "NSF",
+          "publisher.funder.parentOrganization.legalName": "National Science Foundation",
+          "publisher.funder.parentOrganization.url": "http://www.nsf.gov",
+          "publisher.funder.url": "http://www.nsf.gov",
+          "publisher.logo.@type": "ImageObject",
+          "publisher.logo.url": "http://app.iedadata.org/images/ieda_maplogo.png",
+          "publisher.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.parentOrganization.@id": "https://viaf.org/viaf/142992181/",
+          "publisher.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.address.@type": "PostalAddress",
+          "publisher.parentOrganization.address.addressCountry": "USA",
+          "publisher.parentOrganization.address.addressLocality": "Palisades",
+          "publisher.parentOrganization.address.addressRegion": "NY",
+          "publisher.parentOrganization.address.postalCode": "10964-1000",
+          "publisher.parentOrganization.address.streetAddress": "61 Route 9W",
+          "publisher.parentOrganization.name": "Lamont-Doherty Earth Observatory",
+          "publisher.parentOrganization.parentOrganization.@id": "https://viaf.org/viaf/156836332/",
+          "publisher.parentOrganization.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.parentOrganization.legalName": "Columbia University",
+          "publisher.parentOrganization.parentOrganization.url": "http://www.columbia.edu/",
+          "publisher.parentOrganization.url": "http://www.ldeo.columbia.edu/",
+          "publisher.publishingPrinciples.@id": "http://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.publishingPrinciples.@type": "DigitalDocument",
+          "publisher.publishingPrinciples.additionalType": "gdx:Protocol-License",
+          "publisher.publishingPrinciples.description": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "publisher.publishingPrinciples.name": "Dataset Usage License",
+          "publisher.publishingPrinciples.url": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.url": "https://www.iedadata.org/",
+          "spatialCoverage.@type": [
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place",
+            "Place"
+          ],
+          "spatialCoverage.geo.@type": [
+            "GeoShape",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates",
+            "GeoCoordinates"
+          ],
+          "spatialCoverage.geo.box": "-121.009333, 32.2953 -118.618817, 33.75985",
+          "spatialCoverage.geo.latitude": [
+            "32.2953",
+            "32.432",
+            "32.50425",
+            "32.550917",
+            "32.562167",
+            "32.566467",
+            "32.653334",
+            "32.710167",
+            "33.716016",
+            "33.75985"
+          ],
+          "spatialCoverage.geo.longitude": [
+            "-119.512733",
+            "-119.718017",
+            "-119.745",
+            "-118.657417",
+            "-118.618817",
+            "-118.721717",
+            "-119.37195",
+            "-119.3793",
+            "-120.312566",
+            "-121.009333"
+          ],
+          "spatialCoverage.name": "Southern California Bight",
+          "version": "1.0"
+        }
+      },
+      {
+        "index": "./data/index",
+        "id": "16df8b06c4363fe4b711f6be966c965861a49417.jsonld",
+        "score": 0.24660481185941677,
+        "locations": {
+          "description": {
+            "transport": [
+              {
+                "pos": 62,
+                "start": 400,
+                "end": 409,
+                "array_positions": null
+              },
+              {
+                "pos": 93,
+                "start": 623,
+                "end": 632,
+                "array_positions": null
+              },
+              {
+                "pos": 139,
+                "start": 949,
+                "end": 958,
+                "array_positions": null
+              }
+            ]
+          },
+          "keywords": {
+            "transport": [
+              {
+                "pos": 2,
+                "start": 9,
+                "end": 18,
+                "array_positions": [
+                  7
+                ]
+              }
+            ]
+          },
+          "p418bucket": {
+            "getiedadataorg": [
+              {
+                "pos": 1,
+                "start": 0,
+                "end": 14,
+                "array_positions": null
+              }
+            ]
+          }
+        },
+        "fragments": {
+          "description": [
+            "…lity contrasts. Column-scale sorption macrocapacity and macrorates were found to decrease with \u003cmark\u003etransport\u003c/mark\u003e connectivity, a quantitative measure of heterogeneity characteristics. At 0.6 and 3.0 m/day, we…"
+          ],
+          "name": [
+            "Illite spatial distribution patterns dictates Cr(VI) sorption macrocapacity and macrokinetic"
+          ]
+        },
+        "sort": [
+          "_score"
+        ],
+        "fields": {
+          "@context.@vocab": "http://schema.org/",
+          "@context.datacite": "http://purl.org/spar/datacite/",
+          "@context.dcat": "http://www.w3.org/ns/dcat#",
+          "@context.earthcollab": "https://library.ucar.edu/earthcollab/schema#",
+          "@context.geolink": "http://schema.geolink.org/1.0/base/main#",
+          "@context.vivo": "http://vivoweb.org/ontology/core#",
+          "@id": "DOI:10.1594/IEDA/100509",
+          "@type": "Dataset",
+          "additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Dataset",
+            "http://vivoweb.org/ontology/core#Dataset"
+          ],
+          "citation": "Li Li, LI Wang (2016), Illite spatial distribution patterns dictates Cr(VI) sorption macrocapacity and macrokinetic. Interdisciplinary Earth Data Alliance (IEDA). doi:10.1594/IEDA/100509",
+          "creator.@type": [
+            "Person",
+            "Person"
+          ],
+          "creator.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Person",
+            "http://schema.geolink.org/1.0/base/main#Person"
+          ],
+          "creator.familyName": [
+            "Li",
+            "Wang"
+          ],
+          "creator.givenName": [
+            "Li",
+            "LI"
+          ],
+          "creator.name": [
+            "Li Li",
+            "LI Wang"
+          ],
+          "dateCreated": "2014-12-08T00:00:00Z",
+          "datePublished": "2016",
+          "description": "Abstract: This data set examines the largely unexplored role of illite spatial distribution patterns in dictating sorption of Cr(VI). Flow-through experiments were carried out at 0.6, 3.0 and 15.0 m/day using columns packed with the same illite and quartz mass however with different patterns and permeability contrasts. Column-scale sorption macrocapacity and macrorates were found to decrease with transport connectivity, a quantitative measure of heterogeneity characteristics. At 0.6 and 3.0 m/day, well-connected low permeability illite zones oriented in the flow-parallel direction leads to diffusion-controlled mass transport limitation to access sorption sites, leading to up to 1.4 order of magnitude lower macrocapacity and macrorates compared to those in minimally-connected columns with well-mixed illite and quartz. Insights gained here bridge gaps between laboratory and field application, advance predictive understanding of reactive transport processes in natural heterogeneous subsurface.",
+          "distribution.@type": [
+            "DataDownload",
+            "DataDownload"
+          ],
+          "distribution.additionalType": [
+            "http://www.w3.org/ns/dcat#distribution",
+            "http://www.w3.org/ns/dcat#distribution"
+          ],
+          "distribution.encodingFormat": [
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+          ],
+          "distribution.http://www.w3.org/ns/dcat#accessURL": [
+            "http://dx.doi.org/10.1594/IEDA/100509",
+            "http://www.earthchem.org/library/browse/view?id=824"
+          ],
+          "distribution.name": [
+            "DOI landing page",
+            "URL"
+          ],
+          "distribution.url": [
+            "http://dx.doi.org/10.1594/IEDA/100509",
+            "http://www.earthchem.org/library/browse/view?id=824"
+          ],
+          "identifier.@id": "doi:10.1594/IEDA/100509",
+          "identifier.@type": "PropertyValue",
+          "identifier.additionalType": [
+            "http://schema.geolink.org/1.0/base/main#Identifier",
+            "http://purl.org/spar/datacite/Identifier"
+          ],
+          "identifier.propertyID": "http://purl.org/spar/datacite/doi",
+          "identifier.url": "http://dx.doi.org/10.1594/IEDA/100509",
+          "identifier.value": "10.1594/IEDA/100509",
+          "inLanguage": "en",
+          "keywords": [
+            "Other",
+            "Kinetics",
+            "Geochemistry",
+            "connectivity",
+            "Cr(VI) sorption",
+            "heterogeneity",
+            "permeability contrast",
+            "reactive transport",
+            "Spatial pattern"
+          ],
+          "license": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "name": "Illite spatial distribution patterns dictates Cr(VI) sorption macrocapacity and macrokinetic",
+          "p418bucket": "getiedadataorg",
+          "p418url": "http://get.iedadata.org/doi/100509",
+          "provider.@id": "https://www.iedadata.org/",
+          "provider.@type": "Organization",
+          "provider.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.@id": "https://www.iedadata.org/",
+          "publisher.@type": "Organization",
+          "publisher.contactPoint.@type": "ContactPoint",
+          "publisher.contactPoint.contactType": "Information",
+          "publisher.contactPoint.email": "info@iedadata.org",
+          "publisher.contactPoint.name": "Information Desk",
+          "publisher.contactPoint.url": "https://www.iedadata.org/contact/",
+          "publisher.description": "The IEDA data facility mission is to support, sustain, and advance the geosciences by providing data services for observational geoscience data from the Ocean, Earth, and Polar Sciences. IEDA systems serve as primary community data collections for global geochemistry and marine geoscience research and support the preservation, discovery, retrieval, and analysis of a wide range of observational field and analytical data types. Our tools and services are designed to facilitate data discovery and reuse for focused disciplinary research and to support interdisciplinary research and data integration.",
+          "publisher.funder.@id": "http://dx.doi.org/10.13039/100000085",
+          "publisher.funder.@type": "Organization",
+          "publisher.funder.alternateName": "NSF-GEO",
+          "publisher.funder.legalName": "Directorate for Geosciences",
+          "publisher.funder.parentOrganization.@id": "http://dx.doi.org/10.13039/100000001",
+          "publisher.funder.parentOrganization.@type": "Organization",
+          "publisher.funder.parentOrganization.alternateName": "NSF",
+          "publisher.funder.parentOrganization.legalName": "National Science Foundation",
+          "publisher.funder.parentOrganization.url": "http://www.nsf.gov",
+          "publisher.funder.url": "http://www.nsf.gov",
+          "publisher.logo.@type": "ImageObject",
+          "publisher.logo.url": "http://app.iedadata.org/images/ieda_maplogo.png",
+          "publisher.name": "Interdisciplinary Earth Data Alliance (IEDA)",
+          "publisher.parentOrganization.@id": "https://viaf.org/viaf/142992181/",
+          "publisher.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.address.@type": "PostalAddress",
+          "publisher.parentOrganization.address.addressCountry": "USA",
+          "publisher.parentOrganization.address.addressLocality": "Palisades",
+          "publisher.parentOrganization.address.addressRegion": "NY",
+          "publisher.parentOrganization.address.postalCode": "10964-1000",
+          "publisher.parentOrganization.address.streetAddress": "61 Route 9W",
+          "publisher.parentOrganization.name": "Lamont-Doherty Earth Observatory",
+          "publisher.parentOrganization.parentOrganization.@id": "https://viaf.org/viaf/156836332/",
+          "publisher.parentOrganization.parentOrganization.@type": "Organization",
+          "publisher.parentOrganization.parentOrganization.legalName": "Columbia University",
+          "publisher.parentOrganization.parentOrganization.url": "http://www.columbia.edu/",
+          "publisher.parentOrganization.url": "http://www.ldeo.columbia.edu/",
+          "publisher.publishingPrinciples.@id": "http://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.publishingPrinciples.@type": "DigitalDocument",
+          "publisher.publishingPrinciples.additionalType": "gdx:Protocol-License",
+          "publisher.publishingPrinciples.description": "Creative Commons Attribution-NonCommercial-Share Alike 3.0 United States [CC BY-NC-SA 3.0]",
+          "publisher.publishingPrinciples.name": "Dataset Usage License",
+          "publisher.publishingPrinciples.url": "https://creativecommons.org/licenses/by-nc-sa/3.0/us/",
+          "publisher.url": "https://www.iedadata.org/",
+          "version": "1.0"
         }
       }
     ],
-    "total_hits": 241,
-    "max_score": 0.6127485639990553,
-    "took": 6906142,
+    "total_hits": 9058,
+    "max_score": 0.337230881563335,
+    "took": 23856188,
     "facets": {}
   }
 }

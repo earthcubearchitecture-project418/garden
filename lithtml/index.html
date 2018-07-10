@@ -1,28 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Geodex Alpha3</title>
-    <script type="module" src="/utils.js"></script>
-    <script type="module" src="/params.js"></script>
-  </head>
+<html>
 
-  <body>
+<head>
+
+	<title>Geodex Alpha3</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<link rel="stylesheet " href="./css/grid3.css ">
+	<link rel="stylesheet " href="./css/nav.css ">
+
+	<style>
+		input[type=number]::-webkit-inner-spin-button,
+		input[type=number]::-webkit-outer-spin-button {
+
+			opacity: 1;
+
+		}
+	</style>
+
+	<!-- use hack font -->
+	<link rel='stylesheet' href='http://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+	<script type="module" src="./js/search.js"></script>
+
+</head>
+
+<body>
+	<div class="grid ">
+		<div class="title ">
+			<nav class="container">
+				<div class="m1">
+					<a href="/" class="navLinks">Home</a>
+				</div>
+				<div class="m2">
+					<a href="/about.html" class="navLinks">About</a>
+				</div>
+				<div class="m2plus">
+					<a href="/data/catalog" class="navLinks">Data</a>
+				</div>
+				<div class="logo">
+				</div>
+				<div class="m3minus">
+					<a target="_blank" href="https://github.com/earthcubearchitecture-project418/p418Docs" class="navLinks">Docs</a>
+				</div>
+				<div class="m3">
+					<a target="_blank" href="https://github.com/earthcubearchitecture-project418" class="navLinks">GitHub</a>
+				</div>
+				<div class="m4">
+					<a target="_blank" href="/voc/" class="navLinks">Vocab</a>
+				</div>
+			</nav>
+		</div>
+		<div class="header">Geodex Search</div>
+		<div class="lsidebar"> </div>
+		<div class="sidebar"> </div>
+		<div class="content">
+
+			<label>
+				<input type="text" size="50" id="q">
+			</label>
+			<input style="margin-top: 5px" id="nn" type="number" min="5" max="200" step="5" value="15" />
+			<br/>
+			<label>
+				<input type="hidden" size="10" id="n">
+			</label>
+			<label>
+				<input type="hidden" size="10" id="s">
+			</label>
+			<label>
+				<input type="hidden" size="10" id="i">
+			</label>
+			<br/>
 
 
-    <label>Q: <input type="text" id="q" ></label>
-    <br/>
-    <label>N: <input type="text" id="n" ></label>
-    <br/>
-    <label>S: <input type="text" id="s" ></label>
-    <br/>
-    <label>I: <input type="text" id="i" ></label>
-    <br/>
-<button id="update">Search</button>
-<br/>
-<button id="providers">Providers</button>
 
-<div id="container1"></div>
-    <div id="container2"></div>
-  </body>
+			<button id="update">Search</button>
+			<button id="providers">Providers</button>
+
+			<div id="container1"></div>
+			<div id="container2">
+
+				<div style="margin-top:30px">
+					<p style="margin-top:20px"> Geodex.org is an
+						<i>implementation</i> of Project 418. That is, it is simply one way in this the web architecture patterns used in P418
+						could be used to develop an end user experience.
+					</p>
+
+					<p style="margin-top:20px"> For some examples of this, try some of the interfaces in the
+						<i>Interface gallery</i>
+						to the left and also review the
+						<img style="max-width:20px" src="/images/notebook.svg">
+						<a target="_blank" href="https://github.com/earthcubearchitecture-project418/p418Notebooks">Notebook repository. </a>
+						for some R and Jupyter examples. </p>
+
+					<p style="margin-top:20px">
+						<i> The real stars of P418 are unquestionably the community of data providers. See the
+							<a href="/about.html">About section</a> for a list of link to their sites. </i>
+					</p>
+
+
+					<div class="header">
+						<b>Additional Interfaces</b>
+					</div>
+					<div class="simplesidewrapper">
+
+						<a style="text-decoration:none;" href="/uis/webui2/textSearch.html">
+							<div class="simplebox a">
+								Search by text
+								<img style="max-width:100%" src="/images/textSearch.png">
+							</div>
+						</a>
+
+						<a style="text-decoration:none;" href="/uis/webui2/spatialSearch.html">
+							<div class="simplebox a">
+								Search by spatial
+								<img style="max-width:100%" src="/images/spatialSearch.png">
+							</div>
+						</a>
+
+
+					</div>
+
+
+				</div>
+
+
+			</div>
+		</div>
+		<div class="footer ">...</div>
+	</div>
+</body>
+
 </html>
