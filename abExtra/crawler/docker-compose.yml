@@ -1,0 +1,49 @@
+# Ref: https://blog.blindside.io/docker-compose-go-c2bb7bed0bab#.lo5lwvpph
+# Note:  Need to set up for crawler runs...
+# Add:  tika, tile38 
+version: "2"
+
+# HOST_NAME=opencoredata.org
+#       - "traefik.frontend.rule=Host:${HOST_NAME}"
+
+services:
+  traefik:
+    image: traefik:1.4
+    command: --web --docker --docker.domain=docker.localhost --logLevel=DEBUG
+    ports:
+      - "80:80"
+      - "8080:8080"
+      - "443:443"
+      - "9851:9851"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+#      - /${HOST_NAME}/traefik/traefik.toml:/traefik.toml
+#      - /${HOST_NAME}/traefik/logs:/logs
+    networks:
+      - traefik_default
+
+  p418sparql:
+    image: nawer/blazegraph:2.1.4
+    environment:
+      JAVA_XMS: 1024m
+      JAVA_XMX: 2g
+    labels:
+      - "traefik.backend=p418sparql"
+      - "traefik.port=9999" # force to pick 9999 ignore the 8080 admin port
+      - "traefik.frontend.rule=Host:${HOST_NAME};Method:GET,POST;PathPrefix:/blazegraph"
+    volumes:
+      - /${HOST_NAME}/p418sparql/triplestore:/var/lib/blazegraph
+      - /${HOST_NAME}/p418sparql/data:/data
+    networks:
+      - traefik_default
+ 
+  tile38:
+    image: tile38/tile38
+    labels:
+      - "traefik.backend=tile38"
+      - "traefik.port=9851"
+    volumes:
+      - /${HOST_NAME}/spatialindex:/data
+    networks:
+      - traefik_default
+

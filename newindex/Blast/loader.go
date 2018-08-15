@@ -29,7 +29,7 @@ func main() {
 		"wikilinkedearth", "wwwbco-dmoorg", "wwwhydroshareorg", "wwwunavcoorg"}
 
 	// for loop these...
-	// f := []string{"opencoredataorg", "opentopographyorg"}
+	//f := []string{"opencoredataorg", "opentopographyorg"}
 
 	for x := range f {
 		entries := getObjects(mc, f[x])
