@@ -24,12 +24,12 @@ func main() {
 	mc := miniConnection() // minio connection
 
 	// for loop these...
-	f := []string{"baltoopendaporg", "cdfregistry", "csdco", "dataneotomadborg", "dsirisedu", "earthreforg",
-		"getiedadataorg", "opencoredataorg", "opentopographyorg",
-		"wikilinkedearth", "wwwbco-dmoorg", "wwwhydroshareorg", "wwwunavcoorg"}
+	// f := []string{"baltoopendaporg", "cdfregistry", "csdco", "dataneotomadborg", "dsirisedu", "earthreforg",
+	// 	"getiedadataorg", "opencoredataorg", "opentopographyorg",
+	// 	"wikilinkedearth", "wwwbco-dmoorg", "wwwhydroshareorg", "wwwunavcoorg"}
 
 	// for loop these...
-	//f := []string{"opencoredataorg", "opentopographyorg"}
+	f := []string{"portaledirepositoryorg"}
 
 	for x := range f {
 		entries := getObjects(mc, f[x])
@@ -44,25 +44,27 @@ func namemapping(url string) string {
 		"dsirisedu": "iris", "earthreforg": "magic", "getiedadataorg": "ieda",
 		"opencoredataorg": "opencore", "opentopographyorg": "opentopo",
 		"wikilinkedearth": "linkedearth", "wwwbco-dmoorg": "bcodmo",
-		"wwwhydroshareorg": "hydroshare", "wwwunavcoorg": "unavco"}
+		"wwwhydroshareorg": "hydroshare", "wwwunavcoorg": "unavco",
+		"portaledirepositoryorg": "edi"}
 
 	return m[url]
 }
 
 func logomapping(url string) string {
 	m := map[string]string{"baltoopendaporg": "http://geodex.org/images/logos/EarthCubeLogo.png",
-		"cdfregistry":       "http://geodex.org/images/logos/EarthCubeLogo.png",
-		"csdco":             "http://geodex.org/images/logos/csdco.png",
-		"dataneotomadborg":  "http://geodex.org/images/logos/neotoma.png",
-		"dsirisedu":         "http://geodex.org/images/logos/iris_color_screen_lrg.png",
-		"earthreforg":       "http://geodex.org/images/logos/magic.png",
-		"getiedadataorg":    "http://geodex.org/images/logos/ieda_maplogo.png",
-		"opencoredataorg":   "http://geodex.org/images/logos/ocd_logo.jpg",
-		"opentopographyorg": "http://geodex.org/images/logos/opentopo.png",
-		"wikilinkedearth":   "http://geodex.org/images/logos/linkedEarth.jpeg",
-		"wwwbco-dmoorg":     "http://geodex.org/images/logos/bco-dmo-words-BLUE.jpg",
-		"wwwhydroshareorg":  "http://geodex.org/images/logos/cuahsiHydroshare.png",
-		"wwwunavcoorg":      "http://geodex.org/images/logos/uv-logo.png"}
+		"cdfregistry":            "http://geodex.org/images/logos/EarthCubeLogo.png",
+		"csdco":                  "http://geodex.org/images/logos/csdco.png",
+		"dataneotomadborg":       "http://geodex.org/images/logos/neotoma.png",
+		"dsirisedu":              "http://geodex.org/images/logos/iris_color_screen_lrg.png",
+		"earthreforg":            "http://geodex.org/images/logos/magic.png",
+		"getiedadataorg":         "http://geodex.org/images/logos/ieda_maplogo.png",
+		"opencoredataorg":        "http://geodex.org/images/logos/ocd_logo.jpg",
+		"opentopographyorg":      "http://geodex.org/images/logos/opentopo.png",
+		"wikilinkedearth":        "http://geodex.org/images/logos/linkedEarth.jpeg",
+		"wwwbco-dmoorg":          "http://geodex.org/images/logos/bco-dmo-words-BLUE.jpg",
+		"wwwhydroshareorg":       "http://geodex.org/images/logos/cuahsiHydroshare.png",
+		"wwwunavcoorg":           "http://geodex.org/images/logos/uv-logo.png",
+		"portaledirepositoryorg": "https://portal.edirepository.org/nis/images/EDI-logo-300DPI_5.png"}
 
 	return m[url]
 }
@@ -134,7 +136,6 @@ func multiCall(e []Entry) {
 }
 
 func wrapLoad(bucket, key, urlval, jld string) int {
-
 	// fmt.Printf("%s   %s    %s  \n", bucket, key, urlval)
 
 	// TODO..  modify the JSON-LD document to add in another p418 fields
@@ -148,7 +149,7 @@ func wrapLoad(bucket, key, urlval, jld string) int {
 	//     { "id": "1", "fields":
 	jb := fmt.Sprintf("{\"document\": { \"id\": \"%s\", \"bucket\": \"%s\",  \"fields\": %s }}", key, bucket, value)
 
-	puturl := fmt.Sprintf("http://0.0.0.0:8000/rest/%s", key)
+	puturl := fmt.Sprintf("http://0.0.0.0:10002/rest/%s", key)
 
 	resp, err := resty.R().
 		SetBody(jb).

@@ -1,0 +1,42 @@
+@prefix ex: <http://www.example.org/schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:GeoShape
+	a sh:NodeShape ;
+	sh:targetClass  <http://schema.org/Dataset> ;
+	sh:property [
+		sh:path  <http://schema.org/identifier> ;
+		sh:class <http://schema.org/PropertyValue> ;
+	] .
+	
+ex:IGSNShape
+	a sh:NodeShape ;
+    sh:targetClass <http://schema.org/PropertyValue> ;
+	sh:property [
+		sh:path  <http://schema.org/propertyID> ;
+		sh:pattern  "IGSN" ;
+	] .
+
+ex:SpatialShape
+	a sh:NodeShape ;
+    sh:targetClass <http://schema.org/Place> ;
+	sh:property [
+		sh:path  <http://schema.org/geo> ;
+		sh:class <http://schema.org/GeoCoordinates> ;
+	] .
+
+ex:GeoCordShape
+	a sh:NodeShape ;
+    sh:targetClass <http://schema.org/GeoCoordinates> ;
+	sh:property [
+		sh:path  <http://schema.org/latitude> ;
+		sh:maxCount 1 ;
+		sh:minCount 1 ;
+	] ;
+	sh:property [
+		sh:path  <http://schema.org/longitude> ;
+		sh:maxCount 1 ;
+		sh:minCount 1 ;
+	]  .

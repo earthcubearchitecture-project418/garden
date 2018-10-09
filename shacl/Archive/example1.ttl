@@ -1,0 +1,35 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+[]
+    <http://schema.org/hasPart> [
+        <http://schema.org/additionalType> "http://schema.geolink.org/1.0/base/main#PhysicalSample" ;
+        <http://schema.org/identifier> [
+            <http://schema.org/additionalType> "http://purl.org/spar/datacite/Identifier", "http://schema.geolink.org/1.0/base/main#Identifier" ;
+            <http://schema.org/propertyID> "IGSN" ;
+            <http://schema.org/url> "https://app.geosamples.org/sample/igsn/WHO000A53" ;
+            <http://schema.org/value> "WHO000A53" ;
+            a <http://schema.org/PropertyValue>
+        ] ;
+        <http://schema.org/spatialCoverage> [
+            <http://schema.org/geo> [
+                <http://schema.org/elevation> 2.19453E2 ;
+                <http://schema.org/latitude> -2.694486389E1 ;
+                <http://schema.org/longitude> 1.4343508333E2 ;
+                a <http://schema.org/GeoCoordinates>
+            ] ;
+            a <http://schema.org/Place>
+        ] ;
+        a <http://schema.org/CreativeWork>
+    ], [
+        <http://schema.org/additionalType> "http://schema.geolink.org/1.0/base/main#PhysicalSample" ;
+        <http://schema.org/identifier> [
+            <http://schema.org/additionalType> "http://purl.org/spar/datacite/Identifier", "http://schema.geolink.org/1.0/base/main#Identifier" ;
+            <http://schema.org/propertyID> "IGSN" ;
+            <http://schema.org/url> "https://app.geosamples.org/sample/igsn/WHO000A67" ;
+            <http://schema.org/value> "WHO000A67" ;
+            a <http://schema.org/PropertyValue>
+        ] ;
+        a <http://schema.org/CreativeWork>
+    ] ;
+    a <http://schema.org/Dataset> .
+

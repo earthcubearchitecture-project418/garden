@@ -79,3 +79,4 @@ Use https://developers.google.com/search/docs/data-types/dataset to define the s
 required and recommended
 
 
+http -f POST localhost:7000 datag@./ocddataset.ttl shapeg@./dataSetRecomendShape.ttl dataref=datarefurl  shaperef=shaperefurl
