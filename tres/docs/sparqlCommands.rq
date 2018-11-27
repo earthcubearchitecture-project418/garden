@@ -1,0 +1,32 @@
+prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX thors: <http://resource.geosciml.org/ontology/timescale/thors#> 
+PREFIX tm: <http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT *
+WHERE {
+               ?era time:hasEnd/thors:referencePoint/time:inTemporalPosition/time:numericPosition ?np
+}
+limit 20
+
+
+
+
+prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX thors: <http://resource.geosciml.org/ontology/timescale/thors#> 
+PREFIX tm: <http://def.seegrid.csiro.au/isotc211/iso19108/2002/temporal#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT *
+WHERE {      
+  
+              ?era time:hasBeginning/time:inTemporalPosition/time:numericPosition ?begin .
+              ?era time:hasEnd/time:inTemporalPosition/time:numericPosition ?end .
+              ?era rdfs:label ?label
+               BIND ( "66"^^xsd:decimal AS ?targetAge )
+               FILTER ( ?targetAge >= xsd:decimal(?end) )    
+               FILTER ( ?targetAge <= xsd:decimal(?begin) )
+ 
+}
