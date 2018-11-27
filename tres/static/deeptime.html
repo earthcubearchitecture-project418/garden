@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Time Testing..  </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/cube.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.17/webcomponents-lite.js"></script>
+    <script src="/js/slim-js/Slim.nomodule.js"></script>
+    <script src="/js/slim-js/directives/all.nomodule.js"></script>
+    <script src="/js/citation.js"></script>
+
+ <script id="schemaorg" type="application/ld+json">
+	 {
+   "@context": {
+       "@vocab": "http://schema.org/",
+           "ex": "http://www.exaple.org/",
+       "isc": "http://resource.geosciml.org/classifier/ics/ischart/"
+         },
+   "@id": "http://example.com/id/1",
+     "@type": "DataCatalog",
+       "author": {
+          "@type": "Organization",
+       "description": "NSF funded operator for International Ocean Discvery Project",
+           "name": "Joides Resolution Science Office",
+       "url": "http://iodp.org"
+         },
+	   "dataset": [{
+       "@type": "Dataset",
+        "url": "http://opencoredata.org/id/dataset/9da3fa14-8feb-4de2-b62a-cb761a4ec9be"
+     }],
+      "description": "Data set for measurement JanusVcdImage and leg 202",
+        "name": "JanusVcdImage202",
+  "url": "http://opencoredata.org/collections/measurement/JanusVcdImage/202",
+    "ex:geotime": {
+         "@type": ["skos:Concept", "gts:GeochronologicEra", "time:ProperInterval", "gts:Age"],
+     "label": {
+          "@language": "en",
+        "@value": "Carbon data ..."
+     },
+     "isc:hasBeginning": "isc:BaseBathonian",
+     "isc:hasEnd": "isc:BaseCallovian"
+      }
+    }
+</script>
+
+</head>
+<body>
+  <div class="wrapper">
+  <div class="box header">Project Zero:  Service Landing Page Test</div>
+  <div class="box sidebar">EarthCube logo and link</div>
+  <div class="box sidebar2">Repo link, link to youtube tutorial</div>
+  <div class="box content">
+  deep time example here...
+
+  </div>
+  <div class="box contents1"> <geocomponents-citation></geocomponents-citation> </div>
+  <div class="box contents2">small two </div>
+  <div class="box footer">Footer</div>
+</div>
+</body>
+</html>

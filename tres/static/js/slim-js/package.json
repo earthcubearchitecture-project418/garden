@@ -1,0 +1,132 @@
+{
+  "_args": [
+    [
+      "slim-js",
+      "/home/fils/src/go/src/earthcube.org/ProjectZero/p0Garden/serviceLP/static/js"
+    ]
+  ],
+  "_from": "slim-js@latest",
+  "_hasShrinkwrap": false,
+  "_id": "slim-js@4.0.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/slim-js",
+  "_nodeVersion": "10.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/slim-js_4.0.5_1539017747990_0.38825122888516495"
+  },
+  "_npmUser": {
+    "email": "eavichay@gmail.com",
+    "name": "eavichay"
+  },
+  "_npmVersion": "6.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "slim-js",
+    "raw": "slim-js",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/slim-js/-/slim-js-4.0.5.tgz",
+  "_shasum": "f273982dd3b1aa364c53c9276633791f767e42fb",
+  "_shrinkwrap": null,
+  "_spec": "slim-js",
+  "_where": "/home/fils/src/go/src/earthcube.org/ProjectZero/p0Garden/serviceLP/static/js",
+  "author": {
+    "email": "eavichay@gmail.com",
+    "name": "Avichay Eyal"
+  },
+  "babel": {
+    "plugins": [
+      "transform-class-properties",
+      "transform-decorators"
+    ],
+    "presets": [
+      "env"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/slimjs/slim.js/issues"
+  },
+  "dependencies": {},
+  "description": "Superpower Web Components",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-custom-element-classes": "0.1.0",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-es2015-classes": "6.24.1",
+    "babel-preset-env": "1.7.0",
+    "eslint": "5.5.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "nightwatch": "^1.0.11",
+    "selenium-download": "2.0.13",
+    "selenium-server-standalone-jar": "3.6.0",
+    "static-server": "2.0.6",
+    "uglify-es": "3.1.5"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 29,
+    "integrity": "sha512-Emo+6LmT/Dc7mvFvZubxOLIxgzVk0xJhm3rfOTKclFw7i1zApWLTGSOUPOoUugkim//KdINgIe4Ol7oSB8YgGg==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbu4wUCRA9TVsSAnZWagAAfqYP/3AymEXr2dI4cDhHURnj\nIDm8MY5IxHSyE0LtwXaoVMYquUFKSgSO4LKEblkUjx4RliBuCcdZurCUJU0x\n8mtTpFnODY7fs6+BqVsvIZ6bD8YrJMPqk6AUgchVUlXb/EARCGo0+ucmkqAv\ny+89oJG+JVrdZGTZ6J84TPFBDuaUBBmVFrfYuJo+lk7qagaX2/sG2/x6P8O/\nteFynNSOGmWH41CtBpY4Jmhw0lwnnXQYlItm5IBOZW/EXc685WNrkvan87aD\ngvKAgR6n7pDZQtLLh2kNvZX5k7uEvqgUdInsAaDufKHOwQb1iU/8CxHg2MVE\nt32SFGq6EIe5prY7r0mOGyawJWeF3qYazU67Fm1LXFqzKP/kRP9nPU7nMu72\nfo8Z/5271m0XoHLhelmjdyzlhA/iXU1Mg75hwX8VU3biRDisQzQnCK/klm+X\nIDGpacKMR38Z9XjoKitPRq7snCg0EITCKH22K/qVwJXr/02RHaSj5hztShrT\nEK0OwT5RH66igSAIPOylGlbNG1g9xz09p2O6kNDuWd8M1pvtMDxgVAILKAkB\n1iYj+f6987+CZeFveE9gaWZ1HsjQGuChQQl7oNE/nDSEXXfkqP/ILZtbIqr0\nBo0HJSxCXI5p3qGm7rFkKD0+o0C7iX7UW4M0BciqoBubA4BuQRQFvxGOveS+\nkPJM\r\n=+V08\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "f273982dd3b1aa364c53c9276633791f767e42fb",
+    "tarball": "https://registry.npmjs.org/slim-js/-/slim-js-4.0.5.tgz",
+    "unpackedSize": 78218
+  },
+  "gitHead": "47429e5fef1822065402c59e55f83b3ab19256b1",
+  "homepage": "http://slimjs.com",
+  "keywords": [
+    "binding",
+    "components",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "Slim.js",
+  "maintainers": [
+    {
+      "name": "eavichay",
+      "email": "eavichay@gmail.com"
+    }
+  ],
+  "name": "slim-js",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slimjs/slim.js.git"
+  },
+  "scripts": {
+    "build": "npm run lint && node build.js",
+    "build:tests": "babel ./tests/decorators/decorators.test-app.js --plugins transform-decorators-legacy,transform-class-properties > ./tests/decorators/decorators.test-app.compiled.js",
+    "lint": "npm run lint:core && npm run lint:directives",
+    "lint:core": "eslint src/Slim.js",
+    "lint:directives": "eslint src/directives",
+    "pretest": "npm run build && npm run build:tests && node prepare-test.js",
+    "server": "python -m SimpleHTTPServer 8000",
+    "test": "nightwatch -- tests/*.test.js"
+  },
+  "standard": {
+    "globals": [
+      "Document",
+      "Event",
+      "HTMLElement",
+      "Node",
+      "customElements",
+      "document",
+      "window"
+    ]
+  },
+  "typings": "Slim.d.ts",
+  "version": "4.0.5"
+}
