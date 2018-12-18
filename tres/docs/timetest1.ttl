@@ -1,0 +1,25 @@
+@prefix ex: <http://example.org/time/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:telecon
+  a             time:Interval ;
+  time:hasBeginning ex:teleconStart .
+
+ex:meeting
+  a                       time:Interval ;
+  time:hasBeginning           ex:meetingStart ;
+  time:hasDurationDescription ex:meetingDuration .
+
+ex:teleconStart
+  a               time:Instant ;
+  time:inXSDDateTimeStamp  "2006-11-05T18:00:00-5:00"^^xsd:dateTimeStamp .
+
+ex:meetingStart
+  a               time:Instant ;
+  time:inXSDDateTimeStamp  "2006-11-05T14:00:00-8:00"^^xsd:dateTimeStamp .
+
+ex:meetingDuration
+  a         time:DurationDescription ;
+  time:minutes  45 .
+

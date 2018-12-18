@@ -1,4 +1,4 @@
-# Time tester
+# P0 Time and Services 
 
 ##  Steps
 
@@ -25,6 +25,24 @@ methods are far richer than what can be exposed in schema.org represented by JSO
 
 We will also use OpenSearch and GeoWS patterns (https://www.earthcube.org/document/2015/geows-all-hands-poster)
 as URL template patterns.
+
+An approach for addressing this is as follows:<br>
+Leverage DCAT data services and then the time interval concepts.  
+
+DCAT revised (Oct 2018) can be found at https://www.w3.org/TR/vocab-dcat-2/
+From there we will use
+
+Class dataservice  https://www.w3.org/TR/vocab-dcat-2/#Class:Data_Service
+This will combined with the existing work with schema.org PotentialAction SearchAction 
+(ref: https://github.com/earthcubearchitecture-project418/p418Vocabulary#repository-services )
+
+Note the current mapping puts DataService with schema:DataFeed.   I'd rather arrive at 
+schema.org/EntryPoint (from Action / SearchAction).  So we will need to investigate this and 
+see how to either conform to or recomment to the DCAT editors.
+
+However, since DataFeed has dataFeedElement of type Thing and Entrypoint if of Thing > Intagible
+we mihgt be able to connect there.  
+
 
 ### Virtual Data Set Landing Page:  
 
