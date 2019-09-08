@@ -1,0 +1,17 @@
+# Every test file has one or more tests...
+test_name: Get the providers list
+
+# ...and each test has one or more stages (e.g. an HTTP request)
+stages:
+  - name: Make sure we have the right ID
+
+    # Define the request to be made...
+    request:
+        url: http://geodex.org/api/v1/typeahead/providers
+      method: GET
+
+    # ...and the expected response code and body
+    response:
+      status_code: 200
+      body:
+        id: 1
