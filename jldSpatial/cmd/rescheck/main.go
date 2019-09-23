@@ -3,21 +3,21 @@ package main
 import (
 	"log"
 
-	"../../internal/frameparser"
-	"../../internal/framing"
-	"../../internal/spatial"
+	"../../internal/do/framing"
+	"../../internal/do/parsers"
+	"../../internal/do/spatial"
 )
 
 func main() {
 	log.SetFlags(log.LstdFlags | log.Lshortfile)
 
 	sfr := framing.ProjSpatial(jld2)
-	lat, long, err := frameparser.ProjLatLong(sfr)
+	lat, long, err := parsers.ProjLatLong(sfr)
 	if err != nil {
 		log.Println(err)
 	}
 
-	for x, _ := range lat {
+	for x := range lat {
 		wkt, err := spatial.LatLongWKT(lat[x], long[x])
 		if err != nil {
 			log.Println(err)
@@ -31,21 +31,21 @@ func main() {
 	}
 	log.Println(gjs)
 
-	lat, long, err = frameparser.ProjLatLong(framing.ProjSpatial(jld2))
+	lat, long, err = parsers.ProjLatLong(framing.ProjSpatial(jld2))
 	if err != nil {
 		log.Println(err)
 	}
 	log.Printf("JSLD2: Lat: %s  Long: %s", lat, long)
 
 	// Some tests to remove....
-	lat, long, err = frameparser.DataLatLong(framing.DataSpatial(jld))
+	lat, long, err = parsers.DataLatLong(framing.DataSpatial(jld))
 	if err != nil {
 		log.Println(err)
 	}
 	log.Printf("JSLD: Lat: %s  Long: %s", lat, long)
 
 	// log.Println(framing.DataSpatial(jlda))
-	lat, long, err = frameparser.DataLatLong(framing.DataSpatial(jlda))
+	lat, long, err = parsers.DataLatLong(framing.DataSpatial(jlda))
 	if err != nil {
 		log.Println(err)
 	}

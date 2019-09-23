@@ -1,4 +1,4 @@
-package frameparser
+package parsers
 
 import (
 	"log"
@@ -6,7 +6,7 @@ import (
 	"github.com/tidwall/gjson"
 )
 
-// ProjLatLong get the lat and long from a framed result
+// ProjLatLong get the lat and long from a framed result from Project
 func ProjLatLong(j string) ([]string, []string, error) {
 	// Could looking for an array be more elegant?   Cue ?
 	t := gjson.Get(j, "0.location.geo")
@@ -36,7 +36,7 @@ func ProjLatLong(j string) ([]string, []string, error) {
 	return lat, long, nil
 }
 
-// DataLatLong get the lat and long from a framed result
+// DataLatLong get the lat and long from a framed result on type DataSet
 func DataLatLong(j string) ([]string, []string, error) {
 	// Could looking for an array be more elegant?   Cue ?
 	t := gjson.Get(j, "0.spatialCoverage.geo")
